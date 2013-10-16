@@ -1,3 +1,4 @@
+=pod
 
 =head1 Eureca Idea Web Portal
 
@@ -15,12 +16,12 @@ posting some ideas (based on criteria, obviously) and you can check on your free
 time.
 
 
-=head1 Who can use it?
+=head2 Who can use it?
 
 Anyone can download a copy of this software, install on server and use!
 
 
-=head1 What do I need to take to install then?
+=head2 What do I need to take to install then?
 
 =over
 
@@ -36,14 +37,14 @@ Anyone can download a copy of this software, install on server and use!
 
 =back
 
-=head1 Author
+=head2 Author
 
 2013 (c) Bivee
 
 L<http://bivee.com.br>
 
 
-=head1 Copyright and License
+=head2 Copyright and License
 
 This software is copyright (c) 2013 by Bivee.
 
