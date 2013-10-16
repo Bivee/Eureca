@@ -1,0 +1,2188 @@
+[Sun Oct 13 20:17:05 2013] [info] Listening at "http://*:3000".
+[Sun Oct 13 20:17:13 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 20:17:13 2013] [debug] GET "/".
+[Sun Oct 13 20:17:13 2013] [error] BackWrite/Controller/Home.pm did not return a true value at (eval 235) line 1.
+
+[Sun Oct 13 20:17:13 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 20:17:13 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 20:17:13 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:17:13 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:17:13 2013] [debug] 500 Internal Server Error (0.026014s, 38.441/s).
+[Sun Oct 13 20:17:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 20:17:52 2013] [debug] GET "/".
+[Sun Oct 13 20:17:52 2013] [debug] Class "BackWrite::Controller::Home" is not a controller.
+[Sun Oct 13 20:17:52 2013] [debug] Template "home/index.html.ep" not found.
+[Sun Oct 13 20:17:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 13 20:17:52 2013] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 13 20:17:52 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:17:52 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:17:52 2013] [debug] 404 Not Found (0.023497s, 42.559/s).
+[Sun Oct 13 20:33:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 20:33:03 2013] [debug] GET "/".
+[Sun Oct 13 20:33:03 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Sun Oct 13 20:33:03 2013] [debug] Action not found in controller.
+[Sun Oct 13 20:33:03 2013] [debug] Template "home/index.html.ep" not found.
+[Sun Oct 13 20:33:03 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 13 20:33:03 2013] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 13 20:33:03 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:33:03 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:33:03 2013] [debug] 404 Not Found (0.020040s, 49.900/s).
+[Sun Oct 13 20:33:12 2013] [debug] GET "/account/login".
+[Sun Oct 13 20:33:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 13 20:33:12 2013] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 13 20:33:12 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:33:12 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:33:12 2013] [debug] 404 Not Found (0.017055s, 58.634/s).
+[Sun Oct 13 20:57:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 20:57:46 2013] [debug] GET "/account/login".
+[Sun Oct 13 20:57:46 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 20:57:46 2013] [error] Can't locate BackWrite/Service/Authentication.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/eureka/lib /usr/local/bin/../lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service.pm line 16.
+
+[Sun Oct 13 20:57:46 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 20:57:46 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 20:57:46 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:57:46 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:57:46 2013] [debug] 500 Internal Server Error (0.086705s, 11.533/s).
+[Sun Oct 13 20:59:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 20:59:10 2013] [debug] GET "/account/login".
+[Sun Oct 13 20:59:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 20:59:10 2013] [error] Can't locate object method "new" via package "BackWrite::Service::Authentication" at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service.pm line 17.
+
+[Sun Oct 13 20:59:10 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 20:59:10 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 20:59:10 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:59:10 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:59:10 2013] [debug] 500 Internal Server Error (0.049889s, 20.044/s).
+[Sun Oct 13 20:59:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 20:59:51 2013] [debug] GET "/account/login".
+[Sun Oct 13 20:59:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 20:59:51 2013] [error] Can't locate object method "post" via package "BackWrite::Controller::Account" at /usr/local/share/perl/5.14.2/Mojolicious.pm line 157.
+
+[Sun Oct 13 20:59:51 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 20:59:51 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 20:59:51 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:59:51 2013] [debug] Rendering inline template.
+[Sun Oct 13 20:59:51 2013] [debug] 500 Internal Server Error (0.053121s, 18.825/s).
+[Sun Oct 13 21:00:19 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:00:19 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:00:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:00:19 2013] [error] Can't locate object method "signedin" via package "BackWrite::Service::Authentication" at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Controller/Account.pm line 21.
+
+[Sun Oct 13 21:00:19 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:00:19 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:00:19 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:00:19 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:00:19 2013] [debug] 500 Internal Server Error (0.049788s, 20.085/s).
+[Sun Oct 13 21:01:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:01:22 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:01:22 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:01:22 2013] [error] Can't locate object method "error" via package "BackWrite::Service::Authentication" at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Controller/Account.pm line 25.
+
+[Sun Oct 13 21:01:22 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:01:22 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:01:22 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:01:22 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:01:22 2013] [debug] 500 Internal Server Error (0.051957s, 19.247/s).
+[Sun Oct 13 21:01:34 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:01:34 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:01:34 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:01:34 2013] [error] Can't locate object method "message" via package "BackWrite::Service::Authentication" at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Controller/Account.pm line 25.
+
+[Sun Oct 13 21:01:34 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:01:34 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:01:34 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:01:34 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:01:34 2013] [debug] 500 Internal Server Error (0.054664s, 18.294/s).
+[Sun Oct 13 21:01:49 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:01:49 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:01:49 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:01:49 2013] [debug] 200 OK (0.025073s, 39.884/s).
+[Sun Oct 13 21:01:51 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:01:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:01:51 2013] [debug] 200 OK (0.000464s, 2155.172/s).
+[Sun Oct 13 21:01:51 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:01:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:01:51 2013] [debug] 200 OK (0.000477s, 2096.436/s).
+[Sun Oct 13 21:01:52 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:01:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:01:52 2013] [debug] 200 OK (0.000460s, 2173.913/s).
+[Sun Oct 13 21:02:17 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:02:17 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:17 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:17 2013] [debug] 200 OK (0.025437s, 39.313/s).
+[Sun Oct 13 21:02:17 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:17 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:17 2013] [debug] 200 OK (0.000510s, 1960.784/s).
+[Sun Oct 13 21:02:18 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:18 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:18 2013] [debug] 200 OK (0.000457s, 2188.184/s).
+[Sun Oct 13 21:02:18 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:18 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:18 2013] [debug] 200 OK (0.000457s, 2188.184/s).
+[Sun Oct 13 21:02:18 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:18 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:18 2013] [debug] 200 OK (0.000458s, 2183.406/s).
+[Sun Oct 13 21:02:18 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:18 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:18 2013] [debug] 200 OK (0.000507s, 1972.387/s).
+[Sun Oct 13 21:02:19 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:19 2013] [debug] 200 OK (0.000456s, 2192.982/s).
+[Sun Oct 13 21:02:30 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:30 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:30 2013] [debug] 200 OK (0.000565s, 1769.912/s).
+[Sun Oct 13 21:02:31 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:02:31 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:31 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:31 2013] [debug] 200 OK (0.028748s, 34.785/s).
+[Sun Oct 13 21:02:32 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:32 2013] [debug] 200 OK (0.000490s, 2040.816/s).
+[Sun Oct 13 21:02:32 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:32 2013] [debug] 200 OK (0.000618s, 1618.123/s).
+[Sun Oct 13 21:02:32 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:02:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:02:32 2013] [debug] 200 OK (0.000762s, 1312.336/s).
+[Sun Oct 13 21:04:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:04:27 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:27 2013] [debug] 200 OK (0.027689s, 36.115/s).
+[Sun Oct 13 21:04:28 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:28 2013] [debug] 200 OK (0.000518s, 1930.502/s).
+[Sun Oct 13 21:04:29 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:29 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:29 2013] [debug] 200 OK (0.000477s, 2096.436/s).
+[Sun Oct 13 21:04:30 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:30 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:30 2013] [debug] 200 OK (0.000461s, 2169.197/s).
+[Sun Oct 13 21:04:30 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:30 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:30 2013] [debug] 200 OK (0.000485s, 2061.856/s).
+[Sun Oct 13 21:04:31 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:31 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:31 2013] [debug] 200 OK (0.000479s, 2087.683/s).
+[Sun Oct 13 21:04:31 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:31 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:31 2013] [debug] 200 OK (0.000506s, 1976.285/s).
+[Sun Oct 13 21:04:32 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:32 2013] [debug] 200 OK (0.000485s, 2061.856/s).
+[Sun Oct 13 21:04:33 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:33 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:33 2013] [debug] 200 OK (0.000494s, 2024.291/s).
+[Sun Oct 13 21:04:33 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:33 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:33 2013] [debug] 200 OK (0.000485s, 2061.856/s).
+[Sun Oct 13 21:04:33 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:33 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:33 2013] [debug] 200 OK (0.000465s, 2150.538/s).
+[Sun Oct 13 21:04:33 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:33 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:33 2013] [debug] 200 OK (0.000461s, 2169.197/s).
+[Sun Oct 13 21:04:36 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:36 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:36 2013] [debug] 200 OK (0.000505s, 1980.198/s).
+[Sun Oct 13 21:04:37 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:37 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:37 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Sun Oct 13 21:04:38 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:04:38 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:04:38 2013] [debug] 200 OK (0.000486s, 2057.613/s).
+[Sun Oct 13 21:05:04 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:04 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:04 2013] [debug] 200 OK (0.000535s, 1869.159/s).
+[Sun Oct 13 21:05:04 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:05:04 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:04 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:04 2013] [debug] 200 OK (0.025735s, 38.858/s).
+[Sun Oct 13 21:05:05 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:05 2013] [debug] 200 OK (0.000459s, 2178.649/s).
+[Sun Oct 13 21:05:05 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:05 2013] [debug] 200 OK (0.000484s, 2066.116/s).
+[Sun Oct 13 21:05:05 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:05 2013] [debug] 200 OK (0.000482s, 2074.689/s).
+[Sun Oct 13 21:05:05 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:05 2013] [debug] 200 OK (0.000488s, 2049.180/s).
+[Sun Oct 13 21:05:06 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:06 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:06 2013] [debug] 200 OK (0.000494s, 2024.291/s).
+[Sun Oct 13 21:05:06 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:06 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:06 2013] [debug] 200 OK (0.000457s, 2188.184/s).
+[Sun Oct 13 21:05:26 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:05:26 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:26 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:26 2013] [debug] 200 OK (0.028847s, 34.666/s).
+[Sun Oct 13 21:05:27 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:27 2013] [debug] 200 OK (0.000478s, 2092.050/s).
+[Sun Oct 13 21:05:27 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:27 2013] [debug] 200 OK (0.000488s, 2049.180/s).
+[Sun Oct 13 21:05:27 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:27 2013] [debug] 200 OK (0.000458s, 2183.406/s).
+[Sun Oct 13 21:05:27 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:27 2013] [debug] 200 OK (0.000490s, 2040.816/s).
+[Sun Oct 13 21:05:28 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:28 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Sun Oct 13 21:05:28 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:28 2013] [debug] 200 OK (0.000510s, 1960.784/s).
+[Sun Oct 13 21:05:28 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:28 2013] [debug] 200 OK (0.000482s, 2074.689/s).
+[Sun Oct 13 21:05:41 2013] [info] Listening at "http://*:3000".
+[Sun Oct 13 21:05:43 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:05:43 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:43 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:43 2013] [debug] 200 OK (0.024556s, 40.723/s).
+[Sun Oct 13 21:05:44 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:44 2013] [debug] 200 OK (0.000499s, 2004.008/s).
+[Sun Oct 13 21:05:44 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:44 2013] [debug] 200 OK (0.000489s, 2044.990/s).
+[Sun Oct 13 21:05:44 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:44 2013] [debug] 200 OK (0.000456s, 2192.982/s).
+[Sun Oct 13 21:05:44 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:44 2013] [debug] 200 OK (0.000518s, 1930.502/s).
+[Sun Oct 13 21:05:45 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:05:45 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:05:45 2013] [debug] 200 OK (0.000528s, 1893.939/s).
+[Sun Oct 13 21:06:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:06:27 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:28 2013] [debug] 200 OK (0.026010s, 38.447/s).
+[Sun Oct 13 21:06:28 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:28 2013] [debug] 200 OK (0.000458s, 2183.406/s).
+[Sun Oct 13 21:06:28 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:28 2013] [debug] 200 OK (0.000528s, 1893.939/s).
+[Sun Oct 13 21:06:28 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:28 2013] [debug] 200 OK (0.000458s, 2183.406/s).
+[Sun Oct 13 21:06:29 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:29 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:29 2013] [debug] 200 OK (0.000485s, 2061.856/s).
+[Sun Oct 13 21:06:29 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:29 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:29 2013] [debug] 200 OK (0.000455s, 2197.802/s).
+[Sun Oct 13 21:06:29 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:29 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:29 2013] [debug] 200 OK (0.000480s, 2083.333/s).
+[Sun Oct 13 21:06:29 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:29 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:29 2013] [debug] 200 OK (0.000461s, 2169.197/s).
+[Sun Oct 13 21:06:29 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:29 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:29 2013] [debug] 200 OK (0.000479s, 2087.683/s).
+[Sun Oct 13 21:06:38 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:38 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:38 2013] [debug] 200 OK (0.000496s, 2016.129/s).
+[Sun Oct 13 21:06:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:06:39 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:39 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:39 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:06:39 2013] [error] Global symbol "$data" requires explicit package name at template account/login.html.ep line 4.
+1: % layout 'default';
+2: <form method="post">
+3:     <label>E-mail</label>
+4:     <input type="text" name="email" value="<%= $data->{email} || '' %>" />
+5: </form>
+
+[Sun Oct 13 21:06:39 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:06:39 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:06:39 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:06:39 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:06:39 2013] [debug] 500 Internal Server Error (0.054876s, 18.223/s).
+[Sun Oct 13 21:06:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:06:54 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:55 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:55 2013] [debug] 200 OK (0.026063s, 38.369/s).
+[Sun Oct 13 21:06:55 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:55 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:55 2013] [debug] 200 OK (0.000472s, 2118.644/s).
+[Sun Oct 13 21:06:56 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:56 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:56 2013] [debug] 200 OK (0.000487s, 2053.388/s).
+[Sun Oct 13 21:06:56 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:56 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:56 2013] [debug] 200 OK (0.000474s, 2109.705/s).
+[Sun Oct 13 21:06:56 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:56 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:56 2013] [debug] 200 OK (0.000517s, 1934.236/s).
+[Sun Oct 13 21:06:56 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:56 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:56 2013] [debug] 200 OK (0.000459s, 2178.649/s).
+[Sun Oct 13 21:06:56 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:56 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:56 2013] [debug] 200 OK (0.000609s, 1642.036/s).
+[Sun Oct 13 21:06:57 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:57 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:57 2013] [debug] 200 OK (0.000555s, 1801.802/s).
+[Sun Oct 13 21:06:57 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:57 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:57 2013] [debug] 200 OK (0.000489s, 2044.990/s).
+[Sun Oct 13 21:06:57 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:06:57 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:06:57 2013] [debug] 200 OK (0.000488s, 2049.180/s).
+[Sun Oct 13 21:07:07 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:07 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:07 2013] [debug] 200 OK (0.000459s, 2178.649/s).
+[Sun Oct 13 21:07:07 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:07:07 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:07 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:07 2013] [debug] 200 OK (0.025737s, 38.855/s).
+[Sun Oct 13 21:07:08 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:08 2013] [debug] 200 OK (0.000473s, 2114.165/s).
+[Sun Oct 13 21:07:08 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:08 2013] [debug] 200 OK (0.000712s, 1404.494/s).
+[Sun Oct 13 21:07:08 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:08 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Sun Oct 13 21:07:08 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:08 2013] [debug] 200 OK (0.000483s, 2070.393/s).
+[Sun Oct 13 21:07:09 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:09 2013] [debug] 200 OK (0.000479s, 2087.683/s).
+[Sun Oct 13 21:07:09 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:09 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Sun Oct 13 21:07:09 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:09 2013] [debug] 200 OK (0.000457s, 2188.184/s).
+[Sun Oct 13 21:07:09 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:09 2013] [debug] 200 OK (0.000497s, 2012.072/s).
+[Sun Oct 13 21:07:09 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:09 2013] [debug] 200 OK (0.000489s, 2044.990/s).
+[Sun Oct 13 21:07:10 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:10 2013] [debug] 200 OK (0.000502s, 1992.032/s).
+[Sun Oct 13 21:07:19 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:07:19 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:19 2013] [debug] 200 OK (0.025268s, 39.576/s).
+[Sun Oct 13 21:07:20 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:20 2013] [debug] 200 OK (0.000453s, 2207.506/s).
+[Sun Oct 13 21:07:21 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:21 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:21 2013] [debug] 200 OK (0.000456s, 2192.982/s).
+[Sun Oct 13 21:07:21 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:21 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:21 2013] [debug] 200 OK (0.000484s, 2066.116/s).
+[Sun Oct 13 21:07:21 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:21 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:21 2013] [debug] 200 OK (0.000494s, 2024.291/s).
+[Sun Oct 13 21:07:21 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:21 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:21 2013] [debug] 200 OK (0.000501s, 1996.008/s).
+[Sun Oct 13 21:07:21 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:21 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:21 2013] [debug] 200 OK (0.000471s, 2123.142/s).
+[Sun Oct 13 21:07:22 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:22 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:22 2013] [debug] 200 OK (0.000487s, 2053.388/s).
+[Sun Oct 13 21:07:22 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:22 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:22 2013] [debug] 200 OK (0.000529s, 1890.359/s).
+[Sun Oct 13 21:07:22 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:22 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:22 2013] [debug] 200 OK (0.000509s, 1964.637/s).
+[Sun Oct 13 21:07:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:07:38 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:38 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:38 2013] [debug] 200 OK (0.024815s, 40.298/s).
+[Sun Oct 13 21:07:39 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:39 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:39 2013] [debug] 200 OK (0.000464s, 2155.172/s).
+[Sun Oct 13 21:07:39 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:39 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:39 2013] [debug] 200 OK (0.000489s, 2044.990/s).
+[Sun Oct 13 21:07:39 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:39 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:39 2013] [debug] 200 OK (0.000466s, 2145.923/s).
+[Sun Oct 13 21:07:39 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:39 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:39 2013] [debug] 200 OK (0.000779s, 1283.697/s).
+[Sun Oct 13 21:07:40 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:40 2013] [debug] 200 OK (0.000776s, 1288.660/s).
+[Sun Oct 13 21:07:40 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:40 2013] [debug] 200 OK (0.000462s, 2164.502/s).
+[Sun Oct 13 21:07:40 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:40 2013] [debug] 200 OK (0.000483s, 2070.393/s).
+[Sun Oct 13 21:07:40 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:40 2013] [debug] 200 OK (0.000513s, 1949.318/s).
+[Sun Oct 13 21:07:40 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:40 2013] [debug] 200 OK (0.000463s, 2159.827/s).
+[Sun Oct 13 21:07:40 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:40 2013] [debug] 200 OK (0.000465s, 2150.538/s).
+[Sun Oct 13 21:07:41 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:41 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:41 2013] [debug] 200 OK (0.000521s, 1919.386/s).
+[Sun Oct 13 21:07:41 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:41 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:41 2013] [debug] 200 OK (0.000468s, 2136.752/s).
+[Sun Oct 13 21:07:49 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:07:49 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:50 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:50 2013] [debug] 200 OK (0.025738s, 38.853/s).
+[Sun Oct 13 21:07:50 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:50 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:50 2013] [debug] 200 OK (0.000501s, 1996.008/s).
+[Sun Oct 13 21:07:51 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:51 2013] [debug] 200 OK (0.000452s, 2212.389/s).
+[Sun Oct 13 21:07:51 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:51 2013] [debug] 200 OK (0.000480s, 2083.333/s).
+[Sun Oct 13 21:07:51 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:51 2013] [debug] 200 OK (0.000485s, 2061.856/s).
+[Sun Oct 13 21:07:51 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:51 2013] [debug] 200 OK (0.000504s, 1984.127/s).
+[Sun Oct 13 21:07:51 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:51 2013] [debug] 200 OK (0.000474s, 2109.705/s).
+[Sun Oct 13 21:07:52 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:52 2013] [debug] 200 OK (0.000463s, 2159.827/s).
+[Sun Oct 13 21:07:52 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:52 2013] [debug] 200 OK (0.000503s, 1988.072/s).
+[Sun Oct 13 21:07:52 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:52 2013] [debug] 200 OK (0.000736s, 1358.696/s).
+[Sun Oct 13 21:07:52 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:52 2013] [debug] 200 OK (0.000773s, 1293.661/s).
+[Sun Oct 13 21:07:52 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:07:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:07:52 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Sun Oct 13 21:08:17 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:08:17 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:17 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:17 2013] [debug] 200 OK (0.025838s, 38.703/s).
+[Sun Oct 13 21:08:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:08:18 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:18 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:18 2013] [debug] 200 OK (0.025131s, 39.791/s).
+[Sun Oct 13 21:08:19 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:19 2013] [debug] 200 OK (0.000463s, 2159.827/s).
+[Sun Oct 13 21:08:19 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:19 2013] [debug] 200 OK (0.000459s, 2178.649/s).
+[Sun Oct 13 21:08:19 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:19 2013] [debug] 200 OK (0.000484s, 2066.116/s).
+[Sun Oct 13 21:08:19 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:19 2013] [debug] 200 OK (0.000461s, 2169.197/s).
+[Sun Oct 13 21:08:20 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:20 2013] [debug] 200 OK (0.000505s, 1980.198/s).
+[Sun Oct 13 21:08:20 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:20 2013] [debug] 200 OK (0.000509s, 1964.637/s).
+[Sun Oct 13 21:08:20 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:20 2013] [debug] 200 OK (0.000461s, 2169.197/s).
+[Sun Oct 13 21:08:20 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:20 2013] [debug] 200 OK (0.000481s, 2079.002/s).
+[Sun Oct 13 21:08:20 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:20 2013] [debug] 200 OK (0.000462s, 2164.502/s).
+[Sun Oct 13 21:08:49 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:08:49 2013] [debug] GET "/account/login".
+[Sun Oct 13 21:08:49 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:49 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:08:49 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:08:49 2013] [debug] 200 OK (0.031015s, 32.242/s).
+[Sun Oct 13 21:08:56 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:08:56 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:08:56 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 21:08:56 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 21:08:56 2013] [debug] 200 OK (0.001431s, 698.812/s).
+[Sun Oct 13 21:09:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:09:58 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:09:58 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:09:58 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:09:58 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:09:58 2013] [debug] 200 OK (0.033480s, 29.869/s).
+[Sun Oct 13 21:14:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:14:42 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:14:42 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:14:42 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:14:42 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:14:42 2013] [error] Can't modify non-lvalue subroutine call in scalar assignment at template layouts/default.html.ep line 2, near "'Eureka - Idea Database' 
+$_M "
+syntax error at template layouts/default.html.ep line 2, near "'Eureka - Idea Database' 
+$_M "
+1: % title = 'Eureka - Idea Database'
+2: 
+3: <!DOCTYPE html>
+4: <html>
+5: <head>
+6: <script src="http://code.jquery.com/jquery.min.js"></script>
+7: <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+[Sun Oct 13 21:14:42 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:14:42 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:14:42 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:14:42 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:14:42 2013] [debug] 500 Internal Server Error (0.057772s, 17.309/s).
+[Sun Oct 13 21:14:52 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:14:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:14:52 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 21:14:52 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:14:52 2013] [error] Can't modify non-lvalue subroutine call in scalar assignment at template layouts/default.html.ep line 2, near "'Eureka - Idea Database' 
+$_M "
+syntax error at template layouts/default.html.ep line 2, near "'Eureka - Idea Database' 
+$_M "
+1: % title = 'Eureka - Idea Database'
+2: 
+3: <!DOCTYPE html>
+4: <html>
+5: <head>
+6: <script src="http://code.jquery.com/jquery.min.js"></script>
+7: <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+[Sun Oct 13 21:14:52 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:14:52 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:14:52 2013] [debug] Rendering cached inline template.
+[Sun Oct 13 21:14:52 2013] [debug] Rendering cached inline template.
+[Sun Oct 13 21:14:52 2013] [debug] 500 Internal Server Error (0.014528s, 68.833/s).
+[Sun Oct 13 21:15:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:15:06 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:15:06 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:15:06 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:15:06 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:15:06 2013] [error] syntax error at template layouts/default.html.ep line 2, near "'Eureka - Idea Database' 
+$_M "
+1: % title => 'Eureka - Idea Database'
+2: 
+3: <!DOCTYPE html>
+4: <html>
+5: <head>
+6: <script src="http://code.jquery.com/jquery.min.js"></script>
+7: <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+[Sun Oct 13 21:15:06 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:15:06 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:15:06 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:15:06 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:15:06 2013] [debug] 500 Internal Server Error (0.063354s, 15.784/s).
+[Sun Oct 13 21:16:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:16:28 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:16:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:16:28 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:16:28 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:16:28 2013] [error] Global symbol "$title" requires explicit package name at template layouts/default.html.ep line 1.
+syntax error at template layouts/default.html.ep line 2, near "'Eureka - Idea Database' 
+$_M "
+1: % $title = 'Eureka - Idea Database'
+2: 
+3: <!DOCTYPE html>
+4: <html>
+5: <head>
+6: <script src="http://code.jquery.com/jquery.min.js"></script>
+7: <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+[Sun Oct 13 21:16:28 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:16:28 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:16:28 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:16:28 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:16:28 2013] [debug] 500 Internal Server Error (0.060354s, 16.569/s).
+[Sun Oct 13 21:16:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:16:38 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:16:38 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:16:38 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:16:38 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:16:38 2013] [error] syntax error at template layouts/default.html.ep line 2, near "'Eureka - Idea Database' 
+$_M "
+1: % my $title = 'Eureka - Idea Database'
+2: 
+3: <!DOCTYPE html>
+4: <html>
+5: <head>
+6: <script src="http://code.jquery.com/jquery.min.js"></script>
+7: <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+[Sun Oct 13 21:16:38 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 21:16:38 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 21:16:38 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:16:38 2013] [debug] Rendering inline template.
+[Sun Oct 13 21:16:38 2013] [debug] 500 Internal Server Error (0.058746s, 17.022/s).
+[Sun Oct 13 21:16:44 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:16:44 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:16:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:16:44 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:16:44 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:16:44 2013] [debug] 200 OK (0.032022s, 31.229/s).
+[Sun Oct 13 21:22:53 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 21:22:53 2013] [debug] POST "/account/login".
+[Sun Oct 13 21:22:53 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 21:22:53 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 21:22:53 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 21:22:53 2013] [debug] 200 OK (0.037052s, 26.989/s).
+[Sun Oct 13 22:13:49 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:13:49 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:13:49 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:13:49 2013] [error] No table in BackWrite::Model::User at /usr/local/share/perl/5.14.2/ObjectDB.pm line 79.
+Compilation failed in require at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Model.pm line 16.
+
+[Sun Oct 13 22:13:49 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 22:13:49 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 22:13:49 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:13:49 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:13:49 2013] [debug] 500 Internal Server Error (0.173462s, 5.765/s).
+[Sun Oct 13 22:17:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:17:37 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:17:37 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:17:37 2013] [error] No table in BackWrite::Model::User at /usr/local/share/perl/5.14.2/ObjectDB.pm line 79.
+Compilation failed in require at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Model.pm line 16.
+
+[Sun Oct 13 22:17:37 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 22:17:37 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 22:17:37 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:17:37 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:17:37 2013] [debug] 500 Internal Server Error (0.075462s, 13.252/s).
+[Sun Oct 13 22:18:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:18:20 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:18:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:18:20 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:18:20 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:18:20 2013] [debug] 200 OK (0.172898s, 5.784/s).
+[Sun Oct 13 22:19:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:19:03 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:19:03 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:19:03 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:19:03 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:19:03 2013] [debug] 200 OK (0.060292s, 16.586/s).
+[Sun Oct 13 22:19:11 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:19:11 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:19:11 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:19:11 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:19:11 2013] [debug] 200 OK (0.002211s, 452.284/s).
+[Sun Oct 13 22:19:18 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:19:18 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:19:18 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:19:18 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:19:18 2013] [debug] 200 OK (0.002094s, 477.555/s).
+[Sun Oct 13 22:19:20 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:19:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:19:20 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:19:20 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:19:20 2013] [debug] 200 OK (0.001977s, 505.817/s).
+[Sun Oct 13 22:20:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:20:16 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:20:16 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:20:17 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:20:50 2013] [info] Listening at "http://*:3000".
+[Sun Oct 13 22:20:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:20:54 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:20:54 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:20:54 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:21:17 2013] [info] Listening at "http://*:3000".
+[Sun Oct 13 22:23:24 2013] [info] Listening at "http://*:3000".
+[Sun Oct 13 22:23:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:23:28 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:23:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:23:28 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:23:28 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:23:28 2013] [debug] 200 OK (0.061259s, 16.324/s).
+[Sun Oct 13 22:23:32 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:23:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:23:32 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:23:32 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:23:32 2013] [debug] 200 OK (0.002122s, 471.254/s).
+[Sun Oct 13 22:42:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:42:37 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:42:37 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:42:37 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:42:37 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:42:37 2013] [debug] 200 OK (0.060606s, 16.500/s).
+[Sun Oct 13 22:42:40 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:42:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:42:40 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:42:40 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:42:40 2013] [debug] 200 OK (0.002261s, 442.282/s).
+[Sun Oct 13 22:42:44 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:42:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:42:44 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:42:44 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:42:44 2013] [debug] 200 OK (0.002187s, 457.247/s).
+[Sun Oct 13 22:42:46 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:42:46 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:42:46 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:42:46 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:42:46 2013] [debug] 200 OK (0.002473s, 404.367/s).
+[Sun Oct 13 22:43:06 2013] [info] Listening at "http://*:3000".
+[Sun Oct 13 22:43:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:43:10 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:43:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:43:10 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:43:10 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:43:10 2013] [debug] 200 OK (0.056334s, 17.751/s).
+[Sun Oct 13 22:44:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:44:18 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:44:18 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:44:18 2013] [error] Database connection error:  at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Model/Base.pm line 9.
+
+[Sun Oct 13 22:44:18 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 22:44:18 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 22:44:18 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:44:18 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:44:18 2013] [debug] 500 Internal Server Error (0.080782s, 12.379/s).
+[Sun Oct 13 22:45:36 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:45:36 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:45:36 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:45:36 2013] [error] Database connection error:  at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Model/Base.pm line 10.
+
+[Sun Oct 13 22:45:36 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 22:45:36 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 22:45:36 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:45:36 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:45:36 2013] [debug] 500 Internal Server Error (0.080109s, 12.483/s).
+[Sun Oct 13 22:47:00 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:47:00 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:47:00 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:47:00 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:47:00 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:47:00 2013] [debug] 200 OK (0.064262s, 15.561/s).
+[Sun Oct 13 22:47:04 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:47:04 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:47:04 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:47:04 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:47:04 2013] [debug] 200 OK (0.004496s, 222.420/s).
+[Sun Oct 13 22:47:06 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:47:06 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:47:06 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:47:06 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:47:06 2013] [debug] 200 OK (0.003367s, 297.000/s).
+[Sun Oct 13 22:47:08 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:47:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:47:08 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:47:08 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:47:08 2013] [debug] 200 OK (0.004702s, 212.675/s).
+[Sun Oct 13 22:47:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:47:59 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:47:59 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:47:59 2013] [error] Can't locate object method "log" via package "BackWrite::Controller::Account" at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 30.
+
+[Sun Oct 13 22:47:59 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 22:47:59 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 22:47:59 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:47:59 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:47:59 2013] [debug] 500 Internal Server Error (0.072859s, 13.725/s).
+[Sun Oct 13 22:50:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:50:42 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:50:42 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:50:42 2013] [error] Global symbol "$args" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 19.
+Compilation failed in require at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service.pm line 16.
+
+[Sun Oct 13 22:50:42 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 22:50:42 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 22:50:42 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:50:42 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:50:42 2013] [debug] 500 Internal Server Error (0.050931s, 19.634/s).
+[Sun Oct 13 22:50:53 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:50:53 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:50:53 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:50:53 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:50:53 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:50:53 2013] [debug] 200 OK (0.068140s, 14.676/s).
+[Sun Oct 13 22:50:57 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:50:57 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:50:57 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:50:57 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:50:57 2013] [debug] 200 OK (0.002509s, 398.565/s).
+[Sun Oct 13 22:50:59 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:50:59 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:50:59 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:50:59 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:50:59 2013] [debug] 200 OK (0.002829s, 353.482/s).
+[Sun Oct 13 22:51:00 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:51:00 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:51:00 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:51:00 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:51:00 2013] [debug] 200 OK (0.001723s, 580.383/s).
+[Sun Oct 13 22:51:02 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:51:02 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:51:02 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:51:02 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:51:02 2013] [debug] 200 OK (0.002467s, 405.351/s).
+[Sun Oct 13 22:51:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:51:42 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:51:42 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:51:42 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:51:42 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:51:42 2013] [debug] 200 OK (0.060335s, 16.574/s).
+[Sun Oct 13 22:52:19 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:52:19 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:52:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:52:19 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:52:19 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:52:19 2013] [debug] 200 OK (0.058242s, 17.170/s).
+[Sun Oct 13 22:52:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:52:35 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:52:36 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:52:36 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:52:36 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:52:36 2013] [debug] 200 OK (0.061616s, 16.230/s).
+[Sun Oct 13 22:53:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:53:52 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:53:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:53:52 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:53:52 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:53:52 2013] [debug] 200 OK (0.061375s, 16.293/s).
+[Sun Oct 13 22:54:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:54:23 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:54:23 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:54:23 2013] [error] Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 39.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 39.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 40.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 45.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 53.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 54.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 55.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 56.
+Compilation failed in require at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service.pm line 16.
+
+[Sun Oct 13 22:54:23 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 22:54:23 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 22:54:23 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:54:23 2013] [debug] Rendering inline template.
+[Sun Oct 13 22:54:23 2013] [debug] 500 Internal Server Error (0.052189s, 19.161/s).
+[Sun Oct 13 22:54:41 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:54:41 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:54:41 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:54:41 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:54:41 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:54:41 2013] [debug] 200 OK (0.058552s, 17.079/s).
+[Sun Oct 13 22:54:45 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:54:45 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:54:45 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:54:45 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:54:45 2013] [debug] 200 OK (0.004534s, 220.556/s).
+[Sun Oct 13 22:57:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 22:57:46 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:57:46 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:57:46 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 22:57:46 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 22:57:46 2013] [debug] 200 OK (0.065610s, 15.242/s).
+[Sun Oct 13 22:57:49 2013] [debug] POST "/account/login".
+[Sun Oct 13 22:57:49 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 22:57:49 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 22:57:49 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 22:57:49 2013] [debug] 200 OK (0.001725s, 579.710/s).
+[Sun Oct 13 23:03:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:03:42 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:03:42 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:03:42 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:03:42 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:03:42 2013] [debug] 200 OK (0.060925s, 16.414/s).
+[Sun Oct 13 23:04:05 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:04:05 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:04:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:04:05 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:04:05 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:04:05 2013] [debug] 200 OK (0.062526s, 15.993/s).
+[Sun Oct 13 23:04:46 2013] [info] Listening at "http://*:3000".
+[Sun Oct 13 23:04:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:04:51 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:04:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:04:51 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:04:51 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:04:51 2013] [debug] 200 OK (0.059963s, 16.677/s).
+[Sun Oct 13 23:05:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:05:27 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:05:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:05:27 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:05:27 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:05:27 2013] [debug] 200 OK (0.061269s, 16.321/s).
+[Sun Oct 13 23:05:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:05:52 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:05:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:05:52 2013] [error] Can't call method "error" on an undefined value at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 38.
+
+[Sun Oct 13 23:05:52 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:05:52 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:05:52 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:05:52 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:05:52 2013] [debug] 500 Internal Server Error (0.085599s, 11.682/s).
+[Sun Oct 13 23:06:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:06:11 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:06:11 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:06:11 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:06:11 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:06:11 2013] [debug] 200 OK (0.058727s, 17.028/s).
+[Sun Oct 13 23:06:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:06:45 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:06:45 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:06:45 2013] [error] Global symbol "$dbh" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 35.
+Compilation failed in require at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service.pm line 16.
+
+[Sun Oct 13 23:06:45 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:06:45 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:06:45 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:06:45 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:06:45 2013] [debug] 500 Internal Server Error (0.053575s, 18.665/s).
+[Sun Oct 13 23:06:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:07:09 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:07:09 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:07:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:07:10 2013] [error] Bareword "BackWrite::Model::Base::dbh" not allowed while "strict subs" in use at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 36.
+Compilation failed in require at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service.pm line 16.
+
+[Sun Oct 13 23:07:10 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:07:10 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:07:10 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:07:10 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:07:10 2013] [debug] 500 Internal Server Error (0.072344s, 13.823/s).
+[Sun Oct 13 23:07:30 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:07:30 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:07:30 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:07:30 2013] [error] Can't locate object method "Dumper" via package "BackWrite::Model::Base" at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 36.
+
+[Sun Oct 13 23:07:30 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:07:30 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:07:30 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:07:30 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:07:30 2013] [debug] 500 Internal Server Error (0.081641s, 12.249/s).
+[Sun Oct 13 23:07:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:07:45 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:07:45 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:07:45 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:07:45 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:07:45 2013] [debug] 200 OK (0.060737s, 16.464/s).
+[Sun Oct 13 23:09:13 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:09:13 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:09:13 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:09:13 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:09:13 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:09:13 2013] [debug] 200 OK (0.067852s, 14.738/s).
+[Sun Oct 13 23:09:44 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:09:44 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:09:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:09:44 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:09:44 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:09:44 2013] [debug] 200 OK (0.063157s, 15.834/s).
+[Sun Oct 13 23:11:43 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:11:43 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:11:43 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:11:43 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:11:43 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:11:43 2013] [debug] 200 OK (0.065155s, 15.348/s).
+[Sun Oct 13 23:11:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:11:59 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:11:59 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:11:59 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:11:59 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:11:59 2013] [debug] 200 OK (0.069048s, 14.483/s).
+[Sun Oct 13 23:12:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:12:27 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:12:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:12:27 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:12:27 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:12:27 2013] [debug] 200 OK (0.059765s, 16.732/s).
+[Sun Oct 13 23:24:51 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:24:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:24:51 2013] [debug] Rendering cached template "account/login.html.ep".
+[Sun Oct 13 23:24:51 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Oct 13 23:24:51 2013] [debug] 200 OK (0.002077s, 481.464/s).
+[Sun Oct 13 23:25:13 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:25:13 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:25:13 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:25:13 2013] [error] Can't call method "error" on unblessed reference at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 41.
+
+[Sun Oct 13 23:25:13 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:25:13 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:25:13 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:25:13 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:25:13 2013] [debug] 500 Internal Server Error (0.078454s, 12.746/s).
+[Sun Oct 13 23:25:43 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:25:43 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:25:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:25:44 2013] [error] Can't call method "error" on unblessed reference at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 41.
+
+[Sun Oct 13 23:25:44 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:25:44 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:25:44 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:25:44 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:25:44 2013] [debug] 500 Internal Server Error (0.079251s, 12.618/s).
+[Sun Oct 13 23:25:47 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:25:47 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:25:47 2013] [error] Can't call method "error" on unblessed reference at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 41.
+
+[Sun Oct 13 23:25:47 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:25:47 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:25:47 2013] [debug] Rendering cached inline template.
+[Sun Oct 13 23:25:47 2013] [debug] Rendering cached inline template.
+[Sun Oct 13 23:25:47 2013] [debug] 500 Internal Server Error (0.010112s, 98.892/s).
+[Sun Oct 13 23:25:59 2013] [info] Listening at "http://*:3000".
+[Sun Oct 13 23:26:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:26:27 2013] [debug] GET "/account/login".
+[Sun Oct 13 23:26:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:26:27 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:26:27 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:26:27 2013] [debug] 200 OK (0.035960s, 27.809/s).
+[Sun Oct 13 23:26:30 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:26:30 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:26:30 2013] [error] Can't call method "error" on unblessed reference at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 41.
+
+[Sun Oct 13 23:26:30 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:26:30 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:26:30 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:26:30 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:26:30 2013] [debug] 500 Internal Server Error (0.064345s, 15.541/s).
+[Sun Oct 13 23:27:14 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:27:14 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:27:14 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:27:14 2013] [error] Can't call method "error" on unblessed reference at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 41.
+
+[Sun Oct 13 23:27:14 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:27:14 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:27:14 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:27:14 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:27:14 2013] [debug] 500 Internal Server Error (0.077893s, 12.838/s).
+[Sun Oct 13 23:27:17 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:27:17 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:27:17 2013] [error] Can't call method "error" on unblessed reference at /home/dvinciguerra/Desktop/project/eureka/lib/BackWrite/Service/Authentication.pm line 41.
+
+[Sun Oct 13 23:27:17 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Oct 13 23:27:17 2013] [debug] Template "exception.html.ep" not found.
+[Sun Oct 13 23:27:17 2013] [debug] Rendering cached inline template.
+[Sun Oct 13 23:27:17 2013] [debug] Rendering cached inline template.
+[Sun Oct 13 23:27:17 2013] [debug] 500 Internal Server Error (0.010953s, 91.299/s).
+[Sun Oct 13 23:27:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Oct 13 23:27:37 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:27:37 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:27:37 2013] [debug] 302 Found (0.057511s, 17.388/s).
+[Sun Oct 13 23:27:37 2013] [debug] GET "/profile".
+[Sun Oct 13 23:27:37 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Sun Oct 13 23:27:37 2013] [debug] Template "profile/index.html.ep" not found.
+[Sun Oct 13 23:27:37 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 13 23:27:37 2013] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 13 23:27:37 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:27:37 2013] [debug] Rendering inline template.
+[Sun Oct 13 23:27:37 2013] [debug] 404 Not Found (0.019382s, 51.594/s).
+[Sun Oct 13 23:27:46 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:27:46 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:27:46 2013] [debug] Rendering template "account/login.html.ep".
+[Sun Oct 13 23:27:46 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Oct 13 23:27:46 2013] [debug] 200 OK (0.008537s, 117.137/s).
+[Sun Oct 13 23:27:50 2013] [debug] POST "/account/login".
+[Sun Oct 13 23:27:50 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Sun Oct 13 23:27:50 2013] [debug] 302 Found (0.004494s, 222.519/s).
+[Sun Oct 13 23:27:50 2013] [debug] GET "/profile".
+[Sun Oct 13 23:27:50 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Sun Oct 13 23:27:50 2013] [debug] Template "profile/index.html.ep" not found.
+[Sun Oct 13 23:27:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sun Oct 13 23:27:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sun Oct 13 23:27:50 2013] [debug] Rendering cached inline template.
+[Sun Oct 13 23:27:50 2013] [debug] Rendering cached inline template.
+[Sun Oct 13 23:27:50 2013] [debug] 404 Not Found (0.015186s, 65.850/s).
+[Mon Oct 14 13:41:30 2013] [info] Listening at "http://*:3000".
+[Mon Oct 14 13:42:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 13:42:10 2013] [debug] GET "/".
+[Mon Oct 14 13:42:10 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Mon Oct 14 13:42:10 2013] [debug] Action not found in controller.
+[Mon Oct 14 13:42:10 2013] [debug] Template "home/index.html.ep" not found.
+[Mon Oct 14 13:42:10 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 14 13:42:10 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 14 13:42:10 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:42:10 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:42:10 2013] [debug] 404 Not Found (0.023634s, 42.312/s).
+[Mon Oct 14 13:42:15 2013] [debug] GET "/".
+[Mon Oct 14 13:42:15 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Mon Oct 14 13:42:15 2013] [debug] Action not found in controller.
+[Mon Oct 14 13:42:15 2013] [debug] Template "home/index.html.ep" not found.
+[Mon Oct 14 13:42:15 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 14 13:42:15 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 14 13:42:15 2013] [debug] Rendering cached inline template.
+[Mon Oct 14 13:42:15 2013] [debug] Rendering cached inline template.
+[Mon Oct 14 13:42:15 2013] [debug] 404 Not Found (0.010331s, 96.796/s).
+[Mon Oct 14 13:42:26 2013] [debug] GET "/".
+[Mon Oct 14 13:42:26 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Mon Oct 14 13:42:26 2013] [debug] Action not found in controller.
+[Mon Oct 14 13:42:26 2013] [debug] Template "home/index.html.ep" not found.
+[Mon Oct 14 13:42:26 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 14 13:42:26 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 14 13:42:26 2013] [debug] Rendering cached inline template.
+[Mon Oct 14 13:42:26 2013] [debug] Rendering cached inline template.
+[Mon Oct 14 13:42:26 2013] [debug] 404 Not Found (0.008947s, 111.769/s).
+[Mon Oct 14 13:50:09 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 13:50:09 2013] [debug] GET "/".
+[Mon Oct 14 13:50:09 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Mon Oct 14 13:50:09 2013] [debug] Action not found in controller.
+[Mon Oct 14 13:50:09 2013] [debug] Template "home/index.html.ep" not found.
+[Mon Oct 14 13:50:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 14 13:50:09 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 14 13:50:09 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:50:09 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:50:09 2013] [debug] 404 Not Found (0.019908s, 50.231/s).
+[Mon Oct 14 13:50:15 2013] [debug] GET "/account/login".
+[Mon Oct 14 13:50:15 2013] [error] Global symbol "$service" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 47.
+Global symbol "$service" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 48.
+Global symbol "$data" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 51.
+Compilation failed in require at (eval 238) line 1.
+
+[Mon Oct 14 13:50:15 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Oct 14 13:50:15 2013] [debug] Template "exception.html.ep" not found.
+[Mon Oct 14 13:50:15 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:50:15 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:50:15 2013] [debug] 500 Internal Server Error (0.076627s, 13.050/s).
+[Mon Oct 14 13:54:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 13:54:16 2013] [debug] GET "/account/login".
+[Mon Oct 14 13:54:16 2013] [error] Global symbol "$data" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 47.
+Compilation failed in require at (eval 235) line 1.
+
+[Mon Oct 14 13:54:16 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Oct 14 13:54:16 2013] [debug] Template "exception.html.ep" not found.
+[Mon Oct 14 13:54:16 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:54:16 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:54:16 2013] [debug] 500 Internal Server Error (0.051218s, 19.524/s).
+[Mon Oct 14 13:55:24 2013] [debug] GET "/account/login".
+[Mon Oct 14 13:55:24 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Mon Oct 14 13:55:24 2013] [error] Can't locate object method "login" via package "BackWrite::Controller::Account" at /usr/local/share/perl/5.14.2/Mojolicious.pm line 157.
+
+[Mon Oct 14 13:55:24 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Oct 14 13:55:24 2013] [debug] Template "exception.html.ep" not found.
+[Mon Oct 14 13:55:24 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:55:24 2013] [debug] Rendering inline template.
+[Mon Oct 14 13:55:24 2013] [debug] 500 Internal Server Error (0.031134s, 32.119/s).
+[Mon Oct 14 14:10:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 14:10:40 2013] [debug] GET "/account/login".
+[Mon Oct 14 14:10:40 2013] [error] Global symbol "$data" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 47.
+Compilation failed in require at (eval 235) line 1.
+
+[Mon Oct 14 14:10:40 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Oct 14 14:10:40 2013] [debug] Template "exception.html.ep" not found.
+[Mon Oct 14 14:10:40 2013] [debug] Rendering inline template.
+[Mon Oct 14 14:10:40 2013] [debug] Rendering inline template.
+[Mon Oct 14 14:10:40 2013] [debug] 500 Internal Server Error (0.056194s, 17.795/s).
+[Mon Oct 14 14:59:24 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 14:59:24 2013] [debug] GET "/account/login".
+[Mon Oct 14 14:59:24 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Mon Oct 14 14:59:24 2013] [debug] Rendering template "account/login.html.ep".
+[Mon Oct 14 14:59:24 2013] [error] Global symbol "$error" requires explicit package name at template account/login.html.ep line 15.
+Global symbol "$message" requires explicit package name at template account/login.html.ep line 15.
+10:     </div>
+11:     <div class="form-group">
+12:         <button type="submit">Login</button>
+13:     </div>
+14:     <div>
+15:         <%= $error || $message %>
+16:     </div>
+17: </form>
+
+[Mon Oct 14 14:59:24 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Oct 14 14:59:24 2013] [debug] Template "exception.html.ep" not found.
+[Mon Oct 14 14:59:24 2013] [debug] Rendering inline template.
+[Mon Oct 14 14:59:24 2013] [debug] Rendering inline template.
+[Mon Oct 14 14:59:24 2013] [debug] 500 Internal Server Error (0.054567s, 18.326/s).
+[Mon Oct 14 15:01:44 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 15:01:44 2013] [debug] GET "/account/login".
+[Mon Oct 14 15:01:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Mon Oct 14 15:01:44 2013] [debug] Rendering template "account/login.html.ep".
+[Mon Oct 14 15:01:44 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Oct 14 15:01:44 2013] [debug] 200 OK (0.033269s, 30.058/s).
+[Mon Oct 14 15:01:48 2013] [debug] POST "/account/login".
+[Mon Oct 14 15:01:48 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Mon Oct 14 15:01:48 2013] [debug] 302 Found (0.232937s, 4.293/s).
+[Mon Oct 14 15:01:48 2013] [debug] GET "/profile".
+[Mon Oct 14 15:01:48 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Mon Oct 14 15:01:48 2013] [debug] Template "profile/index.html.ep" not found.
+[Mon Oct 14 15:01:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 14 15:01:48 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 14 15:01:48 2013] [debug] Rendering inline template.
+[Mon Oct 14 15:01:48 2013] [debug] Rendering inline template.
+[Mon Oct 14 15:01:48 2013] [debug] 404 Not Found (0.020340s, 49.164/s).
+[Mon Oct 14 17:17:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 17:17:54 2013] [debug] GET "/".
+[Mon Oct 14 17:17:54 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Mon Oct 14 17:17:54 2013] [debug] Template "home/index.html.ep" not found.
+[Mon Oct 14 17:17:54 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Oct 14 17:18:03 2013] [debug] GET "/account/login".
+[Mon Oct 14 17:18:03 2013] [error] Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 21.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 22.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 23.
+Global symbol "$user" requires explicit package name at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Controller/Account.pm line 24.
+Compilation failed in require at (eval 237) line 1.
+
+[Mon Oct 14 17:18:03 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Oct 14 17:18:03 2013] [debug] Template "exception.html.ep" not found.
+[Mon Oct 14 17:18:03 2013] [debug] Rendering inline template.
+[Mon Oct 14 17:18:03 2013] [debug] Rendering inline template.
+[Mon Oct 14 17:18:03 2013] [debug] 500 Internal Server Error (0.048293s, 20.707/s).
+[Mon Oct 14 17:18:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 17:18:16 2013] [debug] GET "/account/login".
+[Mon Oct 14 17:18:16 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Mon Oct 14 17:18:16 2013] [debug] Rendering template "account/login.html.ep".
+[Mon Oct 14 17:18:16 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Oct 14 17:18:16 2013] [debug] 200 OK (0.033687s, 29.685/s).
+[Mon Oct 14 17:18:20 2013] [debug] POST "/account/login".
+[Mon Oct 14 17:18:20 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Mon Oct 14 17:18:20 2013] [error] Can't call method "column" on an undefined value at /home/dvinciguerra/Desktop/project/eureka/eureka/lib/BackWrite/Authentication.pm line 20.
+
+[Mon Oct 14 17:18:20 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Oct 14 17:18:20 2013] [debug] Template "exception.html.ep" not found.
+[Mon Oct 14 17:18:20 2013] [debug] Rendering inline template.
+[Mon Oct 14 17:18:20 2013] [debug] Rendering inline template.
+[Mon Oct 14 17:18:20 2013] [debug] 500 Internal Server Error (0.053539s, 18.678/s).
+[Mon Oct 14 17:19:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 14 17:19:40 2013] [debug] POST "/account/login".
+[Mon Oct 14 17:19:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Mon Oct 14 17:19:40 2013] [debug] 302 Found (0.058481s, 17.100/s).
+[Mon Oct 14 17:19:40 2013] [debug] GET "/profile".
+[Mon Oct 14 17:19:40 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Mon Oct 14 17:19:40 2013] [debug] Template "profile/index.html.ep" not found.
+[Mon Oct 14 17:19:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 14 17:19:40 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 14 17:19:40 2013] [debug] Rendering inline template.
+[Mon Oct 14 17:19:40 2013] [debug] Rendering inline template.
+[Mon Oct 14 17:19:40 2013] [debug] 404 Not Found (0.019812s, 50.474/s).
+[Tue Oct 15 11:23:55 2013] [info] Listening at "http://*:3000".
+[Tue Oct 15 11:23:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 11:23:59 2013] [debug] GET "/account/login".
+[Tue Oct 15 11:23:59 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Tue Oct 15 11:23:59 2013] [debug] Rendering template "account/login.html.ep".
+[Tue Oct 15 11:23:59 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 11:23:59 2013] [debug] 200 OK (0.105416s, 9.486/s).
+[Tue Oct 15 11:24:03 2013] [debug] POST "/account/login".
+[Tue Oct 15 11:24:03 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Tue Oct 15 11:24:03 2013] [debug] 302 Found (0.494325s, 2.023/s).
+[Tue Oct 15 11:24:03 2013] [debug] GET "/profile".
+[Tue Oct 15 11:24:03 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 11:24:03 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 11:24:03 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 11:24:03 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 11:24:03 2013] [debug] Rendering inline template.
+[Tue Oct 15 11:24:03 2013] [debug] Rendering inline template.
+[Tue Oct 15 11:24:03 2013] [debug] 404 Not Found (0.019227s, 52.010/s).
+[Tue Oct 15 11:59:54 2013] [info] Listening at "http://*:3000".
+[Tue Oct 15 12:40:43 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 12:40:43 2013] [debug] GET "/profile".
+[Tue Oct 15 12:40:43 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:40:43 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:40:43 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:40:43 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:40:43 2013] [debug] Rendering inline template.
+[Tue Oct 15 12:40:43 2013] [debug] Rendering inline template.
+[Tue Oct 15 12:40:43 2013] [debug] 404 Not Found (0.046146s, 21.670/s).
+[Tue Oct 15 12:40:46 2013] [debug] GET "/profile".
+[Tue Oct 15 12:40:46 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:40:46 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:40:46 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:40:46 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:40:46 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:40:46 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:40:46 2013] [debug] 404 Not Found (0.007765s, 128.783/s).
+[Tue Oct 15 12:40:47 2013] [debug] GET "/profile".
+[Tue Oct 15 12:40:47 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:40:47 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:40:47 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:40:47 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:40:47 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:40:47 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:40:47 2013] [debug] 404 Not Found (0.007020s, 142.450/s).
+[Tue Oct 15 12:40:47 2013] [debug] GET "/profile".
+[Tue Oct 15 12:40:47 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:40:47 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:40:47 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:40:47 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:40:47 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:40:47 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:40:47 2013] [debug] 404 Not Found (0.007341s, 136.221/s).
+[Tue Oct 15 12:40:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 12:40:57 2013] [debug] GET "/profile".
+[Tue Oct 15 12:40:57 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:40:57 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:40:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:40:57 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:40:57 2013] [debug] Rendering inline template.
+[Tue Oct 15 12:40:57 2013] [debug] Rendering inline template.
+[Tue Oct 15 12:40:57 2013] [debug] 404 Not Found (0.041480s, 24.108/s).
+[Tue Oct 15 12:40:59 2013] [debug] GET "/profile".
+[Tue Oct 15 12:40:59 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:40:59 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:40:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:40:59 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:40:59 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:40:59 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:40:59 2013] [debug] 404 Not Found (0.008513s, 117.467/s).
+[Tue Oct 15 12:41:00 2013] [debug] GET "/profile".
+[Tue Oct 15 12:41:00 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:41:00 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:00 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:00 2013] [debug] 404 Not Found (0.013384s, 74.716/s).
+[Tue Oct 15 12:41:00 2013] [debug] GET "/profile".
+[Tue Oct 15 12:41:00 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:41:00 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:00 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:00 2013] [debug] 404 Not Found (0.008058s, 124.100/s).
+[Tue Oct 15 12:41:00 2013] [debug] GET "/profile".
+[Tue Oct 15 12:41:00 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:41:00 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:41:00 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:00 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:00 2013] [debug] 404 Not Found (0.010497s, 95.265/s).
+[Tue Oct 15 12:41:01 2013] [debug] GET "/profile".
+[Tue Oct 15 12:41:01 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:41:01 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:01 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:01 2013] [debug] 404 Not Found (0.006807s, 146.908/s).
+[Tue Oct 15 12:41:01 2013] [debug] GET "/profile".
+[Tue Oct 15 12:41:01 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:41:01 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:01 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:01 2013] [debug] 404 Not Found (0.009736s, 102.712/s).
+[Tue Oct 15 12:41:01 2013] [debug] GET "/profile".
+[Tue Oct 15 12:41:01 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:41:01 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:41:01 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:01 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:41:01 2013] [debug] 404 Not Found (0.007696s, 129.938/s).
+[Tue Oct 15 12:46:38 2013] [debug] GET "/profile".
+[Tue Oct 15 12:46:38 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:46:38 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:46:38 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:46:38 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:46:38 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:46:38 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:46:38 2013] [debug] 404 Not Found (0.007145s, 139.958/s).
+[Tue Oct 15 12:46:39 2013] [debug] GET "/profile".
+[Tue Oct 15 12:46:39 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 12:46:39 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 12:46:39 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 12:46:39 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 12:46:39 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:46:39 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 12:46:39 2013] [debug] 404 Not Found (0.008088s, 123.640/s).
+[Tue Oct 15 13:41:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 13:41:28 2013] [debug] GET "/profile".
+[Tue Oct 15 13:41:28 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:41:28 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:41:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:41:28 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:41:28 2013] [debug] Rendering inline template.
+[Tue Oct 15 13:41:28 2013] [debug] Rendering inline template.
+[Tue Oct 15 13:41:28 2013] [debug] 404 Not Found (0.047741s, 20.946/s).
+[Tue Oct 15 13:41:30 2013] [debug] GET "/profile".
+[Tue Oct 15 13:41:30 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:41:30 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:41:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:41:30 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:41:30 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:41:30 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:41:30 2013] [debug] 404 Not Found (0.006639s, 150.625/s).
+[Tue Oct 15 13:41:31 2013] [debug] GET "/profile".
+[Tue Oct 15 13:41:31 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:41:31 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:41:31 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:41:31 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:41:31 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:41:31 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:41:31 2013] [debug] 404 Not Found (0.007720s, 129.534/s).
+[Tue Oct 15 13:42:41 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 13:42:41 2013] [debug] GET "/profile".
+[Tue Oct 15 13:42:41 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:42:41 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:42:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:42:41 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:42:41 2013] [debug] Rendering inline template.
+[Tue Oct 15 13:42:41 2013] [debug] Rendering inline template.
+[Tue Oct 15 13:42:41 2013] [debug] 404 Not Found (0.043740s, 22.862/s).
+[Tue Oct 15 13:42:42 2013] [debug] GET "/profile".
+[Tue Oct 15 13:42:42 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:42:42 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:42:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:42:42 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:42:42 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:42 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:42 2013] [debug] 404 Not Found (0.015509s, 64.479/s).
+[Tue Oct 15 13:42:42 2013] [debug] GET "/profile".
+[Tue Oct 15 13:42:42 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:42:42 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:42:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:42:42 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:42:42 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:42 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:42 2013] [debug] 404 Not Found (0.012553s, 79.662/s).
+[Tue Oct 15 13:42:43 2013] [debug] GET "/profile".
+[Tue Oct 15 13:42:43 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:42:43 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:43 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:43 2013] [debug] 404 Not Found (0.006832s, 146.370/s).
+[Tue Oct 15 13:42:43 2013] [debug] GET "/profile".
+[Tue Oct 15 13:42:43 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:42:43 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:43 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:43 2013] [debug] 404 Not Found (0.007567s, 132.153/s).
+[Tue Oct 15 13:42:43 2013] [debug] GET "/profile".
+[Tue Oct 15 13:42:43 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:42:43 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:42:43 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:43 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:43 2013] [debug] 404 Not Found (0.006844s, 146.113/s).
+[Tue Oct 15 13:42:44 2013] [debug] GET "/profile".
+[Tue Oct 15 13:42:44 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 13:42:44 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 13:42:44 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 13:42:44 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 13:42:44 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:44 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 13:42:44 2013] [debug] 404 Not Found (0.010706s, 93.406/s).
+[Tue Oct 15 13:42:47 2013] [debug] GET "/account/login".
+[Tue Oct 15 13:42:47 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Tue Oct 15 13:42:47 2013] [debug] Rendering template "account/login.html.ep".
+[Tue Oct 15 13:42:47 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 13:42:47 2013] [debug] 200 OK (0.010325s, 96.852/s).
+[Tue Oct 15 13:42:50 2013] [debug] GET "/account/login".
+[Tue Oct 15 13:42:50 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Tue Oct 15 13:42:50 2013] [debug] Rendering cached template "account/login.html.ep".
+[Tue Oct 15 13:42:50 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 13:42:50 2013] [debug] 200 OK (0.001378s, 725.689/s).
+[Tue Oct 15 13:42:52 2013] [debug] POST "/account/login".
+[Tue Oct 15 13:42:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "login".
+[Tue Oct 15 13:42:52 2013] [debug] 302 Found (0.033554s, 29.803/s).
+[Tue Oct 15 13:42:52 2013] [debug] GET "/profile".
+[Tue Oct 15 13:42:52 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "profile".
+[Tue Oct 15 13:42:52 2013] [debug] 200 OK (0.000899s, 1112.347/s).
+[Tue Oct 15 13:43:06 2013] [debug] GET "/account/logout".
+[Tue Oct 15 13:43:06 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "logout".
+[Tue Oct 15 14:07:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 14:07:54 2013] [debug] GET "/profile".
+[Tue Oct 15 14:07:54 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "profile".
+[Tue Oct 15 14:07:54 2013] [debug] 200 OK (0.033260s, 30.066/s).
+[Tue Oct 15 14:07:55 2013] [debug] GET "/profile".
+[Tue Oct 15 14:07:55 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "profile".
+[Tue Oct 15 14:07:55 2013] [debug] 200 OK (0.000510s, 1960.784/s).
+[Tue Oct 15 14:07:55 2013] [debug] GET "/account/logout".
+[Tue Oct 15 14:07:55 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "logout".
+[Tue Oct 15 14:57:47 2013] [info] Listening at "http://*:3000".
+[Tue Oct 15 14:57:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 14:57:52 2013] [debug] GET "/profile".
+[Tue Oct 15 14:57:52 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "profile".
+[Tue Oct 15 14:57:52 2013] [debug] 200 OK (0.044871s, 22.286/s).
+[Tue Oct 15 14:57:58 2013] [debug] GET "/logout".
+[Tue Oct 15 14:57:58 2013] [debug] Controller "BackWrite::Controller::Logout" does not exist.
+[Tue Oct 15 14:57:58 2013] [debug] Template "logout/index.html.ep" not found.
+[Tue Oct 15 14:57:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 14:57:58 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 14:57:58 2013] [debug] Rendering inline template.
+[Tue Oct 15 14:57:58 2013] [debug] Rendering inline template.
+[Tue Oct 15 14:57:58 2013] [debug] 404 Not Found (0.053575s, 18.665/s).
+[Tue Oct 15 14:58:11 2013] [debug] GET "/account/logout".
+[Tue Oct 15 14:58:11 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "logout".
+[Tue Oct 15 14:58:11 2013] [debug] 302 Found (0.001256s, 796.178/s).
+[Tue Oct 15 14:58:11 2013] [debug] GET "/".
+[Tue Oct 15 14:58:11 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 14:58:11 2013] [debug] Template "home/index.html.ep" not found.
+[Tue Oct 15 14:58:11 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Oct 15 14:58:26 2013] [debug] Inactivity timeout.
+[Tue Oct 15 14:58:26 2013] [debug] GET "/".
+[Tue Oct 15 14:58:26 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 14:58:26 2013] [debug] Template "home/index.html.ep" not found.
+[Tue Oct 15 14:58:26 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Oct 15 14:58:37 2013] [info] Listening at "http://*:3000".
+[Tue Oct 15 15:00:17 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:00:17 2013] [debug] GET "/".
+[Tue Oct 15 15:00:17 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 15:00:17 2013] [debug] Template "home/index.html.ep" not found.
+[Tue Oct 15 15:00:17 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Oct 15 15:00:30 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:00:30 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:00:30 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:00:30 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:00:30 2013] [debug] 200 OK (0.090548s, 11.044/s).
+[Tue Oct 15 15:00:37 2013] [debug] GET "/profile".
+[Tue Oct 15 15:00:37 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 15:00:37 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 15:00:37 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 15:00:37 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 15:00:37 2013] [debug] Rendering inline template.
+[Tue Oct 15 15:00:37 2013] [debug] Rendering inline template.
+[Tue Oct 15 15:00:37 2013] [debug] 404 Not Found (0.019797s, 50.513/s).
+[Tue Oct 15 15:01:28 2013] [debug] GET "/profile".
+[Tue Oct 15 15:01:28 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 15:01:28 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 15:01:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 15:01:28 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 15:01:28 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 15:01:28 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 15:01:28 2013] [debug] 404 Not Found (0.009356s, 106.883/s).
+[Tue Oct 15 15:01:34 2013] [debug] POST "/account/signin".
+[Tue Oct 15 15:01:34 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:01:34 2013] [debug] 302 Found (0.028917s, 34.582/s).
+[Tue Oct 15 15:01:34 2013] [debug] GET "/profile".
+[Tue Oct 15 15:01:34 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "profile".
+[Tue Oct 15 15:01:34 2013] [debug] 200 OK (0.000557s, 1795.332/s).
+[Tue Oct 15 15:01:36 2013] [debug] GET "/profile".
+[Tue Oct 15 15:01:36 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "profile".
+[Tue Oct 15 15:01:36 2013] [debug] 200 OK (0.000507s, 1972.387/s).
+[Tue Oct 15 15:01:42 2013] [debug] GET "/account/signout".
+[Tue Oct 15 15:01:42 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signout".
+[Tue Oct 15 15:01:42 2013] [debug] 302 Found (0.000800s, 1250.000/s).
+[Tue Oct 15 15:01:42 2013] [debug] GET "/".
+[Tue Oct 15 15:01:42 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 15:01:42 2013] [debug] Template "home/index.html.ep" not found.
+[Tue Oct 15 15:01:42 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Oct 15 15:01:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:01:55 2013] [debug] GET "/".
+[Tue Oct 15 15:01:55 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 15:01:55 2013] [debug] Template "home/index.html.ep" not found.
+[Tue Oct 15 15:01:55 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Oct 15 15:02:03 2013] [debug] GET "/account/signout".
+[Tue Oct 15 15:02:03 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signout".
+[Tue Oct 15 15:02:03 2013] [debug] 302 Found (0.024940s, 40.096/s).
+[Tue Oct 15 15:02:03 2013] [debug] GET "/".
+[Tue Oct 15 15:02:03 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 15:02:03 2013] [debug] Template "home/index.html.ep" not found.
+[Tue Oct 15 15:02:03 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Oct 15 15:02:18 2013] [debug] Inactivity timeout.
+[Tue Oct 15 15:02:18 2013] [debug] GET "/".
+[Tue Oct 15 15:02:18 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 15:02:18 2013] [debug] Template "home/index.html.ep" not found.
+[Tue Oct 15 15:02:18 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Tue Oct 15 15:02:47 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:02:47 2013] [debug] GET "/".
+[Tue Oct 15 15:02:47 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 15:02:47 2013] [debug] Rendering template "home/index.html.ep".
+[Tue Oct 15 15:02:47 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:02:47 2013] [debug] 200 OK (0.017597s, 56.828/s).
+[Tue Oct 15 15:02:54 2013] [debug] GET "/profile".
+[Tue Oct 15 15:02:54 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 15:02:54 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 15:02:54 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 15:02:54 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 15:02:54 2013] [debug] Rendering inline template.
+[Tue Oct 15 15:02:54 2013] [debug] Rendering inline template.
+[Tue Oct 15 15:02:54 2013] [debug] 404 Not Found (0.040496s, 24.694/s).
+[Tue Oct 15 15:13:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:13:38 2013] [debug] GET "/profile".
+[Tue Oct 15 15:13:38 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 15:13:38 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 15:13:38 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 15:13:38 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 15:13:38 2013] [debug] Rendering inline template.
+[Tue Oct 15 15:13:38 2013] [debug] Rendering inline template.
+[Tue Oct 15 15:13:38 2013] [debug] 404 Not Found (0.047495s, 21.055/s).
+[Tue Oct 15 15:13:41 2013] [debug] GET "/profile".
+[Tue Oct 15 15:13:41 2013] [debug] Controller "BackWrite::Controller::Profile" does not exist.
+[Tue Oct 15 15:13:41 2013] [debug] Template "profile/index.html.ep" not found.
+[Tue Oct 15 15:13:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 15 15:13:41 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 15 15:13:41 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 15:13:41 2013] [debug] Rendering cached inline template.
+[Tue Oct 15 15:13:41 2013] [debug] 404 Not Found (0.024237s, 41.259/s).
+[Tue Oct 15 15:13:53 2013] [debug] GET "/".
+[Tue Oct 15 15:13:53 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 15:13:53 2013] [debug] Rendering template "home/index.html.ep".
+[Tue Oct 15 15:13:53 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:13:53 2013] [debug] 200 OK (0.008192s, 122.070/s).
+[Tue Oct 15 15:14:05 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:14:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:14:05 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:14:05 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:14:05 2013] [debug] 200 OK (0.022775s, 43.908/s).
+[Tue Oct 15 15:14:10 2013] [debug] POST "/account/signin".
+[Tue Oct 15 15:14:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:14:10 2013] [debug] 302 Found (0.032574s, 30.699/s).
+[Tue Oct 15 15:14:10 2013] [debug] GET "/profile".
+[Tue Oct 15 15:14:10 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "profile".
+[Tue Oct 15 15:14:10 2013] [debug] Rendering template "home/profile.html.ep".
+[Tue Oct 15 15:14:10 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:14:10 2013] [debug] 200 OK (0.007594s, 131.683/s).
+[Tue Oct 15 15:16:36 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:16:36 2013] [debug] GET "/account/signout".
+[Tue Oct 15 15:16:36 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signout".
+[Tue Oct 15 15:16:36 2013] [debug] 302 Found (0.022171s, 45.104/s).
+[Tue Oct 15 15:16:36 2013] [debug] GET "/".
+[Tue Oct 15 15:16:36 2013] [debug] Routing to controller "BackWrite::Controller::Home" and action "index".
+[Tue Oct 15 15:16:36 2013] [debug] Rendering template "home/index.html.ep".
+[Tue Oct 15 15:16:36 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:16:36 2013] [debug] 200 OK (0.014545s, 68.752/s).
+[Tue Oct 15 15:16:41 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:16:41 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:16:41 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:16:41 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:16:41 2013] [debug] 200 OK (0.006793s, 147.210/s).
+[Tue Oct 15 15:18:33 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:18:33 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:18:33 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:18:33 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:18:33 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:18:33 2013] [debug] 200 OK (0.040150s, 24.907/s).
+[Tue Oct 15 15:19:08 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:19:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:19:08 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:19:08 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:19:08 2013] [debug] 200 OK (0.003806s, 262.743/s).
+[Tue Oct 15 15:19:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:19:10 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:19:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:19:10 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:19:10 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:19:10 2013] [debug] 200 OK (0.042189s, 23.703/s).
+[Tue Oct 15 15:19:17 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:19:17 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:19:17 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:19:17 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:19:17 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:19:17 2013] [debug] 200 OK (0.033191s, 30.129/s).
+[Tue Oct 15 15:19:32 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:19:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:19:32 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:19:32 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:19:32 2013] [debug] 200 OK (0.003721s, 268.745/s).
+[Tue Oct 15 15:19:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:19:35 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:19:35 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:19:35 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:19:35 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:19:35 2013] [debug] 200 OK (0.033623s, 29.742/s).
+[Tue Oct 15 15:19:54 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:19:54 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:19:54 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:19:54 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:19:54 2013] [debug] 200 OK (0.004127s, 242.307/s).
+[Tue Oct 15 15:19:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:19:56 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:19:56 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:19:56 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:19:56 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:19:56 2013] [debug] 200 OK (0.039161s, 25.536/s).
+[Tue Oct 15 15:22:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:22:45 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:22:45 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:22:45 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:22:45 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:22:45 2013] [debug] 200 OK (0.038328s, 26.091/s).
+[Tue Oct 15 15:23:06 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:23:06 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:23:06 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:23:06 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:23:06 2013] [debug] 200 OK (0.003752s, 266.525/s).
+[Tue Oct 15 15:23:09 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:23:09 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:23:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:23:09 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:23:09 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:23:09 2013] [debug] 200 OK (0.039358s, 25.408/s).
+[Tue Oct 15 15:23:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:23:45 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:23:45 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:23:45 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:23:45 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:23:45 2013] [debug] 200 OK (0.039585s, 25.262/s).
+[Tue Oct 15 15:33:41 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:33:41 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:33:41 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:33:41 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:33:41 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:33:41 2013] [debug] 200 OK (0.038132s, 26.225/s).
+[Tue Oct 15 15:34:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:34:22 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:34:22 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:34:22 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:34:22 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:34:22 2013] [debug] 200 OK (0.031981s, 31.269/s).
+[Tue Oct 15 15:36:05 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:36:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:36:05 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:36:05 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:36:05 2013] [debug] 200 OK (0.003781s, 264.480/s).
+[Tue Oct 15 15:36:07 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:36:07 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:36:07 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:36:07 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:36:07 2013] [debug] 200 OK (0.003228s, 309.789/s).
+[Tue Oct 15 15:36:08 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:36:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:36:08 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:36:08 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:36:08 2013] [debug] 200 OK (0.003555s, 281.294/s).
+[Tue Oct 15 15:36:43 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:36:43 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:36:43 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:36:43 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:36:43 2013] [debug] 200 OK (0.003939s, 253.872/s).
+[Tue Oct 15 15:37:10 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:37:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:37:10 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:37:10 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:37:10 2013] [debug] 200 OK (0.003149s, 317.561/s).
+[Tue Oct 15 15:37:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:40:05 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:40:05 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:40:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:40:05 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:40:05 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:40:05 2013] [debug] 200 OK (0.030101s, 33.221/s).
+[Tue Oct 15 15:40:08 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:40:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:40:08 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:40:08 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:40:08 2013] [debug] 200 OK (0.003577s, 279.564/s).
+[Tue Oct 15 15:58:52 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:58:52 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:58:52 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:58:52 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:58:52 2013] [debug] 200 OK (0.003787s, 264.061/s).
+[Tue Oct 15 15:58:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:58:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:58:58 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:58:58 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:58:58 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:58:58 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:58:58 2013] [debug] 200 OK (0.030848s, 32.417/s).
+[Tue Oct 15 15:59:12 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:59:12 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:59:12 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:59:12 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:59:12 2013] [debug] 200 OK (0.003728s, 268.240/s).
+[Tue Oct 15 15:59:14 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:59:14 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:59:14 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:59:14 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:59:14 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:59:14 2013] [debug] 200 OK (0.040416s, 24.743/s).
+[Tue Oct 15 15:59:15 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:59:15 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:59:15 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 15:59:15 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 15:59:15 2013] [debug] 200 OK (0.003811s, 262.398/s).
+[Tue Oct 15 15:59:24 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:59:24 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:59:24 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:59:24 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:59:24 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:59:24 2013] [debug] 200 OK (0.030781s, 32.488/s).
+[Tue Oct 15 15:59:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 15:59:46 2013] [debug] GET "/account/signin".
+[Tue Oct 15 15:59:46 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 15:59:46 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 15:59:46 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 15:59:46 2013] [debug] 200 OK (0.033968s, 29.439/s).
+[Tue Oct 15 16:00:34 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:00:34 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:00:34 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:00:34 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:00:34 2013] [debug] 200 OK (0.003335s, 299.850/s).
+[Tue Oct 15 16:00:36 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:00:37 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:00:37 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:00:37 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:00:37 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:00:37 2013] [debug] 200 OK (0.026832s, 37.269/s).
+[Tue Oct 15 16:07:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:07:10 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:07:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:07:10 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:07:10 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:07:10 2013] [debug] 200 OK (0.038360s, 26.069/s).
+[Tue Oct 15 16:07:37 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:07:37 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:07:37 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:07:37 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:07:37 2013] [debug] 200 OK (0.001547s, 646.412/s).
+[Tue Oct 15 16:07:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:07:41 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:07:41 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:07:41 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:07:41 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:07:41 2013] [debug] 200 OK (0.045362s, 22.045/s).
+[Tue Oct 15 16:08:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:08:23 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:08:23 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:08:23 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:08:23 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:08:23 2013] [debug] 200 OK (0.041095s, 24.334/s).
+[Tue Oct 15 16:08:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:09:16 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:09:16 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:09:16 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:09:16 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:09:16 2013] [debug] 200 OK (0.030221s, 33.090/s).
+[Tue Oct 15 16:09:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:09:46 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:09:46 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:09:46 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:09:46 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:09:46 2013] [debug] 200 OK (0.038961s, 25.667/s).
+[Tue Oct 15 16:09:47 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:09:47 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:09:48 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:09:48 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:09:48 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:09:48 2013] [debug] 200 OK (0.031003s, 32.255/s).
+[Tue Oct 15 16:09:48 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:09:48 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:09:48 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:09:48 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:09:48 2013] [debug] 200 OK (0.004525s, 220.994/s).
+[Tue Oct 15 16:09:49 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:09:49 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:09:49 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:09:49 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:09:49 2013] [debug] 200 OK (0.001533s, 652.316/s).
+[Tue Oct 15 16:09:50 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:09:50 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:09:50 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:09:50 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:09:50 2013] [debug] 200 OK (0.004361s, 229.305/s).
+[Tue Oct 15 16:09:51 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:09:51 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:09:51 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:09:51 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:09:51 2013] [debug] 200 OK (0.004404s, 227.066/s).
+[Tue Oct 15 16:10:07 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:10:07 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:10:07 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:10:07 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:10:07 2013] [debug] 200 OK (0.001718s, 582.072/s).
+[Tue Oct 15 16:10:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:10:08 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:10:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:10:08 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:10:08 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:10:08 2013] [debug] 200 OK (0.033257s, 30.069/s).
+[Tue Oct 15 16:10:09 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:10:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:10:09 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:10:09 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:10:09 2013] [debug] 200 OK (0.004440s, 225.225/s).
+[Tue Oct 15 16:10:09 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:10:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:10:09 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:10:09 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:10:09 2013] [debug] 200 OK (0.004419s, 226.296/s).
+[Tue Oct 15 16:12:09 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:12:09 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:12:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:12:09 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:12:09 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:12:09 2013] [debug] 200 OK (0.031474s, 31.772/s).
+[Tue Oct 15 16:13:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:13:16 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:13:16 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:13:16 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:13:16 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:13:16 2013] [debug] 200 OK (0.038705s, 25.836/s).
+[Tue Oct 15 16:13:18 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:13:18 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:13:18 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:13:18 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:13:18 2013] [debug] 200 OK (0.004412s, 226.655/s).
+[Tue Oct 15 16:13:23 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:13:23 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:13:23 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:13:23 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:13:23 2013] [debug] 200 OK (0.004591s, 217.817/s).
+[Tue Oct 15 16:13:24 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:13:25 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:13:26 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:13:26 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:13:26 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:13:26 2013] [debug] 200 OK (0.031482s, 31.764/s).
+[Tue Oct 15 16:13:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:13:40 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:13:40 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:13:40 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:13:40 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:13:40 2013] [debug] 200 OK (0.031226s, 32.025/s).
+[Tue Oct 15 16:13:42 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:13:42 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:13:42 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:13:42 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:13:42 2013] [debug] 200 OK (0.003261s, 306.654/s).
+[Tue Oct 15 16:13:55 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:13:55 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:13:55 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:13:55 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:13:55 2013] [debug] 200 OK (0.004506s, 221.926/s).
+[Tue Oct 15 16:13:55 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:13:55 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:13:55 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:13:55 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:13:55 2013] [debug] 200 OK (0.003781s, 264.480/s).
+[Tue Oct 15 16:14:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:14:27 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:14:27 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:14:27 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:14:27 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:14:27 2013] [debug] 200 OK (0.035224s, 28.390/s).
+[Tue Oct 15 16:14:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:14:29 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:14:29 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:14:29 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:14:29 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:14:29 2013] [debug] 200 OK (0.036289s, 27.557/s).
+[Tue Oct 15 16:15:05 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:05 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:05 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:15:05 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:15:05 2013] [debug] 200 OK (0.004572s, 218.723/s).
+[Tue Oct 15 16:15:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:15:08 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:08 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:15:08 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:15:08 2013] [debug] 200 OK (0.030839s, 32.426/s).
+[Tue Oct 15 16:15:09 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:09 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:15:09 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:15:09 2013] [debug] 200 OK (0.002260s, 442.478/s).
+[Tue Oct 15 16:15:22 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:22 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:22 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:15:22 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:15:22 2013] [debug] 200 OK (0.004554s, 219.587/s).
+[Tue Oct 15 16:15:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:15:23 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:23 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:23 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:15:23 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:15:23 2013] [debug] 200 OK (0.034893s, 28.659/s).
+[Tue Oct 15 16:15:24 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:24 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:24 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:15:24 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:15:24 2013] [debug] 200 OK (0.004499s, 222.272/s).
+[Tue Oct 15 16:15:31 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:31 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:31 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:15:31 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:15:31 2013] [debug] 200 OK (0.002810s, 355.872/s).
+[Tue Oct 15 16:15:31 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:15:32 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:32 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:15:32 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:15:32 2013] [debug] 200 OK (0.031868s, 31.379/s).
+[Tue Oct 15 16:15:58 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:58 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:58 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:15:58 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:15:58 2013] [debug] 200 OK (0.004155s, 240.674/s).
+[Tue Oct 15 16:15:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:15:59 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:15:59 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:15:59 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:15:59 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:15:59 2013] [debug] 200 OK (0.026447s, 37.811/s).
+[Tue Oct 15 16:16:00 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:00 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:00 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:16:00 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:16:00 2013] [debug] 200 OK (0.003484s, 287.026/s).
+[Tue Oct 15 16:16:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:16:10 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:10 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:16:10 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:16:10 2013] [debug] 200 OK (0.032043s, 31.208/s).
+[Tue Oct 15 16:16:10 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:10 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:16:10 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:16:10 2013] [debug] 200 OK (0.004092s, 244.379/s).
+[Tue Oct 15 16:16:11 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:11 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:11 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:16:11 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:16:11 2013] [debug] 200 OK (0.001617s, 618.429/s).
+[Tue Oct 15 16:16:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:16:23 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:23 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:23 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:16:23 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:16:23 2013] [debug] 200 OK (0.039348s, 25.414/s).
+[Tue Oct 15 16:16:24 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:24 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:24 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:16:24 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:16:24 2013] [debug] 200 OK (0.004487s, 222.866/s).
+[Tue Oct 15 16:16:26 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:26 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:26 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:16:26 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:16:26 2013] [debug] 200 OK (0.004126s, 242.365/s).
+[Tue Oct 15 16:16:26 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:26 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:26 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:16:26 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:16:26 2013] [debug] 200 OK (0.004440s, 225.225/s).
+[Tue Oct 15 16:16:41 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:16:41 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:16:41 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:16:41 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:16:41 2013] [debug] 200 OK (0.015910s, 62.854/s).
+[Tue Oct 15 16:17:32 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:17:32 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:17:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:17:32 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:17:32 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:17:32 2013] [debug] 200 OK (0.040935s, 24.429/s).
+[Tue Oct 15 16:17:34 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:17:34 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:17:34 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:17:34 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:17:34 2013] [debug] 200 OK (0.004514s, 221.533/s).
+[Tue Oct 15 16:18:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:18:08 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:18:08 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:18:08 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:18:08 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:18:08 2013] [debug] 200 OK (0.041932s, 23.848/s).
+[Tue Oct 15 16:18:09 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:18:09 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:18:09 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:18:09 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:18:09 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:18:09 2013] [debug] 200 OK (0.039445s, 25.352/s).
+[Tue Oct 15 16:18:10 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:18:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:18:10 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:18:10 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:18:10 2013] [debug] 200 OK (0.004054s, 246.670/s).
+[Tue Oct 15 16:18:17 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:18:17 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:18:17 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:18:17 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:18:17 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:18:17 2013] [debug] 200 OK (0.033935s, 29.468/s).
+[Tue Oct 15 16:18:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:18:28 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:18:28 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:18:28 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:18:28 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:18:28 2013] [debug] 200 OK (0.041274s, 24.228/s).
+[Tue Oct 15 16:18:59 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:18:59 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:18:59 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:18:59 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:18:59 2013] [debug] 200 OK (0.004536s, 220.459/s).
+[Tue Oct 15 16:19:00 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:19:02 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:19:02 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:19:02 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:19:02 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:19:02 2013] [debug] 200 OK (0.033113s, 30.200/s).
+[Tue Oct 15 16:19:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:19:10 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:19:10 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:19:10 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:19:10 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:19:10 2013] [debug] 200 OK (0.036186s, 27.635/s).
+[Tue Oct 15 16:19:32 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:19:32 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:19:32 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:19:32 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:19:32 2013] [debug] 200 OK (0.004811s, 207.857/s).
+[Tue Oct 15 16:19:33 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:19:34 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:19:34 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:19:34 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:19:34 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:19:34 2013] [debug] 200 OK (0.027909s, 35.831/s).
+[Tue Oct 15 16:19:43 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:19:43 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:19:44 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:19:44 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:19:44 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:19:44 2013] [debug] 200 OK (0.043217s, 23.139/s).
+[Tue Oct 15 16:20:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:20:54 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:20:54 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:20:54 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:20:54 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:20:54 2013] [debug] 200 OK (0.032188s, 31.067/s).
+[Tue Oct 15 16:21:19 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:21:19 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:21:19 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:21:19 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:21:19 2013] [debug] 200 OK (0.001653s, 604.961/s).
+[Tue Oct 15 16:21:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:21:21 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:21:21 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:21:21 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:21:21 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:21:21 2013] [debug] 200 OK (0.035227s, 28.387/s).
+[Tue Oct 15 16:21:48 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:21:48 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:21:48 2013] [debug] Rendering cached template "account/signin.html.ep".
+[Tue Oct 15 16:21:48 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Oct 15 16:21:48 2013] [debug] 200 OK (0.001558s, 641.849/s).
+[Tue Oct 15 16:25:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 16:25:03 2013] [debug] GET "/account/signin".
+[Tue Oct 15 16:25:03 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 16:25:03 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 16:25:03 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 16:25:03 2013] [debug] 200 OK (0.037328s, 26.790/s).
+[Tue Oct 15 17:30:15 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 17:30:15 2013] [debug] GET "/account/signin".
+[Tue Oct 15 17:30:15 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 17:30:15 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 17:30:15 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 17:30:15 2013] [debug] 200 OK (0.036510s, 27.390/s).
+[Tue Oct 15 17:30:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Oct 15 17:30:29 2013] [debug] GET "/account/signin".
+[Tue Oct 15 17:30:29 2013] [debug] Routing to controller "BackWrite::Controller::Account" and action "signin".
+[Tue Oct 15 17:30:29 2013] [debug] Rendering template "account/signin.html.ep".
+[Tue Oct 15 17:30:29 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 15 17:30:29 2013] [debug] 200 OK (0.037302s, 26.808/s).
+[Tue Oct 15 17:30:30 2013] [debug] Your secret passphrase needs to be changed!!!
