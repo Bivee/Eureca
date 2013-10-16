@@ -16,12 +16,12 @@ posting some ideas (based on criteria, obviously) and you can check on your free
 time.
 
 
-=head2 Who can use it?
+=head3 Who can use it?
 
 Anyone can download a copy of this software, install on server and use!
 
 
-=head2 What do I need to take to install then?
+=head3 What do I need to take to install then?
 
 =over
 
@@ -37,14 +37,25 @@ Anyone can download a copy of this software, install on server and use!
 
 =back
 
-=head2 Author
+
+=head3 How can I test/run?
+
+You can use L<morbo> that is an development perl server for mojolicious to run
+L<Eureca> on your machine:
+
+    $ morbo eureca/index.pl
+
+or you can use L<hipnotoad> for production deployment.
+
+
+=head3 Author
 
 2013 (c) Bivee
 
 L<http://bivee.com.br>
 
 
-=head2 Copyright and License
+=head3 Copyright and License
 
 This software is copyright (c) 2013 by Bivee.
 
@@ -52,4 +63,3 @@ This is a free software; you can redistribute it and/or modify it under the same
 languagem system itself.
 
 =cut
-
