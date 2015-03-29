@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://jashkenas.github.io/underscore/underscore-min.js"></script>
+  <script src="http://jashkenas.github.io/backbone/backbone-min.js"></script>
+  <!-- link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" / -->
+  <link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
+    
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>Bivee Eureca - Colaborative Idea Database</title>  
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-findcond navbar-fixed-top">
+    <div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Bivee Eureca</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <i class="fa fa-fw fa-bell-o"></i> Notification <span class="badge">0</span>
+          </a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#"><i class="fa fa-fw fa-tag"></i> <span class="badge">Music</span> sayfası <span class="badge">Video</span> sayfasında etiketlendi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Music</span> sayfasında iletiniz beğenildi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Video</span> sayfasında iletiniz beğenildi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Game</span> sayfasında iletiniz beğenildi</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            Daniel Vinciguerra <span class="caret"></span>
+          </a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">My Ideas</a></li>
+						<li class="divider"></li>
+						<li><a href="#exit">Logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+  
+<!-- Container -->    
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>
+        Colaborative Idea Database 
+        <small>Yet another business colaborative portal</small>
+      </h2>
+      
+      <form method="POST" class="well well-sm">
+        <div id="custom-search-input">
+            <div class="input-group col-md-12">
+                <input type="text" class="  search-query form-control" placeholder="Search" />
+                <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button">
+                        <span class=" glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div>
+          </div>
+      </form>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="btn-group">
+            <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+              Sort By:  <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Date</a></li>
+              <li><a href="#">Popularity</a></li>
+              <li><a href="#">Comments</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      
+      <br>
+
+      
+      <div class="row note-row">
+        <div class="col-md-4">
+          <div class="note note-item">
+            <div class="note-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
+            </div>
+            <div class="note-controls invisible">
+                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
+              &nbsp;&nbsp;
+                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
+            </div>
+          </div>
+          <small class="text-center">
+            Created by <a href="#">Daniel vinciguerra</a>
+          </small>
+        </div>
+        <div class="col-md-4">
+          <div class="note note-item">
+            <div class="note-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
+            </div>
+            <div class="note-controls invisible">
+                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
+              &nbsp;&nbsp;
+                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
+            </div>
+          </div>
+          <small class="text-center">
+            Created by <a href="#">Daniel vinciguerra</a>
+          </small>
+        </div>
+        <div class="col-md-4">
+          <div class="note note-item">
+            <div class="note-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
+            </div>
+            <div class="note-controls invisible">
+                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
+              &nbsp;&nbsp;
+                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
+            </div>
+          </div>
+          <small class="text-center">
+            Created by <a href="#">Daniel vinciguerra</a>
+          </small>
+      </div>
+    </div>
+      
+      
+
+     
+      <div class="row note-row">
+        <div class="col-md-4">
+          <div class="note note-item">
+            <div class="note-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
+            </div>
+            <div class="note-controls invisible">
+                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
+              &nbsp;&nbsp;
+                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
+            </div>
+          </div>
+          <small class="text-center">
+            Created by <a href="#">Daniel vinciguerra</a>
+          </small>
+        </div>
+        <div class="col-md-4">
+          <div class="note note-item">
+            <div class="note-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
+            </div>
+            <div class="note-controls invisible">
+                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
+              &nbsp;&nbsp;
+                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
+            </div>
+          </div>
+          <small class="text-center">
+            Created by <a href="#">Daniel vinciguerra</a>
+          </small>
+        </div>
+        <div class="col-md-4">
+          <div class="note note-item">
+            <div class="note-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
+            </div>
+            <div class="note-controls invisible">
+                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
+              &nbsp;&nbsp;
+                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
+            </div>
+          </div>
+          <small class="text-center">
+            Created by <a href="#">Daniel vinciguerra</a>
+          </small>
+      </div>
+    </div>
+      
+      
+      
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <ul class="pagination pagination-lg">
+          <li class="disabled"><a href="#">«</a></li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">»</a></li>
+        </ul>        
+      </div>
+    </div>
+      
+    </div>
+    <div class="col-md-4">
+      <div class="post-panel well well-sm">
+        <h4><i class="fa fa-lightbulb-o text-muted fa-2x"></i> Do you want colaborate?</h4>
+        <small class="help-block">
+          Click here and post an idea, colaborate with the community!
+        </small>
+        <a href="#" class="btn btn-danger btn-block">Post An Idea</a>
+      </div>
+      
+      <br>
+      
+      <div class="tag-panel">
+        <h4>
+          <i class="fa fa-tags text-muted"></i> 
+          Top Tags
+        </h4>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Mobile Apps</a>
+          <a href="#" class="list-group-item">Social Business</a>
+          <a href="#" class="list-group-item">Online</a>
+          <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+          <a href="#" class="list-group-item">Vestibulum at eros</a>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</div>    
+    
+
+<script id="jsbin-javascript">
+$(function(){
+  $('.note-item').on('mouseover', function(){
+    $(this).find('.note-controls').removeClass('invisible');
+    return false;
+  });
+  $('.note-item').on('mouseout', function(){
+    $(this).find('.note-controls').addClass('invisible');
+    return false;
+  });
+});
+</script>
+</body>
+</html>

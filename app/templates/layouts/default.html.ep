@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://jashkenas.github.io/underscore/underscore-min.js"></script>
+  <script src="http://jashkenas.github.io/backbone/backbone-min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <!-- link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" / -->
+  <link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
+  %= stylesheet '/css/style.css'
+  <meta charset="utf-8">
+  <title>Bivee Eureca - Colaborative Idea Database</title>  
+
+</head>
+<body id="app">
+    
+    <nav class="navbar navbar-findcond navbar-fixed-top">
+    <div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Bivee Eureca</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <i class="fa fa-fw fa-bell-o"></i> Notification <span class="badge">0</span>
+          </a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#"><i class="fa fa-fw fa-tag"></i> <span class="badge">Music</span> sayfası <span class="badge">Video</span> sayfasında etiketlendi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Music</span> sayfasında iletiniz beğenildi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Video</span> sayfasında iletiniz beğenildi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Game</span> sayfasında iletiniz beğenildi</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            Daniel Vinciguerra <span class="caret"></span>
+          </a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">My Ideas</a></li>
+						<li class="divider"></li>
+						<li><a href="#exit">Logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+  
+<!-- Container -->    
+<div id="app-container" class="container">
+    %= content
+</div>    
+    
+
+    <script id="jsbin-javascript">
+    //$(function(){
+    //  $('.note-item').on('mouseover', function(){
+    //    $(this).find('.note-controls').removeClass('invisible');
+    //    return false;
+    //  });
+    //  $('.note-item').on('mouseout', function(){
+    //    $(this).find('.note-controls').addClass('invisible');
+    //    return false;
+    //  });
+    //});
+    </script>
+
+    %= javascript '/js/app.js'
+
+</body>
+</html>

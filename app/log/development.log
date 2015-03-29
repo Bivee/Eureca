@@ -1,0 +1,869 @@
+[Fri Mar 27 13:19:21 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 13:19:21 2015] [debug] GET "/"
+[Fri Mar 27 13:19:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Mar 27 13:19:21 2015] [debug] Template "not_found.html.ep" not found
+[Fri Mar 27 13:19:21 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 13:19:21 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 13:19:21 2015] [debug] 404 Not Found (0.052928s, 18.894/s)
+[Fri Mar 27 13:19:30 2015] [debug] GET "/app"
+[Fri Mar 27 13:19:30 2015] [debug] Routing to a callback
+[Fri Mar 27 13:19:30 2015] [error] Can't locate object method "rendirect_to" via package "Mojolicious::Controller" at lib/Eureca/Routes.pm line 19.
+
+[Fri Mar 27 13:19:30 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 13:19:30 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 13:19:30 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 13:19:30 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 13:19:30 2015] [debug] 500 Internal Server Error (0.060684s, 16.479/s)
+[Fri Mar 27 13:22:52 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 13:22:52 2015] [debug] GET "/account/signin"
+[Fri Mar 27 13:22:52 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 13:22:52 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 13:22:52 2015] [debug] 200 OK (0.031077s, 32.178/s)
+[Fri Mar 27 13:23:19 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 13:23:19 2015] [debug] GET "/account/signin"
+[Fri Mar 27 13:23:19 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 13:23:19 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 13:23:19 2015] [debug] 200 OK (0.013783s, 72.553/s)
+[Fri Mar 27 13:23:58 2015] [debug] GET "/account/signin"
+[Fri Mar 27 13:23:58 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 13:23:58 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Fri Mar 27 13:23:58 2015] [debug] 200 OK (0.002302s, 434.405/s)
+[Fri Mar 27 13:24:00 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 13:24:00 2015] [debug] GET "/account/signin"
+[Fri Mar 27 13:24:00 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 13:24:00 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 13:24:00 2015] [debug] 200 OK (0.009146s, 109.337/s)
+[Fri Mar 27 13:24:31 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 13:24:31 2015] [debug] GET "/account/signin"
+[Fri Mar 27 13:24:31 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 13:24:31 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 13:24:31 2015] [debug] 200 OK (0.008537s, 117.137/s)
+[Fri Mar 27 13:25:35 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 13:25:35 2015] [debug] GET "/account/signin"
+[Fri Mar 27 13:25:35 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 13:25:35 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 13:25:35 2015] [debug] 200 OK (0.014631s, 68.348/s)
+[Fri Mar 27 14:09:29 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 14:09:29 2015] [debug] GET "/account/signin"
+[Fri Mar 27 14:09:29 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 14:09:29 2015] [error] Can't locate object method "http_method" via package "Mojo::Message::Request" at lib/Eureca/Controller/Base.pm line 5, <DATA> line 2231.
+
+[Fri Mar 27 14:09:29 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 14:09:29 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 14:09:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 14:09:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 14:09:29 2015] [debug] 500 Internal Server Error (0.051692s, 19.345/s)
+[Fri Mar 27 14:09:29 2015] [debug] GET "/account/signin"
+[Fri Mar 27 14:09:29 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 14:09:29 2015] [error] Can't locate object method "http_method" via package "Mojo::Message::Request" at lib/Eureca/Controller/Base.pm line 5.
+
+[Fri Mar 27 14:09:29 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 14:09:29 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 14:09:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 14:09:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 14:09:29 2015] [debug] 500 Internal Server Error (0.018229s, 54.858/s)
+[Fri Mar 27 14:09:29 2015] [debug] GET "/account/signin"
+[Fri Mar 27 14:09:29 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 14:09:29 2015] [error] Can't locate object method "http_method" via package "Mojo::Message::Request" at lib/Eureca/Controller/Base.pm line 5.
+
+[Fri Mar 27 14:09:29 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 14:09:29 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 14:09:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 14:09:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 14:09:29 2015] [debug] 500 Internal Server Error (0.013792s, 72.506/s)
+[Fri Mar 27 14:09:29 2015] [debug] GET "/account/signin"
+[Fri Mar 27 14:09:29 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 14:09:29 2015] [error] Can't locate object method "http_method" via package "Mojo::Message::Request" at lib/Eureca/Controller/Base.pm line 5.
+
+[Fri Mar 27 14:09:29 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 14:09:29 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 14:09:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 14:09:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 14:09:29 2015] [debug] 500 Internal Server Error (0.015760s, 63.452/s)
+[Fri Mar 27 14:13:42 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 14:13:42 2015] [debug] GET "/account/signin"
+[Fri Mar 27 14:13:42 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 14:13:42 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 14:13:42 2015] [debug] 200 OK (0.016200s, 61.728/s)
+[Fri Mar 27 14:13:54 2015] [debug] POST "/account/signin"
+[Fri Mar 27 14:13:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Mar 27 14:13:54 2015] [debug] Template "not_found.html.ep" not found
+[Fri Mar 27 14:13:54 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 14:13:54 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 14:13:54 2015] [debug] 404 Not Found (0.063456s, 15.759/s)
+[Fri Mar 27 14:18:49 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 14:18:49 2015] [debug] GET "/account/signin"
+[Fri Mar 27 14:18:49 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 14:18:49 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 14:18:49 2015] [debug] 200 OK (0.010756s, 92.971/s)
+[Fri Mar 27 14:18:56 2015] [debug] POST "/account/signin"
+[Fri Mar 27 14:18:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri Mar 27 14:18:56 2015] [debug] Template "not_found.html.ep" not found
+[Fri Mar 27 14:18:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 14:18:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 14:18:56 2015] [debug] 404 Not Found (0.056502s, 17.698/s)
+[Fri Mar 27 14:20:19 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 14:20:19 2015] [debug] GET "/account/signin"
+[Fri Mar 27 14:20:19 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 14:20:19 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 14:20:19 2015] [debug] 200 OK (0.014477s, 69.075/s)
+[Fri Mar 27 14:20:28 2015] [debug] POST "/account/signin"
+[Fri Mar 27 14:20:28 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 14:20:29 2015] [debug] 302 Found (0.584940s, 1.710/s)
+[Fri Mar 27 14:20:29 2015] [debug] GET "/app"
+[Fri Mar 27 14:20:29 2015] [debug] Routing to a callback
+[Fri Mar 27 14:20:29 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 14:20:29 2015] [debug] Action not found in controller
+[Fri Mar 27 14:20:29 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 14:20:29 2015] [error] Global symbol "$msg" requires explicit package name at template home/index.html.ep line 3, <DATA> line 2231.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <%= link_to 'click here' => url_for %> to reload the page or
+7: <%= link_to 'here' => '/index.html' %> to move forward to a static page.
+
+[Fri Mar 27 14:20:29 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 14:20:29 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 14:20:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 14:20:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 14:20:29 2015] [debug] 500 Internal Server Error (0.089147s, 11.217/s)
+[Fri Mar 27 14:36:12 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 14:36:12 2015] [debug] GET "/app"
+[Fri Mar 27 14:36:12 2015] [debug] Routing to a callback
+[Fri Mar 27 14:36:12 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 14:36:12 2015] [debug] Action not found in controller
+[Fri Mar 27 14:36:12 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 14:36:12 2015] [error] Global symbol "$msg" requires explicit package name at template home/index.html.ep line 3, <DATA> line 2231.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <%= link_to 'click here' => url_for %> to reload the page or
+7: <%= link_to 'here' => '/index.html' %> to move forward to a static page.
+
+[Fri Mar 27 14:36:12 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 14:36:12 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 14:36:12 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 14:36:12 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 14:36:12 2015] [debug] 500 Internal Server Error (0.058709s, 17.033/s)
+[Fri Mar 27 15:42:56 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 15:42:56 2015] [debug] GET "/app"
+[Fri Mar 27 15:42:56 2015] [debug] Routing to a callback
+[Fri Mar 27 15:42:56 2015] [error] Can't locate object method "rendirect_to" via package "Mojolicious::Controller" at lib/Eureca/Routes.pm line 19.
+
+[Fri Mar 27 15:42:56 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 15:42:56 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 15:42:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 15:42:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 15:42:56 2015] [debug] 500 Internal Server Error (0.049259s, 20.301/s)
+[Fri Mar 27 15:43:08 2015] [debug] GET "/account/signin"
+[Fri Mar 27 15:43:08 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 15:43:08 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri Mar 27 15:43:08 2015] [debug] 200 OK (0.007995s, 125.078/s)
+[Fri Mar 27 15:43:10 2015] [debug] POST "/account/signin"
+[Fri Mar 27 15:43:10 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri Mar 27 15:43:11 2015] [debug] 302 Found (0.965633s, 1.036/s)
+[Fri Mar 27 15:43:11 2015] [debug] GET "/app"
+[Fri Mar 27 15:43:11 2015] [debug] Routing to a callback
+[Fri Mar 27 15:43:11 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:43:11 2015] [debug] Action not found in controller
+[Fri Mar 27 15:43:11 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 15:43:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:43:11 2015] [debug] 200 OK (0.270313s, 3.699/s)
+[Fri Mar 27 15:45:28 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 15:45:28 2015] [debug] GET "/app"
+[Fri Mar 27 15:45:28 2015] [debug] Routing to a callback
+[Fri Mar 27 15:45:28 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:45:28 2015] [debug] Action not found in controller
+[Fri Mar 27 15:45:28 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 15:45:28 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:45:28 2015] [debug] 200 OK (0.039708s, 25.184/s)
+[Fri Mar 27 15:45:43 2015] [debug] GET "/app"
+[Fri Mar 27 15:45:43 2015] [debug] Routing to a callback
+[Fri Mar 27 15:45:43 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:45:43 2015] [debug] Action not found in controller
+[Fri Mar 27 15:45:43 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:45:43 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:45:43 2015] [debug] 200 OK (0.003716s, 269.107/s)
+[Fri Mar 27 15:46:48 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 15:46:48 2015] [debug] GET "/app"
+[Fri Mar 27 15:46:48 2015] [debug] Routing to a callback
+[Fri Mar 27 15:46:48 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:46:48 2015] [debug] Action not found in controller
+[Fri Mar 27 15:46:48 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 15:46:48 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:46:48 2015] [debug] 200 OK (0.056140s, 17.813/s)
+[Fri Mar 27 15:55:07 2015] [debug] GET "/app"
+[Fri Mar 27 15:55:07 2015] [debug] Routing to a callback
+[Fri Mar 27 15:55:07 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:55:07 2015] [debug] Action not found in controller
+[Fri Mar 27 15:55:07 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:55:07 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:55:07 2015] [debug] 200 OK (0.004127s, 242.307/s)
+[Fri Mar 27 15:55:56 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 15:55:56 2015] [debug] GET "/app"
+[Fri Mar 27 15:55:56 2015] [debug] Routing to a callback
+[Fri Mar 27 15:55:56 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:55:56 2015] [debug] Action not found in controller
+[Fri Mar 27 15:55:56 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 15:55:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:55:56 2015] [debug] 200 OK (0.057026s, 17.536/s)
+[Fri Mar 27 15:56:56 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 15:56:56 2015] [debug] GET "/app"
+[Fri Mar 27 15:56:56 2015] [debug] Routing to a callback
+[Fri Mar 27 15:56:56 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:56:56 2015] [debug] Action not found in controller
+[Fri Mar 27 15:56:56 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 15:56:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:56:56 2015] [error] syntax error at template layouts/default.html.ep line 12, near "'/css/style.css' 
+$_O "
+7:   <script src="http://jashkenas.github.io/backbone/backbone-min.js"></script>
+8:   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+9:   <!-- link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" / -->
+10:   <link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
+11:   % stylesheet '/css/style.css'
+12:   <meta charset="utf-8">
+13:   <title>Bivee Eureca - Colaborative Idea Database</title>  
+14: 
+15: </head>
+16: <body id="app">
+17:     
+
+[Fri Mar 27 15:56:56 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 15:56:56 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 15:56:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 15:56:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 15:56:56 2015] [debug] 500 Internal Server Error (0.083392s, 11.992/s)
+[Fri Mar 27 15:56:57 2015] [debug] GET "/app"
+[Fri Mar 27 15:56:57 2015] [debug] Routing to a callback
+[Fri Mar 27 15:56:57 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:56:57 2015] [debug] Action not found in controller
+[Fri Mar 27 15:56:57 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:56:57 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:56:57 2015] [error] syntax error at template layouts/default.html.ep line 12, near "'/css/style.css' 
+$_O "
+7:   <script src="http://jashkenas.github.io/backbone/backbone-min.js"></script>
+8:   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+9:   <!-- link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" / -->
+10:   <link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
+11:   % stylesheet '/css/style.css'
+12:   <meta charset="utf-8">
+13:   <title>Bivee Eureca - Colaborative Idea Database</title>  
+14: 
+15: </head>
+16: <body id="app">
+17:     
+
+[Fri Mar 27 15:56:57 2015] [debug] Template "exception.development.html.ep" not found
+[Fri Mar 27 15:56:57 2015] [debug] Template "exception.html.ep" not found
+[Fri Mar 27 15:56:57 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri Mar 27 15:56:57 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri Mar 27 15:56:57 2015] [debug] 500 Internal Server Error (0.023072s, 43.343/s)
+[Fri Mar 27 15:57:04 2015] [debug] GET "/app"
+[Fri Mar 27 15:57:04 2015] [debug] Routing to a callback
+[Fri Mar 27 15:57:04 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:57:04 2015] [debug] Action not found in controller
+[Fri Mar 27 15:57:04 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:57:04 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:57:04 2015] [debug] 200 OK (0.013060s, 76.570/s)
+[Fri Mar 27 15:57:05 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 15:57:09 2015] [debug] GET "/app"
+[Fri Mar 27 15:57:09 2015] [debug] Routing to a callback
+[Fri Mar 27 15:57:09 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:57:09 2015] [debug] Action not found in controller
+[Fri Mar 27 15:57:09 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 15:57:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:57:09 2015] [debug] 200 OK (0.039908s, 25.058/s)
+[Fri Mar 27 15:57:21 2015] [debug] GET "/app"
+[Fri Mar 27 15:57:21 2015] [debug] Routing to a callback
+[Fri Mar 27 15:57:21 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:57:21 2015] [debug] Action not found in controller
+[Fri Mar 27 15:57:21 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:57:21 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:57:21 2015] [debug] 200 OK (0.004621s, 216.403/s)
+[Fri Mar 27 15:57:23 2015] [debug] GET "/app"
+[Fri Mar 27 15:57:23 2015] [debug] Routing to a callback
+[Fri Mar 27 15:57:23 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:57:23 2015] [debug] Action not found in controller
+[Fri Mar 27 15:57:23 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:57:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:57:23 2015] [debug] 200 OK (0.004852s, 206.101/s)
+[Fri Mar 27 15:58:12 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 15:58:12 2015] [debug] GET "/app"
+[Fri Mar 27 15:58:12 2015] [debug] Routing to a callback
+[Fri Mar 27 15:58:12 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:58:12 2015] [debug] Action not found in controller
+[Fri Mar 27 15:58:12 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 15:58:12 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 15:58:12 2015] [debug] 200 OK (0.057312s, 17.448/s)
+[Fri Mar 27 15:58:14 2015] [debug] GET "/app"
+[Fri Mar 27 15:58:14 2015] [debug] Routing to a callback
+[Fri Mar 27 15:58:14 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:58:14 2015] [debug] Action not found in controller
+[Fri Mar 27 15:58:14 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:58:14 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:58:14 2015] [debug] 200 OK (0.004854s, 206.016/s)
+[Fri Mar 27 15:58:24 2015] [debug] GET "/app"
+[Fri Mar 27 15:58:24 2015] [debug] Routing to a callback
+[Fri Mar 27 15:58:24 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:58:24 2015] [debug] Action not found in controller
+[Fri Mar 27 15:58:24 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:58:24 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:58:24 2015] [debug] 200 OK (0.004731s, 211.372/s)
+[Fri Mar 27 15:58:26 2015] [debug] GET "/app"
+[Fri Mar 27 15:58:26 2015] [debug] Routing to a callback
+[Fri Mar 27 15:58:26 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:58:26 2015] [debug] Action not found in controller
+[Fri Mar 27 15:58:26 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:58:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:58:26 2015] [debug] 200 OK (0.004424s, 226.040/s)
+[Fri Mar 27 15:58:26 2015] [debug] GET "/app"
+[Fri Mar 27 15:58:26 2015] [debug] Routing to a callback
+[Fri Mar 27 15:58:26 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:58:26 2015] [debug] Action not found in controller
+[Fri Mar 27 15:58:26 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:58:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:58:26 2015] [debug] 200 OK (0.004315s, 231.750/s)
+[Fri Mar 27 15:58:30 2015] [debug] GET "/app"
+[Fri Mar 27 15:58:30 2015] [debug] Routing to a callback
+[Fri Mar 27 15:58:30 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:58:30 2015] [debug] Action not found in controller
+[Fri Mar 27 15:58:30 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:58:30 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:58:30 2015] [debug] 200 OK (0.005520s, 181.159/s)
+[Fri Mar 27 15:58:45 2015] [debug] GET "/app"
+[Fri Mar 27 15:58:45 2015] [debug] Routing to a callback
+[Fri Mar 27 15:58:45 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:58:45 2015] [debug] Action not found in controller
+[Fri Mar 27 15:58:45 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:58:45 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:58:45 2015] [debug] 200 OK (0.002904s, 344.353/s)
+[Fri Mar 27 15:58:47 2015] [debug] GET "/app"
+[Fri Mar 27 15:58:47 2015] [debug] Routing to a callback
+[Fri Mar 27 15:58:47 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 15:58:47 2015] [debug] Action not found in controller
+[Fri Mar 27 15:58:47 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 15:58:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 15:58:47 2015] [debug] 200 OK (0.005452s, 183.419/s)
+[Fri Mar 27 16:00:12 2015] [debug] GET "/app"
+[Fri Mar 27 16:00:12 2015] [debug] Routing to a callback
+[Fri Mar 27 16:00:12 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:00:12 2015] [debug] Action not found in controller
+[Fri Mar 27 16:00:12 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:00:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:00:12 2015] [debug] 200 OK (0.002920s, 342.466/s)
+[Fri Mar 27 16:00:14 2015] [debug] GET "/app"
+[Fri Mar 27 16:00:14 2015] [debug] Routing to a callback
+[Fri Mar 27 16:00:14 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:00:14 2015] [debug] Action not found in controller
+[Fri Mar 27 16:00:14 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:00:14 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:00:14 2015] [debug] 200 OK (0.005826s, 171.644/s)
+[Fri Mar 27 16:03:47 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 16:03:47 2015] [debug] GET "/app"
+[Fri Mar 27 16:03:47 2015] [debug] Routing to a callback
+[Fri Mar 27 16:03:47 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:03:47 2015] [debug] Action not found in controller
+[Fri Mar 27 16:03:47 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 16:03:47 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 16:03:47 2015] [debug] 200 OK (0.056039s, 17.845/s)
+[Fri Mar 27 16:06:26 2015] [debug] GET "/app"
+[Fri Mar 27 16:06:26 2015] [debug] Routing to a callback
+[Fri Mar 27 16:06:26 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:06:26 2015] [debug] Action not found in controller
+[Fri Mar 27 16:06:26 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:06:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:06:26 2015] [debug] 200 OK (0.002842s, 351.865/s)
+[Fri Mar 27 16:07:54 2015] [debug] GET "/app"
+[Fri Mar 27 16:07:54 2015] [debug] Routing to a callback
+[Fri Mar 27 16:07:54 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:07:54 2015] [debug] Action not found in controller
+[Fri Mar 27 16:07:54 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:07:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:07:54 2015] [debug] 200 OK (0.005529s, 180.865/s)
+[Fri Mar 27 16:08:39 2015] [debug] GET "/app"
+[Fri Mar 27 16:08:39 2015] [debug] Routing to a callback
+[Fri Mar 27 16:08:39 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:08:39 2015] [debug] Action not found in controller
+[Fri Mar 27 16:08:39 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:08:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:08:39 2015] [debug] 200 OK (0.006112s, 163.613/s)
+[Fri Mar 27 16:08:43 2015] [debug] GET "/app"
+[Fri Mar 27 16:08:43 2015] [debug] Routing to a callback
+[Fri Mar 27 16:08:43 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:08:43 2015] [debug] Action not found in controller
+[Fri Mar 27 16:08:43 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:08:43 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:08:43 2015] [debug] 200 OK (0.003027s, 330.360/s)
+[Fri Mar 27 16:09:40 2015] [debug] GET "/app"
+[Fri Mar 27 16:09:40 2015] [debug] Routing to a callback
+[Fri Mar 27 16:09:40 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:09:40 2015] [debug] Action not found in controller
+[Fri Mar 27 16:09:40 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:09:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:09:40 2015] [debug] 200 OK (0.004540s, 220.264/s)
+[Fri Mar 27 16:10:07 2015] [debug] GET "/app"
+[Fri Mar 27 16:10:07 2015] [debug] Routing to a callback
+[Fri Mar 27 16:10:07 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:10:07 2015] [debug] Action not found in controller
+[Fri Mar 27 16:10:07 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:10:07 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:10:07 2015] [debug] 200 OK (0.002859s, 349.773/s)
+[Fri Mar 27 16:11:33 2015] [debug] GET "/app"
+[Fri Mar 27 16:11:33 2015] [debug] Routing to a callback
+[Fri Mar 27 16:11:33 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:11:33 2015] [debug] Action not found in controller
+[Fri Mar 27 16:11:33 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:11:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:11:33 2015] [debug] 200 OK (0.004592s, 217.770/s)
+[Fri Mar 27 16:11:33 2015] [debug] GET "/app"
+[Fri Mar 27 16:11:33 2015] [debug] Routing to a callback
+[Fri Mar 27 16:11:33 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:11:33 2015] [debug] Action not found in controller
+[Fri Mar 27 16:11:33 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:11:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:11:33 2015] [debug] 200 OK (0.004537s, 220.410/s)
+[Fri Mar 27 16:11:35 2015] [debug] GET "/app"
+[Fri Mar 27 16:11:35 2015] [debug] Routing to a callback
+[Fri Mar 27 16:11:35 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:11:35 2015] [debug] Action not found in controller
+[Fri Mar 27 16:11:35 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:11:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:11:35 2015] [debug] 200 OK (0.003156s, 316.857/s)
+[Fri Mar 27 16:11:55 2015] [debug] Your secret passphrase needs to be changed
+[Fri Mar 27 16:11:55 2015] [debug] GET "/app"
+[Fri Mar 27 16:11:55 2015] [debug] Routing to a callback
+[Fri Mar 27 16:11:55 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:11:55 2015] [debug] Action not found in controller
+[Fri Mar 27 16:11:55 2015] [debug] Rendering template "home/index.html.ep"
+[Fri Mar 27 16:11:55 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri Mar 27 16:11:55 2015] [debug] 200 OK (0.041023s, 24.377/s)
+[Fri Mar 27 16:11:57 2015] [debug] GET "/app"
+[Fri Mar 27 16:11:57 2015] [debug] Routing to a callback
+[Fri Mar 27 16:11:57 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:11:57 2015] [debug] Action not found in controller
+[Fri Mar 27 16:11:57 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:11:57 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:11:57 2015] [debug] 200 OK (0.003215s, 311.042/s)
+[Fri Mar 27 16:22:08 2015] [debug] GET "/app"
+[Fri Mar 27 16:22:08 2015] [debug] Routing to a callback
+[Fri Mar 27 16:22:08 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:22:08 2015] [debug] Action not found in controller
+[Fri Mar 27 16:22:08 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:22:08 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:22:08 2015] [debug] 200 OK (0.004391s, 227.739/s)
+[Fri Mar 27 16:22:11 2015] [debug] GET "/app"
+[Fri Mar 27 16:22:11 2015] [debug] Routing to a callback
+[Fri Mar 27 16:22:11 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:22:11 2015] [debug] Action not found in controller
+[Fri Mar 27 16:22:11 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:22:11 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:22:11 2015] [debug] 200 OK (0.004169s, 239.866/s)
+[Fri Mar 27 16:23:07 2015] [debug] GET "/app"
+[Fri Mar 27 16:23:07 2015] [debug] Routing to a callback
+[Fri Mar 27 16:23:07 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:23:07 2015] [debug] Action not found in controller
+[Fri Mar 27 16:23:07 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:23:07 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:23:07 2015] [debug] 200 OK (0.005403s, 185.082/s)
+[Fri Mar 27 16:23:09 2015] [debug] GET "/app"
+[Fri Mar 27 16:23:09 2015] [debug] Routing to a callback
+[Fri Mar 27 16:23:09 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri Mar 27 16:23:09 2015] [debug] Action not found in controller
+[Fri Mar 27 16:23:09 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri Mar 27 16:23:09 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri Mar 27 16:23:09 2015] [debug] 200 OK (0.004416s, 226.449/s)
+[Sun Mar 29 10:45:22 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:45:22 2015] [debug] GET "/app"
+[Sun Mar 29 10:45:22 2015] [debug] Routing to a callback
+[Sun Mar 29 10:45:22 2015] [error] Can't locate object method "rendirect_to" via package "Mojolicious::Controller" at lib/Eureca/Routes.pm line 19.
+
+[Sun Mar 29 10:45:22 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Mar 29 10:45:22 2015] [debug] Template "exception.html.ep" not found
+[Sun Mar 29 10:45:22 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:45:22 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:45:22 2015] [debug] 500 Internal Server Error (0.072684s, 13.758/s)
+[Sun Mar 29 10:46:13 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:46:13 2015] [debug] GET "/app"
+[Sun Mar 29 10:46:13 2015] [debug] Routing to a callback
+[Sun Mar 29 10:46:13 2015] [debug] 302 Found (0.003126s, 319.898/s)
+[Sun Mar 29 10:46:13 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sun Mar 29 10:46:13 2015] [debug] Action not found in controller
+[Sun Mar 29 10:46:13 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:46:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:46:13 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:46:13 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:46:13 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:46:13 2015] [debug] 404 Not Found (0.052402s, 19.083/s)
+[Sun Mar 29 10:47:29 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:47:29 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:47:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:47:29 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:47:29 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:47:29 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:47:29 2015] [debug] 404 Not Found (0.048092s, 20.793/s)
+[Sun Mar 29 10:47:31 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:47:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:47:31 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:47:31 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:47:31 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:47:31 2015] [debug] 404 Not Found (0.016916s, 59.116/s)
+[Sun Mar 29 10:47:31 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:47:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:47:31 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:47:31 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:47:31 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:47:31 2015] [debug] 404 Not Found (0.020463s, 48.869/s)
+[Sun Mar 29 10:47:32 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:47:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:47:32 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:47:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:47:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:47:32 2015] [debug] 404 Not Found (0.014365s, 69.614/s)
+[Sun Mar 29 10:47:32 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:47:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:47:32 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:47:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:47:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:47:32 2015] [debug] 404 Not Found (0.022231s, 44.982/s)
+[Sun Mar 29 10:47:32 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:47:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:47:32 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:47:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:47:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:47:32 2015] [debug] 404 Not Found (0.021669s, 46.149/s)
+[Sun Mar 29 10:47:33 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:47:33 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:47:33 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:47:33 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:47:33 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:47:33 2015] [debug] 404 Not Found (0.016341s, 61.196/s)
+[Sun Mar 29 10:48:19 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:48:19 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:48:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:48:19 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:48:19 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:48:19 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:48:19 2015] [debug] 404 Not Found (0.049356s, 20.261/s)
+[Sun Mar 29 10:48:20 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:48:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:48:20 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:48:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:48:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:48:20 2015] [debug] 404 Not Found (0.017984s, 55.605/s)
+[Sun Mar 29 10:48:21 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:48:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:48:21 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:48:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:48:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:48:21 2015] [debug] 404 Not Found (0.015168s, 65.928/s)
+[Sun Mar 29 10:48:21 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:48:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:48:21 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:48:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:48:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:48:21 2015] [debug] 404 Not Found (0.019418s, 51.499/s)
+[Sun Mar 29 10:48:22 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:48:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:48:22 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:48:22 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:48:22 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:48:22 2015] [debug] 404 Not Found (0.015581s, 64.181/s)
+[Sun Mar 29 10:48:22 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:48:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:48:22 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:48:22 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:48:22 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:48:22 2015] [debug] 404 Not Found (0.019659s, 50.867/s)
+[Sun Mar 29 10:48:23 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:48:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:48:23 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:48:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:48:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:48:23 2015] [debug] 404 Not Found (0.022485s, 44.474/s)
+[Sun Mar 29 10:48:23 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:48:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:48:23 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:48:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:48:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:48:23 2015] [debug] 404 Not Found (0.014400s, 69.444/s)
+[Sun Mar 29 10:49:13 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:49:13 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:49:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:49:13 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:49:13 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:49:13 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:49:13 2015] [debug] 404 Not Found (0.054829s, 18.239/s)
+[Sun Mar 29 10:49:14 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:49:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:49:14 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:49:14 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:49:14 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:49:14 2015] [debug] 404 Not Found (0.019666s, 50.849/s)
+[Sun Mar 29 10:49:15 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:49:15 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:49:15 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:49:15 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:49:15 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:49:15 2015] [debug] 404 Not Found (0.020470s, 48.852/s)
+[Sun Mar 29 10:49:37 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:49:37 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:49:37 2015] [debug] Controller "Eureca::Error" does not exist
+[Sun Mar 29 10:49:37 2015] [debug] Rendering template "error/session_expired.html.ep"
+[Sun Mar 29 10:49:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Mar 29 10:49:37 2015] [debug] 200 OK (0.117950s, 8.478/s)
+[Sun Mar 29 10:49:40 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:49:40 2015] [debug] Controller "Eureca::Error" does not exist
+[Sun Mar 29 10:49:40 2015] [debug] Rendering cached template "error/session_expired.html.ep"
+[Sun Mar 29 10:49:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Mar 29 10:49:40 2015] [debug] 200 OK (0.006035s, 165.700/s)
+[Sun Mar 29 10:49:42 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:49:42 2015] [debug] Controller "Eureca::Error" does not exist
+[Sun Mar 29 10:49:42 2015] [debug] Rendering cached template "error/session_expired.html.ep"
+[Sun Mar 29 10:49:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Mar 29 10:49:42 2015] [debug] 200 OK (0.006285s, 159.109/s)
+[Sun Mar 29 10:50:25 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:50:25 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:25 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:25 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:25 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:25 2015] [debug] 404 Not Found (0.055552s, 18.001/s)
+[Sun Mar 29 10:50:26 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:26 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:26 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:26 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:26 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:26 2015] [debug] 404 Not Found (0.014751s, 67.792/s)
+[Sun Mar 29 10:50:27 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:27 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:27 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:27 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:27 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:27 2015] [debug] 404 Not Found (0.015608s, 64.070/s)
+[Sun Mar 29 10:50:28 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:28 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:28 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:28 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:28 2015] [debug] 404 Not Found (0.012364s, 80.880/s)
+[Sun Mar 29 10:50:38 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:50:38 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:38 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:38 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:38 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:38 2015] [debug] 404 Not Found (0.054072s, 18.494/s)
+[Sun Mar 29 10:50:41 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:41 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:41 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:41 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:41 2015] [debug] 404 Not Found (0.014693s, 68.060/s)
+[Sun Mar 29 10:50:42 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:42 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:42 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:42 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:42 2015] [debug] 404 Not Found (0.017350s, 57.637/s)
+[Sun Mar 29 10:50:42 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:42 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:42 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:42 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:42 2015] [debug] 404 Not Found (0.021231s, 47.101/s)
+[Sun Mar 29 10:50:46 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:50:46 2015] [debug] GET "/error/session-expired"
+[Sun Mar 29 10:50:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:46 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:46 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:47 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:47 2015] [debug] 404 Not Found (0.052221s, 19.149/s)
+[Sun Mar 29 10:50:52 2015] [debug] GET "/"
+[Sun Mar 29 10:50:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:52 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:52 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:52 2015] [debug] 404 Not Found (0.022797s, 43.865/s)
+[Sun Mar 29 10:50:57 2015] [debug] GET "/"
+[Sun Mar 29 10:50:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:50:57 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:50:57 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:50:57 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:50:57 2015] [debug] 404 Not Found (0.014821s, 67.472/s)
+[Sun Mar 29 10:51:04 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:51:04 2015] [debug] GET "/"
+[Sun Mar 29 10:51:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:04 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:04 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:04 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:04 2015] [debug] 404 Not Found (0.053098s, 18.833/s)
+[Sun Mar 29 10:51:05 2015] [debug] GET "/"
+[Sun Mar 29 10:51:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:05 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:05 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:05 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:05 2015] [debug] 404 Not Found (0.016486s, 60.658/s)
+[Sun Mar 29 10:51:06 2015] [debug] GET "/"
+[Sun Mar 29 10:51:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:06 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:06 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:06 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:06 2015] [debug] 404 Not Found (0.016923s, 59.091/s)
+[Sun Mar 29 10:51:06 2015] [debug] GET "/"
+[Sun Mar 29 10:51:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:06 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:06 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:06 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:06 2015] [debug] 404 Not Found (0.014970s, 66.800/s)
+[Sun Mar 29 10:51:07 2015] [debug] GET "/"
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:07 2015] [debug] 404 Not Found (0.016928s, 59.074/s)
+[Sun Mar 29 10:51:07 2015] [debug] GET "/"
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:07 2015] [debug] 404 Not Found (0.014983s, 66.742/s)
+[Sun Mar 29 10:51:07 2015] [debug] GET "/"
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:07 2015] [debug] 404 Not Found (0.017780s, 56.243/s)
+[Sun Mar 29 10:51:07 2015] [debug] GET "/"
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:07 2015] [debug] 404 Not Found (0.021727s, 46.026/s)
+[Sun Mar 29 10:51:07 2015] [debug] GET "/"
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:07 2015] [debug] 404 Not Found (0.015722s, 63.605/s)
+[Sun Mar 29 10:51:07 2015] [debug] GET "/"
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:07 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:07 2015] [debug] 404 Not Found (0.020908s, 47.829/s)
+[Sun Mar 29 10:51:08 2015] [debug] GET "/"
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:08 2015] [debug] 404 Not Found (0.016386s, 61.028/s)
+[Sun Mar 29 10:51:08 2015] [debug] GET "/"
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:08 2015] [debug] 404 Not Found (0.024044s, 41.590/s)
+[Sun Mar 29 10:51:08 2015] [debug] GET "/"
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:08 2015] [debug] 404 Not Found (0.012341s, 81.031/s)
+[Sun Mar 29 10:51:08 2015] [debug] GET "/"
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:08 2015] [debug] 404 Not Found (0.018453s, 54.192/s)
+[Sun Mar 29 10:51:08 2015] [debug] GET "/"
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:08 2015] [debug] 404 Not Found (0.025408s, 39.358/s)
+[Sun Mar 29 10:51:08 2015] [debug] GET "/"
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:51:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:51:08 2015] [debug] 404 Not Found (0.018618s, 53.711/s)
+[Sun Mar 29 10:52:28 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:52:28 2015] [debug] GET "/"
+[Sun Mar 29 10:52:28 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:52:28 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:52:28 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:52:28 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:52:28 2015] [debug] 404 Not Found (0.049961s, 20.016/s)
+[Sun Mar 29 10:52:29 2015] [debug] GET "/"
+[Sun Mar 29 10:52:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:52:29 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:52:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:52:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:52:29 2015] [debug] 404 Not Found (0.016558s, 60.394/s)
+[Sun Mar 29 10:52:29 2015] [debug] GET "/"
+[Sun Mar 29 10:52:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:52:29 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:52:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:52:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:52:29 2015] [debug] 404 Not Found (0.018841s, 53.076/s)
+[Sun Mar 29 10:52:29 2015] [debug] GET "/"
+[Sun Mar 29 10:52:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:52:29 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:52:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:52:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:52:29 2015] [debug] 404 Not Found (0.021436s, 46.650/s)
+[Sun Mar 29 10:52:29 2015] [debug] GET "/"
+[Sun Mar 29 10:52:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:52:29 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:52:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:52:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:52:29 2015] [debug] 404 Not Found (0.021767s, 45.941/s)
+[Sun Mar 29 10:53:40 2015] [debug] Your secret passphrase needs to be changed
+[Sun Mar 29 10:53:40 2015] [debug] GET "/"
+[Sun Mar 29 10:53:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:53:40 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:53:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:53:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:53:40 2015] [debug] 404 Not Found (0.056720s, 17.630/s)
+[Sun Mar 29 10:53:41 2015] [debug] GET "/"
+[Sun Mar 29 10:53:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:53:41 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:53:41 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:53:41 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:53:41 2015] [debug] 404 Not Found (0.019847s, 50.385/s)
+[Sun Mar 29 10:53:42 2015] [debug] GET "/"
+[Sun Mar 29 10:53:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:53:42 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:53:42 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:53:42 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:53:42 2015] [debug] 404 Not Found (0.015653s, 63.886/s)
+[Sun Mar 29 10:53:43 2015] [debug] GET "/"
+[Sun Mar 29 10:53:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:53:43 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:53:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:53:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:53:43 2015] [debug] 404 Not Found (0.016697s, 59.891/s)
+[Sun Mar 29 10:53:43 2015] [debug] GET "/"
+[Sun Mar 29 10:53:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Mar 29 10:53:43 2015] [debug] Template "not_found.html.ep" not found
+[Sun Mar 29 10:53:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Mar 29 10:53:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Mar 29 10:53:43 2015] [debug] 404 Not Found (0.023487s, 42.577/s)
+[Sun Mar 29 10:53:49 2015] [debug] GET "/account/signin"
+[Sun Mar 29 10:53:49 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sun Mar 29 10:53:49 2015] [debug] Rendering template "account/signin.html.ep"
+[Sun Mar 29 10:53:49 2015] [debug] 200 OK (0.011489s, 87.040/s)
+[Sun Mar 29 10:53:57 2015] [debug] POST "/account/signin"
+[Sun Mar 29 10:53:57 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sun Mar 29 10:53:58 2015] [debug] 302 Found (0.978716s, 1.022/s)
+[Sun Mar 29 10:53:58 2015] [debug] GET "/app"
+[Sun Mar 29 10:53:58 2015] [debug] Routing to a callback
+[Sun Mar 29 10:53:58 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sun Mar 29 10:53:58 2015] [debug] Action not found in controller
+[Sun Mar 29 10:53:58 2015] [debug] Rendering template "home/index.html.ep"
+[Sun Mar 29 10:53:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Mar 29 10:53:58 2015] [debug] 200 OK (0.039177s, 25.525/s)

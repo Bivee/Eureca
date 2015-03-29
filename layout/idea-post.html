@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2015 by dvinciguerra (http://jsbin.com/paxohe/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<script src="http://jashkenas.github.io/underscore/underscore-min.js"></script>
+<script src="http://jashkenas.github.io/backbone/backbone-min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!-- link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" / -->
+<link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
+    
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>Bivee Eureca - Colaborative Idea Database</title>  
+<style id="jsbin-css">
+body {
+    background: #ffffff;
+    margin-top: 60px;
+}
+
+.post-panel h4 {
+  font-size: 26px;
+  color: #888888;
+}
+
+.tag-panel h4 {
+  font-size: 22px;
+  color: #888888;
+}
+
+
+/* note item widgets */
+.note-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.note-item {
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  background: none repeat scroll 0% 0% #FFFF86;
+  border: 1px solid #DADA8D
+}
+.note > .note-body {
+  color: #555;
+  padding: 20px 10px;
+  text-align: center;
+  min-height: 175px;
+}
+.note-controls {
+  text-align: center;
+  padding-bottom:5px;
+}
+
+/* bubble */
+.bubble{
+  font-size: 12px;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  box-shadow: 0 0 6px #B2B2B2;
+  display: inline-block;
+  padding: 2px 10px;
+  position: relative;
+  vertical-align: top;
+  clear: both
+}
+
+.bubble::before {
+  background-color: #F2F2F2;
+  content: "\00a0";
+  display: block;
+  height: 8px;
+  position: absolute;
+  top: 5px;
+  margin-left: 6px;
+  transform:             rotate( 29deg ) skew( -35deg );
+  -moz-transform:    rotate( 29deg ) skew( -35deg );
+  -ms-transform:     rotate( 29deg ) skew( -35deg );
+  -o-transform:      rotate( 29deg ) skew( -35deg );
+  -webkit-transform: rotate( 29deg ) skew( -35deg );
+  width:  8px;
+}
+
+.bubble-right {   
+    margin: 0px 0px 0px 10px;         
+}
+
+.bubble-right::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px; 
+}
+
+.bubble-left {  
+    margin: 5px 20px 5px 45px;         
+}
+
+.bubble-left::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;    
+}
+
+
+/* custom navbar */
+nav.navbar-findcond { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; text-shadow: none; }
+nav.navbar-findcond a { color: #f14444; }
+nav.navbar-findcond ul.navbar-nav a { color: #f14444; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover,
+nav.navbar-findcond ul.navbar-nav a:visited,
+nav.navbar-findcond ul.navbar-nav a:focus,
+nav.navbar-findcond ul.navbar-nav a:active { background: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover { border-color: #f14444; }
+nav.navbar-findcond li.divider { background: #ccc; }
+nav.navbar-findcond button.navbar-toggle { background: #f14444; border-radius: 2px; }
+nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
+nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
+nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
+nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
+nav.navbar-findcond span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+
+
+</style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-findcond navbar-fixed-top">
+    <div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Bivee Eureca</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <i class="fa fa-fw fa-bell-o"></i> Notification <span class="badge">0</span>
+          </a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#"><i class="fa fa-fw fa-tag"></i> <span class="badge">Music</span> sayfası <span class="badge">Video</span> sayfasında etiketlendi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Music</span> sayfasında iletiniz beğenildi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Video</span> sayfasında iletiniz beğenildi</a></li>
+						<li><a href="#"><i class="fa fa-fw fa-thumbs-o-up"></i> <span class="badge">Game</span> sayfasında iletiniz beğenildi</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            Daniel Vinciguerra <span class="caret"></span>
+          </a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">My Ideas</a></li>
+						<li class="divider"></li>
+						<li><a href="#exit">Logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+  
+<!-- Container -->    
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>
+        Post an idea
+      </h2>
+           
+      <hr>
+      
+      <div class="row">
+        <div class="col-md-12">
+          
+          <form method="POST">
+            <div class="form-group">
+              <label>Idea Title</label>
+              <input type="text" class="form-control" placeholder="Idea Title">
+            </div>
+            <div class="form-group">
+              <label>Idea Slug</label>
+              <input type="text" class="form-control" placeholder="Idea Slug">
+              <small class="help-block">
+                This is the <code>URL</code> address to access your idea.
+              </small>
+            </div>
+            <div class="form-group">
+              <label>Idea Description</label>
+              <textarea  class="form-control" placeholder="Idea Description"></textarea>
+              <small class="help-block">
+                Describe your idea
+              </small>
+            </div>
+            <div class="form-group">
+              <label>Idea Tags</label>
+              <input type="text" class="form-control" placeholder="Idea Tags">
+              <small class="help-block">
+                Write tags splitting by semicolon
+              </small>
+            </div>
+            <div class="form-group text-right">
+              <button class="btn btn-default">Save as Daft</button>
+              <button class="btn btn-danger">Post Idea</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+      
+      <br>
+
+      
+    </div>
+    <div class="col-md-4">
+      
+      <div class="tag-panel">
+        <h4>
+          <i class="fa fa-tags text-muted"></i> 
+          Top Tags
+        </h4>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Mobile Apps</a>
+          <a href="#" class="list-group-item">Social Business</a>
+          <a href="#" class="list-group-item">Online</a>
+          <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+          <a href="#" class="list-group-item">Vestibulum at eros</a>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</div>    
+    
+
+<script id="jsbin-javascript">
+$(function(){
+  $('.note-item').on('mouseover', function(){
+    $(this).find('.note-controls').removeClass('invisible');
+    return false;
+  });
+  $('.note-item').on('mouseout', function(){
+    $(this).find('.note-controls').addClass('invisible');
+    return false;
+  });
+});
+</script>
+</body>
+</html>
