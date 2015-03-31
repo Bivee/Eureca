@@ -17,12 +17,18 @@ sub register {
 
         return 1 if $c->session('uid');
         $c->flash(error => 'session-expired') 
-            && return 0;
+            && return $c->redirect_to('/account/signin');
     });
+
+    $r->get('/' => sub{ shift->redirect_to('/app') });
 
     # Home controller
     my $home = $auth->any('/app');
     $home->get('/')->to('Home#index');
+
+    my $api = $r->any('/api');
+    $api->put('/idea')->to(controller => 'API::Idea', action => 'update');
+    $api->post('/idea')->to(controller => 'API::Idea', action => 'create');
 }
 
 1;
