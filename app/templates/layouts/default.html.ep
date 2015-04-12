@@ -6,6 +6,7 @@
 
   %= stylesheet '/css/bootstrap.css'
   %= stylesheet '/css/style.css'
+  %= stylesheet '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
 
 </head>
 <body id="app">
@@ -19,7 +20,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/#/">Bivee Eureca</a>
+			<a class="navbar-brand" href="/app/#/">Bivee Eureca</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar">
 			<ul class="nav navbar-nav navbar-right">
@@ -44,8 +45,8 @@
                         Daniel Vinciguerra <span class="caret"></span>
                     </a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="/#/profile">Profile</a></li>
-						<li><a href="/#/profile/ideas">My Ideas</a></li>
+						<li><a href="/app/#/profile">Profile</a></li>
+						<li><a href="/app/#/profile/ideas">My Ideas</a></li>
 						<li class="divider"></li>
 						<li><a href="/account/signout">Logout</a></li>
 					</ul>
