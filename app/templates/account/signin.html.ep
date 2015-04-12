@@ -1,26 +1,36 @@
 
-  <script src="http://code.jquery.com/jquery.min.js"></script>
-  <link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
+%#  <script src="http://code.jquery.com/jquery.min.js"></script>
+%#<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+%#<link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
+%= stylesheet '/css/bootstrap.css'
+%= stylesheet '/css/style.css'
+
+%= javascript '/js/lib/jquery/jquery.min.js'  
+%= javascript '/js/lib/bootstrap/bootstrap.min.js'  
     
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 <div class="container">
-    <h1>Login Form</h1>
+    <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+            <h1>Login Form</h1>
 
-    %= form_for '', method => 'POST' => begin
-        <div class="form-group">
-            %= text_field 'email', placeholder => 'Email', class => 'form-control'
-        </div>
-        <div class="form-group">
-            %= password_field 'password', placeholder => 'Password', class => 'form-control'
-        </div>
-        <div class="form-group">
-            %= t 'button', class => 'btn btn-danger' => begin 
-                Login
+            %= form_for '', method => 'POST' => begin
+                <div class="form-group">
+                    %= text_field 'email', placeholder => 'Email', class => 'form-control'
+                </div>
+                <div class="form-group">
+                    %= password_field 'password', placeholder => 'Password', class => 'form-control'
+                </div>
+                <div class="form-group">
+                    %= t 'button', class => 'btn btn-danger' => begin 
+                        Login
+                    % end
+                </div>
+                <div id="message" class="alert alert-danger">
+                    <strong>Error:</strong> Email or password wrong!
+                </div>
             % end
+            
         </div>
-        <div id="message" class="alert alert-danger">
-            Lorem ipsum dolor sit amet
-        </div>
-    % end
+    </div>
 </div>

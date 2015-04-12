@@ -4,13 +4,7 @@
   <meta charset="utf-8">
   <title>Bivee Eureca - Colaborative Idea Database</title>  
 
-  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <script src="http://code.jquery.com/jquery.min.js"></script>
-  <script src="http://jashkenas.github.io/underscore/underscore-min.js"></script>
-  <script src="http://jashkenas.github.io/backbone/backbone-min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <!-- link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" / -->
-  <link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
+  %= stylesheet '/css/bootstrap.css'
   %= stylesheet '/css/style.css'
 
 </head>
@@ -67,19 +61,11 @@
 </div>    
     
 
-    <script id="jsbin-javascript">
-    //$(function(){
-    //  $('.note-item').on('mouseover', function(){
-    //    $(this).find('.note-controls').removeClass('invisible');
-    //    return false;
-    //  });
-    //  $('.note-item').on('mouseout', function(){
-    //    $(this).find('.note-controls').addClass('invisible');
-    //    return false;
-    //  });
-    //});
-    </script>
-
+    %= javascript '/js/lib/jquery/jquery.min.js'
+    %= javascript '/js/lib/underscore/underscore.min.js'
+    %= javascript '/js/lib/backbone/backbone.min.js'
+    %= javascript '/js/lib/handlebars/handlebars.js'
+    %= javascript '/js/lib/bootstrap/bootstrap.min.js'
     %= javascript '/js/app.js'
 
 </body>
