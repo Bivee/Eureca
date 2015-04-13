@@ -11,10 +11,35 @@ var Model       = Eureca.Model      = {};
 var Collection  = Eureca.Collection = {};
 
 /*****************************************************
+** Backbone Model
+******************************************************/
+Eureca.Model.Idea = Backbone.Model.extend({
+    url: '/api/idea',
+
+    defaults: {
+        user        : { name : '' },
+        title       : '',
+        slug        : '',
+        description : '',
+        comments    : '',
+        likes       : '',
+        created     : '',
+    }
+    
+});
+
+Eureca.Collection.Ideas = Backbone.Collection.extend({
+    url: '/api/idea',
+    model : Eureca.Model.Idea
+});
+
+/*****************************************************
 ** Backbone Views
 ******************************************************/
 Eureca.View.Home = Backbone.View.extend({
-    el : '#app-container',
+    model  : new Eureca.Collection.Ideas(),
+
+    el     : '#app-container',
 
     events : { },
 
@@ -37,9 +62,19 @@ Eureca.View.Home = Backbone.View.extend({
     },
 
     render : function(){
-        var template = new Template();
-        template.loadTemplate('/home/index', function(data){
-            $('#app-container').html(data);
+        this.model.fetch({
+            success: function(data){
+                var model_list = data.toJSON() || [];
+
+                var template = new Template();
+                template.loadTemplate('/home/index', function(data){
+                    var template = Handlebars.compile(data);
+                    $('#app-container').html(template({ 'models': model_list }));
+                });
+            },
+            error: function(){
+                alert('Error fetching idea list');
+            }
         });
     }
 });
@@ -115,18 +150,6 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
 });
 
 
-Eureca.Model.Idea = Backbone.Model.extend({
-    url: '/api/idea',
-
-    defaults: {
-        title       : '',
-        slug        : '',
-        description : '',
-        tags        : '',
-    }
-    
-});
-
 Eureca.Router = Backbone.Router.extend({
     routes: {
       ""                : "home",
@@ -140,29 +163,40 @@ Eureca.Router = Backbone.Router.extend({
     home : function() {
         var view = new Eureca.View.Home();
         view.render();
+        return false;
     },
 
     profile : function () {
         var view = new Eureca.View.Profile();
         view.render();
+        return false;
     },
 
     profile_user : function () {
         alert('Profile User');
+        return false;
     },
 
     profile_ideas : function () {
         var view = new Eureca.View.ProfileIdeas();
         view.render();
+        return false;
     },
 
     idea_create : function(){
         var view = new Eureca.View.IdeaCreate();
         view.render();
+        return false;
     },
 
     idea_index : function(){
         alert('Idea Page');
+
+        var ideas = new Eureca.Collection.Ideas();
+        var teste = ideas.fetch({data: {page: 1}});
+
+        console.log(ideas);
+        return false;
     }
 });
 

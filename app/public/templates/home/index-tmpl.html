@@ -39,102 +39,26 @@
 
       
       <div class="row note-row">
+
+    {{#each models}}
         <div class="col-md-4">
           <div class="note note-item" data-uri="test-of-love">
             <div class="note-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
+              {{title}} 
             </div>
             <div class="note-controls invisible">
-                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
+                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">{{ comments }}</span>
               &nbsp;&nbsp;
-                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
+                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">{{ likes }}</span>
             </div>
           </div>
           <small class="text-center">
-            Created by <a href="#/profile/12345">Daniel vinciguerra</a>
+            Created by <a href="#/profile/{{ user.id }}">{{ user.name }}</a>
           </small>
         </div>
-        <div class="col-md-4">
-          <div class="note note-item">
-            <div class="note-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
-            </div>
-            <div class="note-controls invisible">
-                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
-              &nbsp;&nbsp;
-                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
-            </div>
-          </div>
-          <small class="text-center">
-            Created by <a href="#">Daniel vinciguerra</a>
-          </small>
-        </div>
-        <div class="col-md-4">
-          <div class="note note-item">
-            <div class="note-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
-            </div>
-            <div class="note-controls invisible">
-                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
-              &nbsp;&nbsp;
-                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
-            </div>
-          </div>
-          <small class="text-center">
-            Created by <a href="#">Daniel vinciguerra</a>
-          </small>
-      </div>
-    </div>
-      
-      
+    {{/each}}
 
-     
-      <div class="row note-row">
-        <div class="col-md-4">
-          <div class="note note-item">
-            <div class="note-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
-            </div>
-            <div class="note-controls invisible">
-                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
-              &nbsp;&nbsp;
-                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
-            </div>
-          </div>
-          <small class="text-center">
-            Created by <a href="#">Daniel vinciguerra</a>
-          </small>
-        </div>
-        <div class="col-md-4">
-          <div class="note note-item">
-            <div class="note-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
-            </div>
-            <div class="note-controls invisible">
-                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
-              &nbsp;&nbsp;
-                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
-            </div>
-          </div>
-          <small class="text-center">
-            Created by <a href="#">Daniel vinciguerra</a>
-          </small>
-        </div>
-        <div class="col-md-4">
-          <div class="note note-item">
-            <div class="note-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget dignissim purus, pulvinar cursus tortor. Duis suscipit ex orci aliquam. 
-            </div>
-            <div class="note-controls invisible">
-                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">1000</span>
-              &nbsp;&nbsp;
-                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">1k</span>
-            </div>
-          </div>
-          <small class="text-center">
-            Created by <a href="#">Daniel vinciguerra</a>
-          </small>
-      </div>
+
     </div>
       
       

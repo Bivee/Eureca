@@ -38,6 +38,7 @@ sub register {
 
     # Api end-points
     my $api = $r->any('/api');
+    $api->get('/idea')->to(controller => 'API::Idea', action => 'list');
     $api->put('/idea')->to(controller => 'API::Idea', action => 'update');
     $api->post('/idea')->to(controller => 'API::Idea', action => 'create');
 }

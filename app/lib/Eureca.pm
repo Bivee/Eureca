@@ -3,6 +3,7 @@ use Mojo::Base 'Mojolicious';
 
 use DBIx::Custom;
 use Eureca::Routes;
+use Eureca::Schema;
 use Eureca::Helpers;
 
 sub startup {
