@@ -27,9 +27,8 @@ Eureca.Model.Idea = Backbone.Model.extend({
     }
     
 });
-
 Eureca.Collection.Ideas = Backbone.Collection.extend({
-    url: '/api/idea',
+    url: '/api/ideas',
     model : Eureca.Model.Idea
 });
 
@@ -41,24 +40,37 @@ Eureca.View.Home = Backbone.View.extend({
 
     el     : '#app-container',
 
-    events : { },
+    events : { 
+        'mouseover .note-item': 'note_item_mouseover',
+        'mouseout .note-item':  'note_item_mouseout',
+        'click .note': 'note_click'
+    },
 
-    initialize: function(){
-        this.$el.on('mouseover', '.note-item', function(){
-            $(this).find('.note-controls').removeClass('invisible');
-            return false;
-        });
-        this.$el.on('mouseout', '.note-item', function(){
-            $(this).find('.note-controls').addClass('invisible');
-            return false;
-        });
-        this.$el.on('click', '.note', function(){
-            var app = Eureca.app || new Eureca.Router();
+    note_item_mouseover: function(e){
+        e.preventDefault();
 
-            var slug = $(this).attr('data-uri');
-            app.navigate("#/idea/item/" + slug, {trigger: true});
-            return false;
-        });
+        var $c = $(e.currentTarget);
+        $c.find('.note-controls').removeClass('invisible');
+        return false;
+    },
+
+    note_item_mouseout: function(e){
+        e.preventDefault();
+
+        var $c = $(e.currentTarget);
+        $c.find('.note-controls').addClass('invisible');
+        return false;
+    },
+
+    note_click: function(e){
+        e.preventDefault();
+
+        var app = Eureca.app || new Eureca.Router();
+
+        var $c = $(e.currentTarget);
+        var slug = $c.attr('data-uri');
+        app.navigate("/idea/item/" + slug, {trigger: true});
+        return false;
     },
 
     render : function(){
@@ -74,6 +86,37 @@ Eureca.View.Home = Backbone.View.extend({
             },
             error: function(){
                 alert('Error fetching idea list');
+            }
+        });
+    }
+});
+Eureca.View.IdeaIndex = Backbone.View.extend({
+    model  : new Eureca.Model.Idea(),
+
+    el : '#app-container',
+
+    events : { },
+
+    initialize: function () { },
+
+    render : function(param){
+        this.model = new Eureca.Model.Idea({ 
+            slug: param.slug 
+        });
+
+        this.model.fetch({
+            data: { 'slug': param.slug },
+            success: function(data){
+                var model = data.toJSON() || [];
+
+                var template = new Template();
+                template.loadTemplate('/idea/index', function(data){
+                    var template = Handlebars.compile(data);
+                    $('#app-container').html(template( model ));
+                });
+            },
+            error: function(){
+                alert('Error retrieving idea data');
             }
         });
     }
@@ -101,11 +144,9 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
                 alert('Error save');
             }
         });
-
-        // DEBUG: alert('Saving idea now' + JSON.stringify(data));
     },
 
-    slug_generation: function () {
+    slug_generation: function (e) {
         var string = $('#idea-title').val();
 
         var a_chars = new Array(
@@ -128,7 +169,8 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
             .replace(/\-{2,}/g,'-')         // remove duplicated dashes
             .replace(/(^\s*)|(\s*$)/g, '');  // trim right and left       
 
-        $('#idea-slug').val(string);
+        $(e.currentTarget).val(string);
+        return false;
     },
 
     form_to_json: function(id){
@@ -189,13 +231,9 @@ Eureca.Router = Backbone.Router.extend({
         return false;
     },
 
-    idea_index : function(){
-        alert('Idea Page');
-
-        var ideas = new Eureca.Collection.Ideas();
-        var teste = ideas.fetch({data: {page: 1}});
-
-        console.log(ideas);
+    idea_index : function(slug){
+        var view = new Eureca.View.IdeaIndex();
+        view.render({'slug': slug});
         return false;
     }
 });

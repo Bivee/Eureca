@@ -3382,3 +3382,2441 @@ $_O "
 [Sun Apr 12 23:31:10 2015] [debug] GET "/api/idea"
 [Sun Apr 12 23:31:10 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
 [Sun Apr 12 23:31:10 2015] [debug] 200 OK (0.053703s, 18.621/s)
+[Sun Apr 12 23:32:23 2015] [debug] GET "/app/"
+[Sun Apr 12 23:32:23 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sun Apr 12 23:32:23 2015] [debug] Action not found in controller
+[Sun Apr 12 23:32:23 2015] [debug] Rendering cached template "home/index.html.ep"
+[Sun Apr 12 23:32:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Apr 12 23:32:23 2015] [debug] 200 OK (0.004436s, 225.428/s)
+[Sun Apr 12 23:32:24 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Sun Apr 12 23:32:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:32:24 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:32:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:32:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:32:24 2015] [debug] 404 Not Found (0.012582s, 79.479/s)
+[Sun Apr 12 23:32:24 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Sun Apr 12 23:32:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:32:24 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:32:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:32:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:32:24 2015] [debug] 404 Not Found (0.012875s, 77.670/s)
+[Sun Apr 12 23:32:24 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Sun Apr 12 23:32:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:32:24 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:32:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:32:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:32:24 2015] [debug] 404 Not Found (0.013794s, 72.495/s)
+[Sun Apr 12 23:32:46 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:32:46 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:32:46 2015] [error] DBD::mysql::st execute failed: Unknown column 'user' in 'field list'. Following SQL is executed.
+ insert into `idea` (`comments`, `created`, `description`, `likes`, `slug`, `tags`, `title`, `user`, `user_id`) values (? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+(DBIx::Custom::execute) at lib/Eureca/Controller/API/Idea.pm line 17.
+
+[Sun Apr 12 23:32:46 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 12 23:32:46 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 12 23:32:46 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:32:46 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:32:47 2015] [debug] 500 Internal Server Error (0.234266s, 4.269/s)
+[Sun Apr 12 23:33:42 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 12 23:33:42 2015] [debug] GET "/app/"
+[Sun Apr 12 23:33:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sun Apr 12 23:33:42 2015] [debug] Action not found in controller
+[Sun Apr 12 23:33:42 2015] [debug] Rendering template "home/index.html.ep"
+[Sun Apr 12 23:33:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Apr 12 23:33:42 2015] [debug] 200 OK (0.167459s, 5.972/s)
+[Sun Apr 12 23:33:43 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Sun Apr 12 23:33:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:33:43 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:33:43 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:33:43 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:33:43 2015] [debug] 404 Not Found (0.042989s, 23.262/s)
+[Sun Apr 12 23:33:43 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Sun Apr 12 23:33:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:33:43 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:33:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:33:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:33:43 2015] [debug] 404 Not Found (0.013430s, 74.460/s)
+[Sun Apr 12 23:33:44 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Sun Apr 12 23:33:44 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:33:44 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:33:44 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:33:44 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:33:44 2015] [debug] 404 Not Found (0.013429s, 74.466/s)
+[Sun Apr 12 23:33:53 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:33:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:33:53 2015] [error] Can't call method "remove" on unblessed reference at lib/Eureca/Controller/API/Idea.pm line 12, <DATA> line 2231.
+
+[Sun Apr 12 23:33:53 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 12 23:33:53 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 12 23:33:53 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:33:53 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:33:53 2015] [debug] 500 Internal Server Error (0.356853s, 2.802/s)
+[Sun Apr 12 23:34:19 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 12 23:34:19 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:34:19 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:34:19 2015] [error] DBD::mysql::st execute failed: Column 'user_id' cannot be null. Following SQL is executed.
+ insert into `idea` (`comments`, `created`, `description`, `likes`, `slug`, `tags`, `title`, `user_id`) values (? , ? , ? , ? , ? , ? , ? , ? ) 
+(DBIx::Custom::execute) at lib/Eureca/Controller/API/Idea.pm line 18.
+
+[Sun Apr 12 23:34:19 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 12 23:34:19 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 12 23:34:19 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:19 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:19 2015] [debug] 500 Internal Server Error (0.168940s, 5.919/s)
+[Sun Apr 12 23:34:40 2015] [debug] GET "/"
+[Sun Apr 12 23:34:40 2015] [debug] Routing to a callback
+[Sun Apr 12 23:34:40 2015] [debug] Rendering inline template "445b4339e0db2f2b498c0e57ae844c83"
+[Sun Apr 12 23:34:40 2015] [debug] 200 OK (0.003112s, 321.337/s)
+[Sun Apr 12 23:34:42 2015] [debug] GET "/app"
+[Sun Apr 12 23:34:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sun Apr 12 23:34:42 2015] [debug] Action not found in controller
+[Sun Apr 12 23:34:42 2015] [debug] Rendering template "home/index.html.ep"
+[Sun Apr 12 23:34:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Apr 12 23:34:42 2015] [debug] 200 OK (0.062783s, 15.928/s)
+[Sun Apr 12 23:34:42 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Sun Apr 12 23:34:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:34:42 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:34:42 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:42 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:42 2015] [debug] 404 Not Found (0.066320s, 15.078/s)
+[Sun Apr 12 23:34:42 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Sun Apr 12 23:34:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:34:42 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:34:42 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:42 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:42 2015] [debug] 404 Not Found (0.019979s, 50.053/s)
+[Sun Apr 12 23:34:43 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Sun Apr 12 23:34:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:34:43 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:34:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:43 2015] [debug] 404 Not Found (0.019947s, 50.133/s)
+[Sun Apr 12 23:34:43 2015] [debug] GET "/api/idea"
+[Sun Apr 12 23:34:43 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Sun Apr 12 23:34:44 2015] [debug] 200 OK (0.975546s, 1.025/s)
+[Sun Apr 12 23:34:49 2015] [debug] GET "/account/signin"
+[Sun Apr 12 23:34:49 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sun Apr 12 23:34:49 2015] [debug] Rendering template "account/signin.html.ep"
+[Sun Apr 12 23:34:49 2015] [debug] 200 OK (0.060544s, 16.517/s)
+[Sun Apr 12 23:34:49 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Sun Apr 12 23:34:49 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:34:49 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:34:49 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:49 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:49 2015] [debug] 404 Not Found (0.013218s, 75.654/s)
+[Sun Apr 12 23:34:53 2015] [debug] POST "/account/signin"
+[Sun Apr 12 23:34:53 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sun Apr 12 23:34:53 2015] [debug] Rendering template "account/signin.html.ep"
+[Sun Apr 12 23:34:53 2015] [debug] 200 OK (0.023886s, 41.866/s)
+[Sun Apr 12 23:34:54 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Sun Apr 12 23:34:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:34:54 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:34:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:54 2015] [debug] 404 Not Found (0.012878s, 77.652/s)
+[Sun Apr 12 23:34:57 2015] [debug] POST "/account/signin"
+[Sun Apr 12 23:34:57 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sun Apr 12 23:34:57 2015] [debug] 302 Found (0.003308s, 302.297/s)
+[Sun Apr 12 23:34:58 2015] [debug] GET "/app"
+[Sun Apr 12 23:34:58 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sun Apr 12 23:34:58 2015] [debug] Action not found in controller
+[Sun Apr 12 23:34:58 2015] [debug] Rendering cached template "home/index.html.ep"
+[Sun Apr 12 23:34:58 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Apr 12 23:34:58 2015] [debug] 200 OK (0.007227s, 138.370/s)
+[Sun Apr 12 23:34:58 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Sun Apr 12 23:34:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:34:58 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:34:58 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:58 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:58 2015] [debug] 404 Not Found (0.013058s, 76.581/s)
+[Sun Apr 12 23:34:58 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Sun Apr 12 23:34:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:34:58 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:34:58 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:58 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:58 2015] [debug] 404 Not Found (0.014021s, 71.322/s)
+[Sun Apr 12 23:34:59 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Sun Apr 12 23:34:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:34:59 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:34:59 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:34:59 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:34:59 2015] [debug] 404 Not Found (0.022001s, 45.452/s)
+[Sun Apr 12 23:34:59 2015] [debug] GET "/api/idea"
+[Sun Apr 12 23:34:59 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Sun Apr 12 23:34:59 2015] [debug] 200 OK (0.060407s, 16.554/s)
+[Sun Apr 12 23:35:03 2015] [debug] GET "/app/"
+[Sun Apr 12 23:35:03 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sun Apr 12 23:35:03 2015] [debug] Action not found in controller
+[Sun Apr 12 23:35:03 2015] [debug] Rendering cached template "home/index.html.ep"
+[Sun Apr 12 23:35:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Apr 12 23:35:03 2015] [debug] 200 OK (0.005278s, 189.466/s)
+[Sun Apr 12 23:35:04 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Sun Apr 12 23:35:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:35:04 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:35:04 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:35:04 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:35:04 2015] [debug] 404 Not Found (0.013465s, 74.267/s)
+[Sun Apr 12 23:35:04 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Sun Apr 12 23:35:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:35:04 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:35:04 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:35:04 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:35:04 2015] [debug] 404 Not Found (0.013551s, 73.795/s)
+[Sun Apr 12 23:35:04 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Sun Apr 12 23:35:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Apr 12 23:35:04 2015] [debug] Template "not_found.html.ep" not found
+[Sun Apr 12 23:35:04 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:35:04 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:35:04 2015] [debug] 404 Not Found (0.019945s, 50.138/s)
+[Sun Apr 12 23:35:18 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 12 23:35:18 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:35:18 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:35:18 2015] [error] DBD::mysql::st execute failed: Unknown column 'user' in 'field list'. Following SQL is executed.
+ insert into `idea` (`comments`, `created`, `description`, `likes`, `slug`, `tags`, `title`, `user`, `user_id`) values (? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+(DBIx::Custom::execute) at lib/Eureca/Controller/API/Idea.pm line 18.
+
+[Sun Apr 12 23:35:18 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 12 23:35:18 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 12 23:35:18 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:35:18 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:35:18 2015] [debug] 500 Internal Server Error (0.084985s, 11.767/s)
+[Sun Apr 12 23:35:31 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 12 23:35:31 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:35:31 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:35:31 2015] [debug] 200 OK (0.146750s, 6.814/s)
+[Sun Apr 12 23:40:55 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 12 23:40:55 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:40:55 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:40:56 2015] [error] Can't call method "id" on unblessed reference at lib/Eureca/Controller/API/Idea.pm line 13, <DATA> line 2231.
+
+[Sun Apr 12 23:40:56 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 12 23:40:56 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 12 23:40:56 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:40:56 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:40:56 2015] [debug] 500 Internal Server Error (0.242907s, 4.117/s)
+[Sun Apr 12 23:41:33 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 12 23:41:33 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:41:34 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:41:34 2015] [error] Can't call method "id" on unblessed reference at lib/Eureca/Controller/API/Idea.pm line 13, <DATA> line 2231.
+
+[Sun Apr 12 23:41:34 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 12 23:41:34 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 12 23:41:34 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:41:34 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:41:34 2015] [debug] 500 Internal Server Error (0.321312s, 3.112/s)
+[Sun Apr 12 23:41:55 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:41:55 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:41:55 2015] [error] Can't call method "id" on unblessed reference at lib/Eureca/Controller/API/Idea.pm line 13.
+
+[Sun Apr 12 23:41:55 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Apr 12 23:41:55 2015] [debug] Template "exception.html.ep" not found
+[Sun Apr 12 23:41:55 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Apr 12 23:41:55 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Apr 12 23:41:55 2015] [debug] 500 Internal Server Error (0.024226s, 41.278/s)
+[Sun Apr 12 23:42:34 2015] [debug] Your secret passphrase needs to be changed
+[Sun Apr 12 23:42:34 2015] [debug] POST "/api/idea"
+[Sun Apr 12 23:42:34 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Sun Apr 12 23:42:34 2015] [debug] 200 OK (0.689197s, 1.451/s)
+[Sun Apr 12 23:42:48 2015] [debug] GET "/api/idea"
+[Sun Apr 12 23:42:48 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Sun Apr 12 23:42:48 2015] [debug] 200 OK (0.100101s, 9.990/s)
+[Mon Apr 13 01:07:56 2015] [debug] Your secret passphrase needs to be changed
+[Mon Apr 13 01:07:56 2015] [debug] GET "/app/"
+[Mon Apr 13 01:07:56 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Mon Apr 13 01:07:56 2015] [debug] Action not found in controller
+[Mon Apr 13 01:07:56 2015] [debug] Rendering template "home/index.html.ep"
+[Mon Apr 13 01:07:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Apr 13 01:07:56 2015] [debug] 200 OK (0.055132s, 18.138/s)
+[Mon Apr 13 01:07:57 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Mon Apr 13 01:07:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Apr 13 01:07:57 2015] [debug] Template "not_found.html.ep" not found
+[Mon Apr 13 01:07:57 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Apr 13 01:07:57 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Apr 13 01:07:57 2015] [debug] 404 Not Found (0.062483s, 16.004/s)
+[Mon Apr 13 01:07:57 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Mon Apr 13 01:07:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Apr 13 01:07:57 2015] [debug] Template "not_found.html.ep" not found
+[Mon Apr 13 01:07:57 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Apr 13 01:07:57 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Apr 13 01:07:57 2015] [debug] 404 Not Found (0.014340s, 69.735/s)
+[Mon Apr 13 01:07:58 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Mon Apr 13 01:07:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Mon Apr 13 01:07:58 2015] [debug] Template "not_found.html.ep" not found
+[Mon Apr 13 01:07:58 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Apr 13 01:07:58 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Apr 13 01:07:58 2015] [debug] 404 Not Found (0.014230s, 70.274/s)
+[Mon Apr 13 01:07:58 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:07:58 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:07:59 2015] [debug] 200 OK (0.530372s, 1.885/s)
+[Mon Apr 13 01:07:59 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:07:59 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:07:59 2015] [debug] 200 OK (0.085105s, 11.750/s)
+[Mon Apr 13 01:07:59 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:07:59 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:07:59 2015] [debug] 200 OK (0.068849s, 14.525/s)
+[Mon Apr 13 01:08:00 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:08:00 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:08:00 2015] [debug] 200 OK (0.074435s, 13.435/s)
+[Mon Apr 13 01:08:00 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:08:00 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:08:00 2015] [debug] 200 OK (0.079373s, 12.599/s)
+[Mon Apr 13 01:08:00 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:08:00 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:08:00 2015] [debug] 200 OK (0.072657s, 13.763/s)
+[Mon Apr 13 01:08:04 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:08:04 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:08:04 2015] [debug] 200 OK (0.092226s, 10.843/s)
+[Mon Apr 13 01:08:16 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:08:16 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:08:16 2015] [debug] 200 OK (0.091810s, 10.892/s)
+[Mon Apr 13 01:08:51 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:08:51 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:08:51 2015] [debug] 200 OK (0.086800s, 11.521/s)
+[Mon Apr 13 01:08:55 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 01:08:55 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 01:08:55 2015] [debug] 200 OK (0.069669s, 14.354/s)
+[Mon Apr 13 02:46:33 2015] [debug] POST "/api/idea"
+[Mon Apr 13 02:46:33 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Mon Apr 13 02:46:33 2015] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: Column 'user_id' cannot be null [for Statement "INSERT INTO idea ( created, description, slug, title, user_id) VALUES ( ?, ?, ?, ?, ? )" with ParamValues: 0='2015-04-13 02:46:33', 1="asdadad", 2="asdadasd", 3="asdadasd", 4=undef] at lib/Eureca/Controller/API/Idea.pm line 13
+
+[Mon Apr 13 02:46:33 2015] [debug] Template "exception.development.html.ep" not found
+[Mon Apr 13 02:46:33 2015] [debug] Template "exception.html.ep" not found
+[Mon Apr 13 02:46:33 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Mon Apr 13 02:46:33 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Mon Apr 13 02:46:33 2015] [debug] 500 Internal Server Error (0.512565s, 1.951/s)
+[Mon Apr 13 02:46:44 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:46:44 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:46:44 2015] [debug] 200 OK (0.085063s, 11.756/s)
+[Mon Apr 13 02:46:59 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:46:59 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:46:59 2015] [debug] 200 OK (0.088758s, 11.267/s)
+[Mon Apr 13 02:47:00 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:00 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:00 2015] [debug] 200 OK (0.070420s, 14.201/s)
+[Mon Apr 13 02:47:01 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:01 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:01 2015] [debug] 200 OK (0.069855s, 14.315/s)
+[Mon Apr 13 02:47:02 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:02 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:02 2015] [debug] 200 OK (0.065613s, 15.241/s)
+[Mon Apr 13 02:47:03 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:03 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:03 2015] [debug] 200 OK (0.080818s, 12.373/s)
+[Mon Apr 13 02:47:06 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:06 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:06 2015] [debug] 200 OK (0.064409s, 15.526/s)
+[Mon Apr 13 02:47:06 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:06 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:06 2015] [debug] 200 OK (0.077287s, 12.939/s)
+[Mon Apr 13 02:47:07 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:07 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:07 2015] [debug] 200 OK (0.149951s, 6.669/s)
+[Mon Apr 13 02:47:07 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:07 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:07 2015] [debug] 200 OK (0.064926s, 15.402/s)
+[Mon Apr 13 02:47:07 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 02:47:07 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 02:47:07 2015] [debug] 200 OK (0.068286s, 14.644/s)
+[Mon Apr 13 08:59:53 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 08:59:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 08:59:53 2015] [debug] 200 OK (0.681166s, 1.468/s)
+[Mon Apr 13 09:21:25 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 09:21:25 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 09:21:25 2015] [debug] 200 OK (0.058786s, 17.011/s)
+[Mon Apr 13 09:21:26 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 09:21:26 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 09:21:26 2015] [debug] 200 OK (0.090400s, 11.062/s)
+[Mon Apr 13 09:21:27 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 09:21:27 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 09:21:27 2015] [debug] 200 OK (0.075275s, 13.285/s)
+[Mon Apr 13 09:21:27 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 09:21:27 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 09:21:27 2015] [debug] 200 OK (0.073017s, 13.695/s)
+[Mon Apr 13 09:21:29 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 09:21:29 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 09:21:29 2015] [debug] 200 OK (0.066848s, 14.959/s)
+[Mon Apr 13 09:21:30 2015] [debug] GET "/api/ideas"
+[Mon Apr 13 09:21:30 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Mon Apr 13 09:21:30 2015] [debug] 200 OK (0.065995s, 15.153/s)
+[Tue Apr 14 12:28:20 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 12:28:20 2015] [debug] GET "/"
+[Tue Apr 14 12:28:20 2015] [debug] Routing to a callback
+[Tue Apr 14 12:28:20 2015] [debug] Rendering inline template "445b4339e0db2f2b498c0e57ae844c83"
+[Tue Apr 14 12:28:20 2015] [debug] 200 OK (0.004526s, 220.946/s)
+[Tue Apr 14 12:28:23 2015] [debug] GET "/app"
+[Tue Apr 14 12:28:23 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:28:23 2015] [debug] Action not found in controller
+[Tue Apr 14 12:28:23 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 12:28:23 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 12:28:24 2015] [debug] 200 OK (0.800619s, 1.249/s)
+[Tue Apr 14 12:28:34 2015] [debug] GET "/app"
+[Tue Apr 14 12:28:34 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:28:34 2015] [debug] Action not found in controller
+[Tue Apr 14 12:28:34 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:28:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:28:34 2015] [debug] 200 OK (0.005187s, 192.790/s)
+[Tue Apr 14 12:28:39 2015] [debug] GET "/app"
+[Tue Apr 14 12:28:39 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:28:39 2015] [debug] Action not found in controller
+[Tue Apr 14 12:28:39 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:28:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:28:39 2015] [debug] 200 OK (0.007155s, 139.762/s)
+[Tue Apr 14 12:28:40 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:40 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:47 2015] [debug] 200 OK (6.679424s, 0.150/s)
+[Tue Apr 14 12:28:47 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:47 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:47 2015] [debug] 200 OK (0.550005s, 1.818/s)
+[Tue Apr 14 12:28:47 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:47 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:48 2015] [debug] 200 OK (0.276086s, 3.622/s)
+[Tue Apr 14 12:28:48 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:48 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:48 2015] [debug] 200 OK (0.140840s, 7.100/s)
+[Tue Apr 14 12:28:48 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:48 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:48 2015] [debug] 200 OK (0.069709s, 14.345/s)
+[Tue Apr 14 12:28:48 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:48 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:48 2015] [debug] 200 OK (0.084629s, 11.816/s)
+[Tue Apr 14 12:28:51 2015] [debug] GET "/app"
+[Tue Apr 14 12:28:51 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:28:51 2015] [debug] Action not found in controller
+[Tue Apr 14 12:28:51 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:28:51 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:28:51 2015] [debug] 200 OK (0.004698s, 212.857/s)
+[Tue Apr 14 12:28:52 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:52 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:52 2015] [debug] 200 OK (0.195230s, 5.122/s)
+[Tue Apr 14 12:28:53 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:53 2015] [debug] 200 OK (0.064113s, 15.597/s)
+[Tue Apr 14 12:28:53 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:53 2015] [debug] 200 OK (0.064373s, 15.534/s)
+[Tue Apr 14 12:28:53 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:53 2015] [debug] 200 OK (0.070545s, 14.175/s)
+[Tue Apr 14 12:28:53 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:53 2015] [debug] 200 OK (0.063973s, 15.632/s)
+[Tue Apr 14 12:28:53 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:28:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:28:53 2015] [debug] 200 OK (0.069672s, 14.353/s)
+[Tue Apr 14 12:29:02 2015] [debug] GET "/app"
+[Tue Apr 14 12:29:02 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:29:02 2015] [debug] Action not found in controller
+[Tue Apr 14 12:29:02 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:29:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:29:02 2015] [debug] 200 OK (0.007354s, 135.980/s)
+[Tue Apr 14 12:29:02 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:29:02 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:29:02 2015] [debug] 200 OK (0.143178s, 6.984/s)
+[Tue Apr 14 12:29:02 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:29:02 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:29:03 2015] [debug] 200 OK (0.121024s, 8.263/s)
+[Tue Apr 14 12:29:03 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:29:03 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:29:03 2015] [debug] 200 OK (0.062780s, 15.929/s)
+[Tue Apr 14 12:29:03 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:29:03 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:29:03 2015] [debug] 200 OK (0.061721s, 16.202/s)
+[Tue Apr 14 12:29:03 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:29:03 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:29:03 2015] [debug] 200 OK (0.117819s, 8.488/s)
+[Tue Apr 14 12:29:04 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:29:04 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:29:04 2015] [debug] 200 OK (0.095532s, 10.468/s)
+[Tue Apr 14 12:35:38 2015] [debug] GET "/app"
+[Tue Apr 14 12:35:38 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:35:38 2015] [debug] Action not found in controller
+[Tue Apr 14 12:35:38 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:35:38 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:35:38 2015] [debug] 200 OK (0.004517s, 221.386/s)
+[Tue Apr 14 12:35:39 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:35:39 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:35:39 2015] [debug] 200 OK (0.106883s, 9.356/s)
+[Tue Apr 14 12:35:39 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:35:39 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:35:39 2015] [debug] 200 OK (0.086380s, 11.577/s)
+[Tue Apr 14 12:35:39 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:35:39 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:35:40 2015] [debug] 200 OK (0.071443s, 13.997/s)
+[Tue Apr 14 12:35:40 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:35:40 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:35:40 2015] [debug] 200 OK (0.068334s, 14.634/s)
+[Tue Apr 14 12:35:40 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:35:40 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:35:40 2015] [debug] 200 OK (0.069140s, 14.463/s)
+[Tue Apr 14 12:35:40 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:35:40 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:35:40 2015] [debug] 200 OK (0.121301s, 8.244/s)
+[Tue Apr 14 12:38:19 2015] [debug] GET "/app"
+[Tue Apr 14 12:38:19 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:38:19 2015] [debug] Action not found in controller
+[Tue Apr 14 12:38:19 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:38:19 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:38:19 2015] [debug] 200 OK (0.004671s, 214.087/s)
+[Tue Apr 14 12:38:20 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:38:20 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:38:20 2015] [debug] 200 OK (0.063822s, 15.669/s)
+[Tue Apr 14 12:38:20 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:38:20 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:38:20 2015] [debug] 200 OK (0.072500s, 13.793/s)
+[Tue Apr 14 12:38:20 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:38:20 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:38:20 2015] [debug] 200 OK (0.070126s, 14.260/s)
+[Tue Apr 14 12:38:20 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:38:20 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:38:20 2015] [debug] 200 OK (0.171391s, 5.835/s)
+[Tue Apr 14 12:38:20 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:38:20 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:38:20 2015] [debug] 200 OK (0.072573s, 13.779/s)
+[Tue Apr 14 12:38:20 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:38:20 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:38:21 2015] [debug] 200 OK (0.148937s, 6.714/s)
+[Tue Apr 14 12:38:23 2015] [debug] GET "/app"
+[Tue Apr 14 12:38:23 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:38:23 2015] [debug] Action not found in controller
+[Tue Apr 14 12:38:23 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:38:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:38:23 2015] [debug] 200 OK (0.005691s, 175.716/s)
+[Tue Apr 14 12:38:23 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:38:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:38:24 2015] [debug] 200 OK (0.182796s, 5.471/s)
+[Tue Apr 14 12:42:58 2015] [debug] GET "/app"
+[Tue Apr 14 12:42:58 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:42:58 2015] [debug] Action not found in controller
+[Tue Apr 14 12:42:58 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:42:58 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:42:58 2015] [debug] 200 OK (0.005742s, 174.155/s)
+[Tue Apr 14 12:42:59 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:42:59 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:42:59 2015] [debug] 200 OK (0.202310s, 4.943/s)
+[Tue Apr 14 12:43:03 2015] [debug] GET "/app"
+[Tue Apr 14 12:43:03 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:43:03 2015] [debug] Action not found in controller
+[Tue Apr 14 12:43:03 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:43:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:43:03 2015] [debug] 200 OK (0.005464s, 183.016/s)
+[Tue Apr 14 12:43:04 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:43:04 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:43:04 2015] [debug] 200 OK (0.123369s, 8.106/s)
+[Tue Apr 14 12:44:07 2015] [debug] GET "/app"
+[Tue Apr 14 12:44:07 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:44:07 2015] [debug] Action not found in controller
+[Tue Apr 14 12:44:07 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:44:07 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:44:07 2015] [debug] 200 OK (0.005947s, 168.152/s)
+[Tue Apr 14 12:44:08 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:44:08 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:44:08 2015] [debug] 200 OK (0.166075s, 6.021/s)
+[Tue Apr 14 12:48:01 2015] [debug] GET "/app/"
+[Tue Apr 14 12:48:01 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 12:48:01 2015] [debug] Action not found in controller
+[Tue Apr 14 12:48:01 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 12:48:01 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 12:48:01 2015] [debug] 200 OK (0.007578s, 131.961/s)
+[Tue Apr 14 12:48:01 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 12:48:01 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 12:48:01 2015] [debug] 200 OK (0.164872s, 6.065/s)
+[Tue Apr 14 13:31:59 2015] [debug] GET "/app"
+[Tue Apr 14 13:31:59 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:31:59 2015] [debug] Action not found in controller
+[Tue Apr 14 13:31:59 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:31:59 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:31:59 2015] [debug] 200 OK (0.004816s, 207.641/s)
+[Tue Apr 14 13:32:00 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:32:00 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:32:00 2015] [debug] 200 OK (0.301678s, 3.315/s)
+[Tue Apr 14 13:32:38 2015] [debug] GET "/app"
+[Tue Apr 14 13:32:38 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:32:38 2015] [debug] Action not found in controller
+[Tue Apr 14 13:32:38 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:32:38 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:32:38 2015] [debug] 200 OK (0.011927s, 83.843/s)
+[Tue Apr 14 13:32:39 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:32:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:32:39 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:32:39 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:32:39 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:32:39 2015] [debug] 404 Not Found (0.047378s, 21.107/s)
+[Tue Apr 14 13:32:51 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:32:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:32:51 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:32:51 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:32:51 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:32:51 2015] [debug] 404 Not Found (0.014121s, 70.817/s)
+[Tue Apr 14 13:32:51 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:32:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:32:51 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:32:51 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:32:51 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:32:51 2015] [debug] 404 Not Found (0.011564s, 86.475/s)
+[Tue Apr 14 13:32:51 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:32:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:32:51 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:32:51 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:32:51 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:32:51 2015] [debug] 404 Not Found (0.011744s, 85.150/s)
+[Tue Apr 14 13:41:31 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 13:41:31 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:41:31 2015] [error] Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 44, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 46, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 46, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 47, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 47, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 49, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 50, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 51, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 52, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 53, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 54, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 54, <DATA> line 2231.
+Compilation failed in require at (eval 204) line 1, <DATA> line 2231.
+
+[Tue Apr 14 13:41:31 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:41:31 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:41:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:41:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:41:31 2015] [debug] 500 Internal Server Error (0.169906s, 5.886/s)
+[Tue Apr 14 13:41:35 2015] [debug] GET "/app"
+[Tue Apr 14 13:41:35 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:41:35 2015] [debug] Action not found in controller
+[Tue Apr 14 13:41:35 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 13:41:35 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 13:41:36 2015] [debug] 200 OK (0.060499s, 16.529/s)
+[Tue Apr 14 13:41:36 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:41:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:41:36 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:41:36 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:41:36 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:41:36 2015] [debug] 404 Not Found (0.044418s, 22.513/s)
+[Tue Apr 14 13:41:36 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:41:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:41:36 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:41:36 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:41:36 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:41:36 2015] [debug] 404 Not Found (0.015618s, 64.029/s)
+[Tue Apr 14 13:41:36 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:41:36 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:41:36 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:41:36 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:41:36 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:41:36 2015] [debug] 404 Not Found (0.019520s, 51.230/s)
+[Tue Apr 14 13:41:37 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:41:37 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:41:37 2015] [debug] Action not found in controller
+[Tue Apr 14 13:41:37 2015] [debug] Template "a_p_i/idea/list.html.ep" not found
+[Tue Apr 14 13:41:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:41:37 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:41:37 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:41:37 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:41:37 2015] [debug] 404 Not Found (0.020459s, 48.878/s)
+[Tue Apr 14 13:42:50 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 13:42:50 2015] [debug] GET "/app"
+[Tue Apr 14 13:42:50 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:42:50 2015] [debug] Action not found in controller
+[Tue Apr 14 13:42:50 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 13:42:50 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 13:42:51 2015] [debug] 200 OK (0.038700s, 25.840/s)
+[Tue Apr 14 13:42:51 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:42:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:42:51 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:42:51 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:42:51 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:42:51 2015] [debug] 404 Not Found (0.054857s, 18.229/s)
+[Tue Apr 14 13:42:51 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:42:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:42:51 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:42:51 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:42:51 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:42:51 2015] [debug] 404 Not Found (0.012719s, 78.623/s)
+[Tue Apr 14 13:42:51 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:42:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:42:51 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:42:51 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:42:51 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:42:51 2015] [debug] 404 Not Found (0.019535s, 51.190/s)
+[Tue Apr 14 13:42:52 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:42:52 2015] [error] Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 44, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 46, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 46, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 47, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 47, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 49, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 50, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 51, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 52, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 53, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 54, <DATA> line 2231.
+Global symbol "$row" requires explicit package name at lib/Eureca/Controller/API/Idea.pm line 54, <DATA> line 2231.
+Compilation failed in require at (eval 209) line 1, <DATA> line 2231.
+
+[Tue Apr 14 13:42:52 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:42:52 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:42:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:42:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:42:52 2015] [debug] 500 Internal Server Error (0.161894s, 6.177/s)
+[Tue Apr 14 13:43:22 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 13:43:22 2015] [debug] GET "/app"
+[Tue Apr 14 13:43:22 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:43:22 2015] [debug] Action not found in controller
+[Tue Apr 14 13:43:22 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 13:43:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 13:43:22 2015] [debug] 200 OK (0.042084s, 23.762/s)
+[Tue Apr 14 13:43:23 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:43:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:43:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:43:23 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:43:23 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:43:23 2015] [debug] 404 Not Found (0.044600s, 22.422/s)
+[Tue Apr 14 13:43:23 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:43:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:43:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:43:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:43:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:43:23 2015] [debug] 404 Not Found (0.012838s, 77.894/s)
+[Tue Apr 14 13:43:23 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:43:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:43:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:43:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:43:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:43:23 2015] [debug] 404 Not Found (0.015602s, 64.094/s)
+[Tue Apr 14 13:43:24 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:43:24 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:43:24 2015] [debug] 200 OK (0.559775s, 1.786/s)
+[Tue Apr 14 13:44:15 2015] [debug] GET "/app"
+[Tue Apr 14 13:44:15 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:44:15 2015] [debug] Action not found in controller
+[Tue Apr 14 13:44:15 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:44:15 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:44:15 2015] [debug] 200 OK (0.004981s, 200.763/s)
+[Tue Apr 14 13:44:16 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:44:16 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:44:16 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:44:16 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:44:16 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:44:16 2015] [debug] 404 Not Found (0.020617s, 48.504/s)
+[Tue Apr 14 13:44:16 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:44:16 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:44:16 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:44:16 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:44:16 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:44:16 2015] [debug] 404 Not Found (0.019971s, 50.073/s)
+[Tue Apr 14 13:44:16 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:44:16 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:44:16 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:44:16 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:44:16 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:44:16 2015] [debug] 404 Not Found (0.020200s, 49.505/s)
+[Tue Apr 14 13:44:17 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:44:17 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:44:17 2015] [debug] 200 OK (0.193380s, 5.171/s)
+[Tue Apr 14 13:44:56 2015] [debug] GET "/app"
+[Tue Apr 14 13:44:56 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:44:56 2015] [debug] Action not found in controller
+[Tue Apr 14 13:44:56 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:44:56 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:44:56 2015] [debug] 200 OK (0.007220s, 138.504/s)
+[Tue Apr 14 13:44:57 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:44:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:44:57 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:44:57 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:44:57 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:44:57 2015] [debug] 404 Not Found (0.012145s, 82.338/s)
+[Tue Apr 14 13:44:57 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:44:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:44:57 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:44:57 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:44:57 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:44:57 2015] [debug] 404 Not Found (0.012802s, 78.113/s)
+[Tue Apr 14 13:44:57 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:44:57 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:44:57 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:44:57 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:44:57 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:44:57 2015] [debug] 404 Not Found (0.022570s, 44.307/s)
+[Tue Apr 14 13:44:58 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:44:58 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:44:58 2015] [debug] 200 OK (0.151850s, 6.585/s)
+[Tue Apr 14 13:45:16 2015] [debug] GET "/app"
+[Tue Apr 14 13:45:16 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:45:16 2015] [debug] Action not found in controller
+[Tue Apr 14 13:45:16 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:45:16 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:45:16 2015] [debug] 200 OK (0.005299s, 188.715/s)
+[Tue Apr 14 13:45:16 2015] [debug] GET "/app"
+[Tue Apr 14 13:45:16 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:45:16 2015] [debug] Action not found in controller
+[Tue Apr 14 13:45:16 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:45:16 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:45:16 2015] [debug] 200 OK (0.004802s, 208.247/s)
+[Tue Apr 14 13:45:16 2015] [debug] GET "/app"
+[Tue Apr 14 13:45:16 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:45:16 2015] [debug] Action not found in controller
+[Tue Apr 14 13:45:16 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:45:16 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:45:16 2015] [debug] 200 OK (0.009703s, 103.061/s)
+[Tue Apr 14 13:45:16 2015] [debug] GET "/app"
+[Tue Apr 14 13:45:16 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:45:16 2015] [debug] Action not found in controller
+[Tue Apr 14 13:45:16 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:45:16 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:45:16 2015] [debug] 200 OK (0.004707s, 212.450/s)
+[Tue Apr 14 13:45:17 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:45:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:45:17 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:45:17 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:45:17 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:45:17 2015] [debug] 404 Not Found (0.016536s, 60.474/s)
+[Tue Apr 14 13:45:17 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:45:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:45:17 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:45:17 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:45:17 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:45:17 2015] [debug] 404 Not Found (0.020163s, 49.596/s)
+[Tue Apr 14 13:45:18 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:45:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:45:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:45:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:45:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:45:18 2015] [debug] 404 Not Found (0.013157s, 76.005/s)
+[Tue Apr 14 13:45:18 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:45:18 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:45:18 2015] [debug] 200 OK (0.333633s, 2.997/s)
+[Tue Apr 14 13:45:51 2015] [debug] GET "/app"
+[Tue Apr 14 13:45:51 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:45:51 2015] [debug] Action not found in controller
+[Tue Apr 14 13:45:51 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:45:51 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:45:51 2015] [debug] 200 OK (0.008371s, 119.460/s)
+[Tue Apr 14 13:45:53 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:45:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:45:53 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:45:53 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:45:53 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:45:53 2015] [debug] 404 Not Found (0.013942s, 71.726/s)
+[Tue Apr 14 13:45:53 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:45:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:45:53 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:45:53 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:45:53 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:45:53 2015] [debug] 404 Not Found (0.017810s, 56.148/s)
+[Tue Apr 14 13:45:53 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:45:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:45:53 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:45:53 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:45:53 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:45:53 2015] [debug] 404 Not Found (0.019780s, 50.556/s)
+[Tue Apr 14 13:45:53 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:45:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:45:54 2015] [debug] 200 OK (0.158119s, 6.324/s)
+[Tue Apr 14 13:46:02 2015] [debug] GET "/app/"
+[Tue Apr 14 13:46:02 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:46:02 2015] [debug] Action not found in controller
+[Tue Apr 14 13:46:02 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:46:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:46:02 2015] [debug] 200 OK (0.006387s, 156.568/s)
+[Tue Apr 14 13:46:02 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:46:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:46:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:46:02 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:46:02 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:46:02 2015] [debug] 404 Not Found (0.020007s, 49.983/s)
+[Tue Apr 14 13:46:03 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:46:03 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:46:03 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:46:03 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:46:03 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:46:03 2015] [debug] 404 Not Found (0.019808s, 50.485/s)
+[Tue Apr 14 13:46:03 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:46:03 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:46:03 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:46:03 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:46:03 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:46:03 2015] [debug] 404 Not Found (0.020343s, 49.157/s)
+[Tue Apr 14 13:46:03 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:46:03 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:46:03 2015] [debug] 200 OK (0.101743s, 9.829/s)
+[Tue Apr 14 13:47:22 2015] [debug] GET "/app/"
+[Tue Apr 14 13:47:22 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:22 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:22 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:22 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:22 2015] [debug] 200 OK (0.004815s, 207.684/s)
+[Tue Apr 14 13:47:23 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:47:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:23 2015] [debug] 404 Not Found (0.019756s, 50.618/s)
+[Tue Apr 14 13:47:23 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:47:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:23 2015] [debug] 404 Not Found (0.020851s, 47.959/s)
+[Tue Apr 14 13:47:23 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:47:23 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:23 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:23 2015] [debug] 404 Not Found (0.019796s, 50.515/s)
+[Tue Apr 14 13:47:23 2015] [debug] GET "/app/"
+[Tue Apr 14 13:47:23 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:23 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:23 2015] [debug] 200 OK (0.005756s, 173.732/s)
+[Tue Apr 14 13:47:23 2015] [debug] GET "/app/"
+[Tue Apr 14 13:47:23 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:23 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:23 2015] [debug] 200 OK (0.006650s, 150.376/s)
+[Tue Apr 14 13:47:24 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:47:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:24 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:24 2015] [debug] 404 Not Found (0.012294s, 81.340/s)
+[Tue Apr 14 13:47:24 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:47:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:24 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:24 2015] [debug] 404 Not Found (0.014674s, 68.148/s)
+[Tue Apr 14 13:47:24 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:47:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:24 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:24 2015] [debug] 404 Not Found (0.020293s, 49.278/s)
+[Tue Apr 14 13:47:26 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:47:26 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:47:26 2015] [debug] 200 OK (0.161372s, 6.197/s)
+[Tue Apr 14 13:47:28 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:28 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:28 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:28 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:28 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:28 2015] [debug] 200 OK (0.007711s, 129.685/s)
+[Tue Apr 14 13:47:29 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:47:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:29 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:29 2015] [debug] 404 Not Found (0.019748s, 50.638/s)
+[Tue Apr 14 13:47:29 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:47:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:29 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:29 2015] [debug] 404 Not Found (0.020086s, 49.786/s)
+[Tue Apr 14 13:47:29 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:47:29 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:29 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:29 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:29 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:29 2015] [debug] 404 Not Found (0.019923s, 50.193/s)
+[Tue Apr 14 13:47:29 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:29 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:29 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:29 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:29 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:29 2015] [debug] 200 OK (0.007743s, 129.149/s)
+[Tue Apr 14 13:47:30 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:47:30 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:47:31 2015] [debug] 200 OK (0.130335s, 7.673/s)
+[Tue Apr 14 13:47:31 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:47:31 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:31 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:31 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:31 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:31 2015] [debug] 404 Not Found (0.019760s, 50.607/s)
+[Tue Apr 14 13:47:32 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:47:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:32 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:32 2015] [debug] 404 Not Found (0.019953s, 50.118/s)
+[Tue Apr 14 13:47:32 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:47:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:32 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:32 2015] [debug] 404 Not Found (0.020616s, 48.506/s)
+[Tue Apr 14 13:47:32 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:47:32 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:47:32 2015] [debug] 200 OK (0.095927s, 10.425/s)
+[Tue Apr 14 13:47:40 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:40 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:40 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:40 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:40 2015] [debug] 200 OK (0.004261s, 234.687/s)
+[Tue Apr 14 13:47:40 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:40 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:40 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:40 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:40 2015] [debug] 200 OK (0.004536s, 220.459/s)
+[Tue Apr 14 13:47:41 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:41 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:41 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:41 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:41 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:41 2015] [debug] 200 OK (0.004767s, 209.776/s)
+[Tue Apr 14 13:47:42 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:42 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] 200 OK (0.007177s, 139.334/s)
+[Tue Apr 14 13:47:42 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:42 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] 200 OK (0.008294s, 120.569/s)
+[Tue Apr 14 13:47:42 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:42 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] 200 OK (0.007317s, 136.668/s)
+[Tue Apr 14 13:47:42 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:42 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] 200 OK (0.007307s, 136.855/s)
+[Tue Apr 14 13:47:42 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:42 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] 200 OK (0.004853s, 206.058/s)
+[Tue Apr 14 13:47:42 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:42 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] 200 OK (0.005996s, 166.778/s)
+[Tue Apr 14 13:47:42 2015] [debug] GET "/app"
+[Tue Apr 14 13:47:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:47:42 2015] [debug] Action not found in controller
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:47:42 2015] [debug] 200 OK (0.004820s, 207.469/s)
+[Tue Apr 14 13:47:43 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:47:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:43 2015] [debug] 404 Not Found (0.019811s, 50.477/s)
+[Tue Apr 14 13:47:43 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:47:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:43 2015] [debug] 404 Not Found (0.020107s, 49.734/s)
+[Tue Apr 14 13:47:44 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:47:44 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:47:44 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:47:44 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:47:44 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:47:44 2015] [debug] 404 Not Found (0.013957s, 71.649/s)
+[Tue Apr 14 13:47:44 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:47:44 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:47:44 2015] [debug] 200 OK (0.107835s, 9.273/s)
+[Tue Apr 14 13:48:02 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:48:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:02 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:02 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:02 2015] [debug] 404 Not Found (0.012963s, 77.143/s)
+[Tue Apr 14 13:48:02 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:48:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:02 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:02 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:02 2015] [debug] 404 Not Found (0.015942s, 62.727/s)
+[Tue Apr 14 13:48:02 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:48:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:02 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:02 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:02 2015] [debug] 404 Not Found (0.013805s, 72.438/s)
+[Tue Apr 14 13:48:06 2015] [debug] GET "/app"
+[Tue Apr 14 13:48:06 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:48:06 2015] [debug] Action not found in controller
+[Tue Apr 14 13:48:06 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:48:06 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:48:06 2015] [debug] 200 OK (0.005196s, 192.456/s)
+[Tue Apr 14 13:48:09 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:48:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:09 2015] [debug] 404 Not Found (0.013855s, 72.176/s)
+[Tue Apr 14 13:48:09 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:48:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:09 2015] [debug] 404 Not Found (0.014165s, 70.597/s)
+[Tue Apr 14 13:48:09 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:48:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:09 2015] [debug] 404 Not Found (0.020135s, 49.665/s)
+[Tue Apr 14 13:48:12 2015] [debug] GET "/app"
+[Tue Apr 14 13:48:12 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:48:12 2015] [debug] Action not found in controller
+[Tue Apr 14 13:48:12 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:48:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:48:12 2015] [debug] 200 OK (0.005142s, 194.477/s)
+[Tue Apr 14 13:48:13 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:48:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:13 2015] [debug] 404 Not Found (0.015196s, 65.807/s)
+[Tue Apr 14 13:48:13 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:48:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:13 2015] [debug] 404 Not Found (0.019616s, 50.979/s)
+[Tue Apr 14 13:48:13 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:48:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:13 2015] [debug] 404 Not Found (0.020026s, 49.935/s)
+[Tue Apr 14 13:48:14 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:48:14 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:48:14 2015] [debug] 200 OK (0.155941s, 6.413/s)
+[Tue Apr 14 13:48:15 2015] [debug] GET "/app"
+[Tue Apr 14 13:48:15 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:48:15 2015] [debug] Action not found in controller
+[Tue Apr 14 13:48:15 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:48:15 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:48:15 2015] [debug] 200 OK (0.004248s, 235.405/s)
+[Tue Apr 14 13:48:16 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:48:16 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:16 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:16 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:16 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:16 2015] [debug] 404 Not Found (0.012195s, 82.001/s)
+[Tue Apr 14 13:48:17 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:48:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:17 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:17 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:17 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:17 2015] [debug] 404 Not Found (0.016508s, 60.577/s)
+[Tue Apr 14 13:48:17 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:48:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:17 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:17 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:17 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:17 2015] [debug] 404 Not Found (0.013652s, 73.249/s)
+[Tue Apr 14 13:48:18 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:48:18 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:48:18 2015] [debug] 200 OK (0.092588s, 10.801/s)
+[Tue Apr 14 13:48:19 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:19 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:19 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:19 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:19 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:19 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:19 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:19 2015] [debug] 500 Internal Server Error (0.055440s, 18.038/s)
+[Tue Apr 14 13:48:22 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:22 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:22 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:22 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:22 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:22 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:22 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:22 2015] [debug] 500 Internal Server Error (0.043318s, 23.085/s)
+[Tue Apr 14 13:48:23 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:23 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:23 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:23 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:23 2015] [debug] 500 Internal Server Error (0.033401s, 29.939/s)
+[Tue Apr 14 13:48:23 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:23 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:23 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:23 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:23 2015] [debug] 500 Internal Server Error (0.129471s, 7.724/s)
+[Tue Apr 14 13:48:23 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:23 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:23 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:23 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:23 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:23 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:23 2015] [debug] 500 Internal Server Error (0.026125s, 38.278/s)
+[Tue Apr 14 13:48:32 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:32 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:32 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:32 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:32 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:32 2015] [debug] 500 Internal Server Error (0.056505s, 17.698/s)
+[Tue Apr 14 13:48:33 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:33 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:33 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:33 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:33 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:33 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:33 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:33 2015] [debug] 500 Internal Server Error (0.056686s, 17.641/s)
+[Tue Apr 14 13:48:34 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:34 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:34 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:34 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:34 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:34 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:34 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:34 2015] [debug] 500 Internal Server Error (0.125094s, 7.994/s)
+[Tue Apr 14 13:48:35 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:35 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:35 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:35 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:35 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:35 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:35 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:35 2015] [debug] 500 Internal Server Error (0.063161s, 15.833/s)
+[Tue Apr 14 13:48:44 2015] [debug] GET "/app"
+[Tue Apr 14 13:48:44 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:48:44 2015] [debug] Action not found in controller
+[Tue Apr 14 13:48:44 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:48:44 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:48:44 2015] [debug] 200 OK (0.004472s, 223.614/s)
+[Tue Apr 14 13:48:45 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:48:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:45 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:45 2015] [debug] 404 Not Found (0.013161s, 75.982/s)
+[Tue Apr 14 13:48:45 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:48:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:45 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:45 2015] [debug] 404 Not Found (0.015176s, 65.894/s)
+[Tue Apr 14 13:48:45 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:48:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:45 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:45 2015] [debug] 404 Not Found (0.013462s, 74.283/s)
+[Tue Apr 14 13:48:46 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:48:46 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:48:46 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:48:46 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:48:46 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:48:46 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:46 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:46 2015] [debug] 500 Internal Server Error (0.046623s, 21.449/s)
+[Tue Apr 14 13:48:50 2015] [debug] GET "/app"
+[Tue Apr 14 13:48:50 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:48:50 2015] [debug] Action not found in controller
+[Tue Apr 14 13:48:50 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:48:50 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:48:50 2015] [debug] 200 OK (0.007057s, 141.703/s)
+[Tue Apr 14 13:48:52 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:48:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:52 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:52 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:52 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:52 2015] [debug] 404 Not Found (0.012358s, 80.919/s)
+[Tue Apr 14 13:48:53 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:48:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:53 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:53 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:53 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:53 2015] [debug] 404 Not Found (0.012881s, 77.634/s)
+[Tue Apr 14 13:48:53 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:48:53 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:53 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:53 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:53 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:53 2015] [debug] 404 Not Found (0.015057s, 66.414/s)
+[Tue Apr 14 13:48:53 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:48:53 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:48:53 2015] [debug] 200 OK (0.125720s, 7.954/s)
+[Tue Apr 14 13:48:54 2015] [debug] GET "/app"
+[Tue Apr 14 13:48:54 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:48:54 2015] [debug] Action not found in controller
+[Tue Apr 14 13:48:54 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:48:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:48:54 2015] [debug] 200 OK (0.005587s, 178.987/s)
+[Tue Apr 14 13:48:55 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:48:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:55 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:55 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:55 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:55 2015] [debug] 404 Not Found (0.019914s, 50.216/s)
+[Tue Apr 14 13:48:55 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:48:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:55 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:55 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:55 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:55 2015] [debug] 404 Not Found (0.019967s, 50.083/s)
+[Tue Apr 14 13:48:56 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:48:56 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:48:56 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:48:56 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:48:56 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:48:56 2015] [debug] 404 Not Found (0.019882s, 50.297/s)
+[Tue Apr 14 13:48:56 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:48:56 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:48:56 2015] [debug] 200 OK (0.105327s, 9.494/s)
+[Tue Apr 14 13:49:12 2015] [debug] GET "/app"
+[Tue Apr 14 13:49:12 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:49:12 2015] [debug] Action not found in controller
+[Tue Apr 14 13:49:12 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:49:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:49:12 2015] [debug] 200 OK (0.004702s, 212.675/s)
+[Tue Apr 14 13:49:13 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:49:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:13 2015] [debug] 404 Not Found (0.020008s, 49.980/s)
+[Tue Apr 14 13:49:13 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:49:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:13 2015] [debug] 404 Not Found (0.012909s, 77.465/s)
+[Tue Apr 14 13:49:13 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:49:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:13 2015] [debug] 404 Not Found (0.028295s, 35.342/s)
+[Tue Apr 14 13:49:14 2015] [debug] GET "/app"
+[Tue Apr 14 13:49:14 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:49:14 2015] [debug] Action not found in controller
+[Tue Apr 14 13:49:14 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:49:14 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:49:14 2015] [debug] 200 OK (0.004481s, 223.164/s)
+[Tue Apr 14 13:49:14 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:14 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:14 2015] [debug] 200 OK (0.077152s, 12.961/s)
+[Tue Apr 14 13:49:15 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:49:15 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:15 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:15 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:15 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:15 2015] [debug] 404 Not Found (0.013410s, 74.571/s)
+[Tue Apr 14 13:49:15 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:49:15 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:15 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:15 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:15 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:15 2015] [debug] 404 Not Found (0.018684s, 53.522/s)
+[Tue Apr 14 13:49:15 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:49:15 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:15 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:15 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:15 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:15 2015] [debug] 404 Not Found (0.015645s, 63.918/s)
+[Tue Apr 14 13:49:16 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:16 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:16 2015] [debug] 200 OK (0.182592s, 5.477/s)
+[Tue Apr 14 13:49:20 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:20 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:21 2015] [debug] 200 OK (0.256416s, 3.900/s)
+[Tue Apr 14 13:49:22 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:22 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:22 2015] [debug] 200 OK (0.073778s, 13.554/s)
+[Tue Apr 14 13:49:22 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:22 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:22 2015] [debug] 200 OK (0.148975s, 6.713/s)
+[Tue Apr 14 13:49:22 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:22 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:23 2015] [debug] 200 OK (0.138285s, 7.231/s)
+[Tue Apr 14 13:49:23 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:23 2015] [debug] 200 OK (0.196067s, 5.100/s)
+[Tue Apr 14 13:49:23 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:23 2015] [debug] 200 OK (0.285242s, 3.506/s)
+[Tue Apr 14 13:49:23 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:23 2015] [debug] 200 OK (0.176996s, 5.650/s)
+[Tue Apr 14 13:49:23 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:24 2015] [debug] 200 OK (0.124400s, 8.039/s)
+[Tue Apr 14 13:49:24 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:24 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:24 2015] [debug] 200 OK (0.124365s, 8.041/s)
+[Tue Apr 14 13:49:24 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:24 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:24 2015] [debug] 200 OK (0.106249s, 9.412/s)
+[Tue Apr 14 13:49:24 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:24 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:24 2015] [debug] 200 OK (0.099154s, 10.085/s)
+[Tue Apr 14 13:49:26 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:26 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:26 2015] [debug] 200 OK (0.117822s, 8.487/s)
+[Tue Apr 14 13:49:26 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:26 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:26 2015] [debug] 200 OK (0.121338s, 8.241/s)
+[Tue Apr 14 13:49:26 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:26 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:26 2015] [debug] 200 OK (0.114768s, 8.713/s)
+[Tue Apr 14 13:49:26 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:26 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:26 2015] [debug] 200 OK (0.105410s, 9.487/s)
+[Tue Apr 14 13:49:37 2015] [debug] GET "/app"
+[Tue Apr 14 13:49:37 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:49:37 2015] [debug] Action not found in controller
+[Tue Apr 14 13:49:37 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:49:37 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:49:37 2015] [debug] 200 OK (0.004521s, 221.190/s)
+[Tue Apr 14 13:49:38 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:49:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:38 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:38 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:38 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:38 2015] [debug] 404 Not Found (0.020687s, 48.340/s)
+[Tue Apr 14 13:49:38 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:49:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:38 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:38 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:38 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:38 2015] [debug] 404 Not Found (0.019622s, 50.963/s)
+[Tue Apr 14 13:49:38 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:49:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:38 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:38 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:38 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:38 2015] [debug] 404 Not Found (0.020108s, 49.731/s)
+[Tue Apr 14 13:49:39 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:39 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:39 2015] [debug] 200 OK (0.082535s, 12.116/s)
+[Tue Apr 14 13:49:39 2015] [debug] GET "/app"
+[Tue Apr 14 13:49:39 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:49:39 2015] [debug] Action not found in controller
+[Tue Apr 14 13:49:39 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:49:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:49:39 2015] [debug] 200 OK (0.004372s, 228.728/s)
+[Tue Apr 14 13:49:42 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:49:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:42 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:42 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:42 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:42 2015] [debug] 404 Not Found (0.020359s, 49.118/s)
+[Tue Apr 14 13:49:42 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:49:42 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:42 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:42 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:42 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:42 2015] [debug] 404 Not Found (0.012658s, 79.001/s)
+[Tue Apr 14 13:49:43 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:49:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:49:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:49:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:43 2015] [debug] 404 Not Found (0.014527s, 68.837/s)
+[Tue Apr 14 13:49:43 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:49:43 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:49:43 2015] [debug] 200 OK (0.067088s, 14.906/s)
+[Tue Apr 14 13:49:44 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:49:44 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:49:44 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:49:44 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:49:44 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:49:44 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:49:44 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:49:44 2015] [debug] 500 Internal Server Error (0.049626s, 20.151/s)
+[Tue Apr 14 13:53:39 2015] [debug] GET "/app"
+[Tue Apr 14 13:53:39 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:53:39 2015] [debug] Action not found in controller
+[Tue Apr 14 13:53:39 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:53:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:53:39 2015] [debug] 200 OK (0.009972s, 100.281/s)
+[Tue Apr 14 13:53:40 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:53:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:53:40 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:53:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:53:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:53:40 2015] [debug] 404 Not Found (0.013505s, 74.047/s)
+[Tue Apr 14 13:53:40 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:53:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:53:40 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:53:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:53:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:53:40 2015] [debug] 404 Not Found (0.013150s, 76.046/s)
+[Tue Apr 14 13:53:40 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:53:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:53:40 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:53:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:53:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:53:40 2015] [debug] 404 Not Found (0.012928s, 77.351/s)
+[Tue Apr 14 13:53:41 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:53:41 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:53:41 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:53:41 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:53:41 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:53:41 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:53:41 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:53:41 2015] [debug] 500 Internal Server Error (0.030281s, 33.024/s)
+[Tue Apr 14 13:54:03 2015] [debug] GET "/app"
+[Tue Apr 14 13:54:03 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:54:03 2015] [debug] Action not found in controller
+[Tue Apr 14 13:54:03 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:54:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:54:03 2015] [debug] 200 OK (0.007012s, 142.613/s)
+[Tue Apr 14 13:54:04 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:54:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:54:04 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:54:04 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:54:04 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:54:04 2015] [debug] 404 Not Found (0.016507s, 60.580/s)
+[Tue Apr 14 13:54:04 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:54:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:54:04 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:54:04 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:54:04 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:54:04 2015] [debug] 404 Not Found (0.013970s, 71.582/s)
+[Tue Apr 14 13:54:04 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:54:04 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:54:04 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:54:04 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:54:04 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:54:04 2015] [debug] 404 Not Found (0.014826s, 67.449/s)
+[Tue Apr 14 13:54:05 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:54:05 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:54:05 2015] [debug] 200 OK (0.213670s, 4.680/s)
+[Tue Apr 14 13:54:08 2015] [debug] GET "/app"
+[Tue Apr 14 13:54:08 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:54:08 2015] [debug] Action not found in controller
+[Tue Apr 14 13:54:08 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:54:08 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:54:08 2015] [debug] 200 OK (0.009080s, 110.132/s)
+[Tue Apr 14 13:54:08 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:54:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:54:08 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:54:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:54:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:54:08 2015] [debug] 404 Not Found (0.012523s, 79.853/s)
+[Tue Apr 14 13:54:09 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:54:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:54:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:54:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:54:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:54:09 2015] [debug] 404 Not Found (0.017265s, 57.921/s)
+[Tue Apr 14 13:54:09 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:54:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:54:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:54:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:54:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:54:09 2015] [debug] 404 Not Found (0.014712s, 67.972/s)
+[Tue Apr 14 13:54:10 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:54:10 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:54:10 2015] [debug] 200 OK (0.102685s, 9.739/s)
+[Tue Apr 14 13:54:12 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:54:12 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:54:12 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:54:12 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:54:12 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:54:12 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:54:12 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:54:13 2015] [debug] 500 Internal Server Error (0.178613s, 5.599/s)
+[Tue Apr 14 13:54:50 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:54:50 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:54:50 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:54:50 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:54:50 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:54:50 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:54:50 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:54:51 2015] [debug] 500 Internal Server Error (0.057361s, 17.433/s)
+[Tue Apr 14 13:55:23 2015] [debug] GET "/app"
+[Tue Apr 14 13:55:23 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:55:23 2015] [debug] Action not found in controller
+[Tue Apr 14 13:55:23 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:55:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:55:23 2015] [debug] 200 OK (0.005082s, 196.773/s)
+[Tue Apr 14 13:55:24 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:55:24 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:55:24 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:55:24 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:55:24 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:55:24 2015] [debug] 404 Not Found (0.012230s, 81.766/s)
+[Tue Apr 14 13:55:24 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:55:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:55:25 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:55:25 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:55:25 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:55:25 2015] [debug] 404 Not Found (0.014496s, 68.985/s)
+[Tue Apr 14 13:55:25 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:55:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:55:25 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:55:25 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:55:25 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:55:25 2015] [debug] 404 Not Found (0.013963s, 71.618/s)
+[Tue Apr 14 13:55:25 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:55:25 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:55:25 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:55:25 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:55:25 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:55:25 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:55:25 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:55:25 2015] [debug] 500 Internal Server Error (0.050552s, 19.782/s)
+[Tue Apr 14 13:55:44 2015] [debug] GET "/app/"
+[Tue Apr 14 13:55:44 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 13:55:44 2015] [debug] Action not found in controller
+[Tue Apr 14 13:55:44 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 13:55:44 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 13:55:44 2015] [debug] 200 OK (0.007582s, 131.891/s)
+[Tue Apr 14 13:55:45 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 13:55:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:55:45 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:55:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:55:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:55:45 2015] [debug] 404 Not Found (0.012733s, 78.536/s)
+[Tue Apr 14 13:55:46 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 13:55:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:55:46 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:55:46 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:55:46 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:55:46 2015] [debug] 404 Not Found (0.014596s, 68.512/s)
+[Tue Apr 14 13:55:46 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 13:55:46 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 13:55:46 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 13:55:46 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:55:46 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:55:46 2015] [debug] 404 Not Found (0.020201s, 49.502/s)
+[Tue Apr 14 13:55:47 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 13:55:47 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 13:55:47 2015] [debug] 200 OK (0.138918s, 7.198/s)
+[Tue Apr 14 13:55:49 2015] [debug] GET "/api/idea"
+[Tue Apr 14 13:55:49 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 13:55:49 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 13:55:49 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 13:55:49 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 13:55:49 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 13:55:49 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 13:55:49 2015] [debug] 500 Internal Server Error (0.026279s, 38.053/s)
+[Tue Apr 14 14:53:05 2015] [debug] GET "/api/idea"
+[Tue Apr 14 14:53:05 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 14:53:05 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 14:53:05 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 14:53:05 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 14:53:05 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 14:53:05 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 14:53:05 2015] [debug] 500 Internal Server Error (0.224018s, 4.464/s)
+[Tue Apr 14 15:03:17 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:03:17 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:03:17 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 15:03:17 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 15:03:17 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 15:03:17 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:03:17 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:03:17 2015] [debug] 500 Internal Server Error (0.041745s, 23.955/s)
+[Tue Apr 14 15:06:17 2015] [debug] GET "/app/"
+[Tue Apr 14 15:06:17 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:06:17 2015] [debug] Action not found in controller
+[Tue Apr 14 15:06:17 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:06:17 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:06:17 2015] [debug] 200 OK (0.005854s, 170.823/s)
+[Tue Apr 14 15:06:18 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:06:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:06:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:06:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:06:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:06:18 2015] [debug] 404 Not Found (0.020111s, 49.724/s)
+[Tue Apr 14 15:06:18 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:06:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:06:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:06:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:06:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:06:18 2015] [debug] 404 Not Found (0.013175s, 75.901/s)
+[Tue Apr 14 15:06:18 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:06:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:06:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:06:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:06:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:06:18 2015] [debug] 404 Not Found (0.013097s, 76.353/s)
+[Tue Apr 14 15:06:19 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:06:19 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:06:19 2015] [error] Can't call method "id" on an undefined value at lib/Eureca/Controller/API/Idea.pm line 43.
+
+[Tue Apr 14 15:06:19 2015] [debug] Template "exception.development.html.ep" not found
+[Tue Apr 14 15:06:19 2015] [debug] Template "exception.html.ep" not found
+[Tue Apr 14 15:06:19 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:06:19 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:06:19 2015] [debug] 500 Internal Server Error (0.100647s, 9.936/s)
+[Tue Apr 14 15:07:09 2015] [debug] GET "/app/"
+[Tue Apr 14 15:07:09 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:07:09 2015] [debug] Action not found in controller
+[Tue Apr 14 15:07:09 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:07:09 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:07:09 2015] [debug] 200 OK (0.006797s, 147.124/s)
+[Tue Apr 14 15:07:10 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:07:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:07:10 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:07:10 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:07:10 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:07:10 2015] [debug] 404 Not Found (0.019847s, 50.385/s)
+[Tue Apr 14 15:07:10 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:07:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:07:10 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:07:10 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:07:10 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:07:10 2015] [debug] 404 Not Found (0.019401s, 51.544/s)
+[Tue Apr 14 15:07:11 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:07:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:07:11 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:07:11 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:07:11 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:07:11 2015] [debug] 404 Not Found (0.017650s, 56.657/s)
+[Tue Apr 14 15:10:00 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:10:00 2015] [debug] GET "/app/"
+[Tue Apr 14 15:10:00 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:10:00 2015] [debug] Action not found in controller
+[Tue Apr 14 15:10:00 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 15:10:00 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 15:10:00 2015] [debug] 200 OK (0.110410s, 9.057/s)
+[Tue Apr 14 15:10:01 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:10:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:01 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:01 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:01 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:01 2015] [debug] 404 Not Found (0.049465s, 20.216/s)
+[Tue Apr 14 15:10:01 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:10:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:01 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:01 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:01 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:01 2015] [debug] 404 Not Found (0.015602s, 64.094/s)
+[Tue Apr 14 15:10:01 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:10:01 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:01 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:01 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:01 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:01 2015] [debug] 404 Not Found (0.019477s, 51.343/s)
+[Tue Apr 14 15:10:11 2015] [debug] GET "/app/"
+[Tue Apr 14 15:10:11 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:10:11 2015] [debug] Action not found in controller
+[Tue Apr 14 15:10:11 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:10:11 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:10:11 2015] [debug] 200 OK (0.005386s, 185.667/s)
+[Tue Apr 14 15:10:12 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:10:12 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:12 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:12 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:12 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:12 2015] [debug] 404 Not Found (0.019424s, 51.483/s)
+[Tue Apr 14 15:10:12 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:10:12 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:12 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:12 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:12 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:12 2015] [debug] 404 Not Found (0.019625s, 50.955/s)
+[Tue Apr 14 15:10:13 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:10:13 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:13 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:13 2015] [debug] 404 Not Found (0.019389s, 51.576/s)
+[Tue Apr 14 15:10:38 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:10:38 2015] [debug] GET "/app/"
+[Tue Apr 14 15:10:38 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:10:38 2015] [debug] Action not found in controller
+[Tue Apr 14 15:10:38 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 15:10:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 15:10:38 2015] [debug] 200 OK (0.039260s, 25.471/s)
+[Tue Apr 14 15:10:40 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:10:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:40 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:40 2015] [debug] 404 Not Found (0.045648s, 21.907/s)
+[Tue Apr 14 15:10:40 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:10:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:40 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:40 2015] [debug] 404 Not Found (0.013310s, 75.131/s)
+[Tue Apr 14 15:10:40 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:10:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:10:41 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:10:41 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:10:41 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:10:41 2015] [debug] 404 Not Found (0.014165s, 70.597/s)
+[Tue Apr 14 15:10:41 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:10:41 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:10:42 2015] [debug] 400 Bad Request (0.736368s, 1.358/s)
+[Tue Apr 14 15:15:07 2015] [debug] GET "/app/"
+[Tue Apr 14 15:15:07 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:15:07 2015] [debug] Action not found in controller
+[Tue Apr 14 15:15:07 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:15:07 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:15:07 2015] [debug] 200 OK (0.007425s, 134.680/s)
+[Tue Apr 14 15:15:08 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:15:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:15:08 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:15:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:15:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:15:08 2015] [debug] 404 Not Found (0.015488s, 64.566/s)
+[Tue Apr 14 15:15:08 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:15:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:15:08 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:15:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:15:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:15:08 2015] [debug] 404 Not Found (0.013285s, 75.273/s)
+[Tue Apr 14 15:15:08 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:15:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:15:08 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:15:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:15:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:15:08 2015] [debug] 404 Not Found (0.013176s, 75.896/s)
+[Tue Apr 14 15:15:09 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:15:09 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:15:09 2015] [debug] 200 OK (0.384287s, 2.602/s)
+[Tue Apr 14 15:17:13 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:17:13 2015] [debug] GET "/app/"
+[Tue Apr 14 15:17:13 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:17:13 2015] [debug] Action not found in controller
+[Tue Apr 14 15:17:13 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 15:17:13 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 15:17:13 2015] [debug] 200 OK (0.036838s, 27.146/s)
+[Tue Apr 14 15:17:14 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:17:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:17:14 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:17:14 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:17:14 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:17:14 2015] [debug] 404 Not Found (0.043377s, 23.054/s)
+[Tue Apr 14 15:17:14 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:17:14 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:17:14 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:17:14 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:17:14 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:17:14 2015] [debug] 404 Not Found (0.014854s, 67.322/s)
+[Tue Apr 14 15:17:15 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:17:15 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:17:15 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:17:15 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:17:15 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:17:15 2015] [debug] 404 Not Found (0.013556s, 73.768/s)
+[Tue Apr 14 15:17:15 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:17:15 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:17:16 2015] [debug] 200 OK (0.335889s, 2.977/s)
+[Tue Apr 14 15:18:20 2015] [debug] GET "/app/"
+[Tue Apr 14 15:18:20 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:18:20 2015] [debug] Action not found in controller
+[Tue Apr 14 15:18:20 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:18:20 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:18:20 2015] [debug] 200 OK (0.007781s, 128.518/s)
+[Tue Apr 14 15:18:21 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:18:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:18:21 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:18:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:18:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:18:21 2015] [debug] 404 Not Found (0.019855s, 50.365/s)
+[Tue Apr 14 15:18:21 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:18:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:18:21 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:18:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:18:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:18:21 2015] [debug] 404 Not Found (0.020026s, 49.935/s)
+[Tue Apr 14 15:18:21 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:18:21 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:18:21 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:18:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:18:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:18:21 2015] [debug] 404 Not Found (0.013761s, 72.669/s)
+[Tue Apr 14 15:18:22 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:18:22 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:18:22 2015] [debug] 200 OK (0.050436s, 19.827/s)
+[Tue Apr 14 15:19:03 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 15:19:03 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 15:19:03 2015] [debug] 200 OK (0.230444s, 4.339/s)
+[Tue Apr 14 15:19:05 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:19:05 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:19:05 2015] [debug] 200 OK (0.054431s, 18.372/s)
+[Tue Apr 14 15:20:01 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:01 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:01 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:01 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:01 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:01 2015] [debug] 200 OK (0.004495s, 222.469/s)
+[Tue Apr 14 15:20:02 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:20:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:02 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:02 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:02 2015] [debug] 404 Not Found (0.012303s, 81.281/s)
+[Tue Apr 14 15:20:02 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:20:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:02 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:02 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:02 2015] [debug] 404 Not Found (0.014203s, 70.408/s)
+[Tue Apr 14 15:20:02 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:20:02 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:02 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:02 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:02 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:02 2015] [debug] 404 Not Found (0.013468s, 74.250/s)
+[Tue Apr 14 15:20:03 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:20:03 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:20:03 2015] [debug] 200 OK (0.040951s, 24.419/s)
+[Tue Apr 14 15:20:04 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:04 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:04 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:04 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:04 2015] [debug] 200 OK (0.005347s, 187.021/s)
+[Tue Apr 14 15:20:05 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:20:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:05 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:05 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:05 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:05 2015] [debug] 404 Not Found (0.013409s, 74.577/s)
+[Tue Apr 14 15:20:05 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:20:05 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:05 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:05 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:05 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:05 2015] [debug] 404 Not Found (0.013090s, 76.394/s)
+[Tue Apr 14 15:20:06 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:20:06 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:06 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:06 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:06 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:06 2015] [debug] 404 Not Found (0.013402s, 74.616/s)
+[Tue Apr 14 15:20:06 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:20:06 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:20:06 2015] [debug] 200 OK (0.022600s, 44.248/s)
+[Tue Apr 14 15:20:08 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:08 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:08 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:08 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:08 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:08 2015] [debug] 200 OK (0.004786s, 208.943/s)
+[Tue Apr 14 15:20:09 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:20:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:09 2015] [debug] 404 Not Found (0.012404s, 80.619/s)
+[Tue Apr 14 15:20:09 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:20:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:09 2015] [debug] 404 Not Found (0.019493s, 51.300/s)
+[Tue Apr 14 15:20:10 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:20:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:10 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:10 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:10 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:10 2015] [debug] 404 Not Found (0.015696s, 63.710/s)
+[Tue Apr 14 15:20:10 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:20:10 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:20:10 2015] [debug] 200 OK (0.071118s, 14.061/s)
+[Tue Apr 14 15:20:12 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 15:20:12 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 15:20:12 2015] [debug] 200 OK (0.148527s, 6.733/s)
+[Tue Apr 14 15:20:15 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:20:15 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:20:15 2015] [debug] 200 OK (0.041674s, 23.996/s)
+[Tue Apr 14 15:20:17 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:17 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:17 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:17 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:17 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:17 2015] [debug] 200 OK (0.008098s, 123.487/s)
+[Tue Apr 14 15:20:18 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:18 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:18 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] 200 OK (0.005557s, 179.953/s)
+[Tue Apr 14 15:20:18 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:18 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:18 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] 200 OK (0.006805s, 146.951/s)
+[Tue Apr 14 15:20:18 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:18 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:18 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] 200 OK (0.005502s, 181.752/s)
+[Tue Apr 14 15:20:18 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:18 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:18 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] 200 OK (0.004533s, 220.604/s)
+[Tue Apr 14 15:20:18 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:18 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:18 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] 200 OK (0.004329s, 231.000/s)
+[Tue Apr 14 15:20:18 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:18 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:18 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:18 2015] [debug] 200 OK (0.004776s, 209.380/s)
+[Tue Apr 14 15:20:19 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:19 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:19 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:19 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:19 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:19 2015] [debug] 200 OK (0.004715s, 212.089/s)
+[Tue Apr 14 15:20:19 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:19 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:19 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:19 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:19 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:19 2015] [debug] 200 OK (0.004843s, 206.484/s)
+[Tue Apr 14 15:20:19 2015] [debug] GET "/app/"
+[Tue Apr 14 15:20:19 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:20:19 2015] [debug] Action not found in controller
+[Tue Apr 14 15:20:19 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:20:19 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:20:19 2015] [debug] 200 OK (0.004346s, 230.097/s)
+[Tue Apr 14 15:20:20 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:20:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:20 2015] [debug] 404 Not Found (0.019753s, 50.625/s)
+[Tue Apr 14 15:20:20 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:20:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:20 2015] [debug] 404 Not Found (0.019934s, 50.166/s)
+[Tue Apr 14 15:20:20 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:20:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:20:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:20:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:20:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:20:20 2015] [debug] 404 Not Found (0.019279s, 51.870/s)
+[Tue Apr 14 15:20:21 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:20:21 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:20:21 2015] [debug] 200 OK (0.023058s, 43.369/s)
+[Tue Apr 14 15:24:44 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:24:44 2015] [debug] GET "/app/"
+[Tue Apr 14 15:24:44 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:24:44 2015] [debug] Action not found in controller
+[Tue Apr 14 15:24:44 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 15:24:44 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 15:24:44 2015] [debug] 200 OK (0.040479s, 24.704/s)
+[Tue Apr 14 15:24:44 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:24:44 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:24:44 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:24:44 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:24:44 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:24:44 2015] [debug] 404 Not Found (0.049229s, 20.313/s)
+[Tue Apr 14 15:24:45 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:24:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:24:45 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:24:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:24:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:24:45 2015] [debug] 404 Not Found (0.020325s, 49.200/s)
+[Tue Apr 14 15:24:45 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:24:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:24:45 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:24:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:24:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:24:45 2015] [debug] 404 Not Found (0.019237s, 51.983/s)
+[Tue Apr 14 15:24:45 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:24:46 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:24:46 2015] [debug] 200 OK (0.311163s, 3.214/s)
+[Tue Apr 14 15:26:15 2015] [debug] GET "/app/"
+[Tue Apr 14 15:26:15 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:26:15 2015] [debug] Action not found in controller
+[Tue Apr 14 15:26:15 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:26:15 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:26:15 2015] [debug] 200 OK (0.004949s, 202.061/s)
+[Tue Apr 14 15:26:29 2015] [debug] GET "/app/"
+[Tue Apr 14 15:26:29 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:26:29 2015] [debug] Action not found in controller
+[Tue Apr 14 15:26:29 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:26:29 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:26:29 2015] [debug] 200 OK (0.005542s, 180.440/s)
+[Tue Apr 14 15:26:43 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:26:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:26:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:26:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:26:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:26:43 2015] [debug] 404 Not Found (0.020990s, 47.642/s)
+[Tue Apr 14 15:26:43 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:26:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:26:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:26:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:26:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:26:43 2015] [debug] 404 Not Found (0.023586s, 42.398/s)
+[Tue Apr 14 15:26:43 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:26:43 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:26:43 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:26:43 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:26:43 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:26:43 2015] [debug] 404 Not Found (0.019697s, 50.769/s)
+[Tue Apr 14 15:26:44 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:26:44 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:26:44 2015] [debug] 200 OK (0.042566s, 23.493/s)
+[Tue Apr 14 15:30:21 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:30:21 2015] [debug] GET "/app/"
+[Tue Apr 14 15:30:21 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:30:21 2015] [debug] Action not found in controller
+[Tue Apr 14 15:30:21 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 15:30:21 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 15:30:21 2015] [debug] 200 OK (0.038565s, 25.930/s)
+[Tue Apr 14 15:30:22 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:30:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:30:22 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:30:22 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:30:22 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:30:22 2015] [debug] 404 Not Found (0.068111s, 14.682/s)
+[Tue Apr 14 15:30:22 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:30:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:30:22 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:30:22 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:30:22 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:30:22 2015] [debug] 404 Not Found (0.012765s, 78.339/s)
+[Tue Apr 14 15:30:22 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:30:22 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:30:22 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:30:22 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:30:22 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:30:22 2015] [debug] 404 Not Found (0.017633s, 56.712/s)
+[Tue Apr 14 15:30:23 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:30:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:30:23 2015] [debug] 200 OK (0.415023s, 2.410/s)
+[Tue Apr 14 15:31:07 2015] [debug] GET "/app/"
+[Tue Apr 14 15:31:07 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:31:07 2015] [debug] Action not found in controller
+[Tue Apr 14 15:31:07 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:31:07 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:31:07 2015] [debug] 200 OK (0.007416s, 134.844/s)
+[Tue Apr 14 15:31:08 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:31:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:31:08 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:31:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:31:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:31:08 2015] [debug] 404 Not Found (0.012570s, 79.554/s)
+[Tue Apr 14 15:31:08 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:31:08 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:31:08 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:31:08 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:31:08 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:31:08 2015] [debug] 404 Not Found (0.013177s, 75.890/s)
+[Tue Apr 14 15:31:09 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:31:09 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:31:09 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:31:09 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:31:09 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:31:09 2015] [debug] 404 Not Found (0.013606s, 73.497/s)
+[Tue Apr 14 15:31:09 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:31:09 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:31:09 2015] [debug] 200 OK (0.038932s, 25.686/s)
+[Tue Apr 14 15:31:19 2015] [debug] GET "/app/"
+[Tue Apr 14 15:31:19 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:31:19 2015] [debug] Action not found in controller
+[Tue Apr 14 15:31:19 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:31:19 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:31:19 2015] [debug] 200 OK (0.008133s, 122.956/s)
+[Tue Apr 14 15:31:20 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:31:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:31:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:31:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:31:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:31:20 2015] [debug] 404 Not Found (0.013672s, 73.142/s)
+[Tue Apr 14 15:31:20 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:31:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:31:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:31:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:31:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:31:20 2015] [debug] 404 Not Found (0.013846s, 72.223/s)
+[Tue Apr 14 15:31:20 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:31:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:31:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:31:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:31:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:31:20 2015] [debug] 404 Not Found (0.013983s, 71.515/s)
+[Tue Apr 14 15:31:21 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:31:21 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:31:21 2015] [debug] 200 OK (0.104307s, 9.587/s)
+[Tue Apr 14 15:33:09 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:33:09 2015] [debug] GET "/app/"
+[Tue Apr 14 15:33:09 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:33:09 2015] [debug] Action not found in controller
+[Tue Apr 14 15:33:09 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 15:33:09 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 15:33:09 2015] [debug] 200 OK (0.040509s, 24.686/s)
+[Tue Apr 14 15:33:10 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:33:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:33:10 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:33:10 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:33:10 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:33:10 2015] [debug] 404 Not Found (0.043675s, 22.896/s)
+[Tue Apr 14 15:33:10 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:33:10 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:33:10 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:33:10 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:33:10 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:33:10 2015] [debug] 404 Not Found (0.018217s, 54.894/s)
+[Tue Apr 14 15:33:11 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:33:11 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:33:11 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:33:11 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:33:11 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:33:11 2015] [debug] 404 Not Found (0.013814s, 72.390/s)
+[Tue Apr 14 15:33:11 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:33:11 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:33:11 2015] [debug] 200 OK (0.381342s, 2.622/s)
+[Tue Apr 14 15:33:57 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:33:57 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 15:33:57 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 15:33:57 2015] [debug] 200 OK (0.525122s, 1.904/s)
+[Tue Apr 14 15:34:00 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:34:00 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:34:00 2015] [debug] 200 OK (0.208714s, 4.791/s)
+[Tue Apr 14 15:34:04 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 15:34:04 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 15:34:04 2015] [debug] 200 OK (0.071270s, 14.031/s)
+[Tue Apr 14 15:34:08 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:34:08 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:34:08 2015] [debug] 200 OK (0.059326s, 16.856/s)
+[Tue Apr 14 15:34:27 2015] [debug] GET "/api/ideas"
+[Tue Apr 14 15:34:27 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "list"
+[Tue Apr 14 15:34:27 2015] [debug] 200 OK (0.150300s, 6.653/s)
+[Tue Apr 14 15:34:57 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:34:57 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:34:57 2015] [debug] 200 OK (0.041101s, 24.330/s)
+[Tue Apr 14 15:35:17 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:35:17 2015] [debug] GET "/app/"
+[Tue Apr 14 15:35:17 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:35:17 2015] [debug] Action not found in controller
+[Tue Apr 14 15:35:17 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 15:35:17 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 15:35:17 2015] [debug] 200 OK (0.035441s, 28.216/s)
+[Tue Apr 14 15:35:18 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:35:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:35:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:35:18 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:35:18 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:35:18 2015] [debug] 404 Not Found (0.068398s, 14.620/s)
+[Tue Apr 14 15:35:18 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:35:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:35:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:35:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:35:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:35:18 2015] [debug] 404 Not Found (0.019175s, 52.151/s)
+[Tue Apr 14 15:35:19 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:35:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:35:19 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:35:19 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:35:19 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:35:19 2015] [debug] 404 Not Found (0.019761s, 50.605/s)
+[Tue Apr 14 15:35:19 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:35:19 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:35:20 2015] [debug] 200 OK (0.321260s, 3.113/s)
+[Tue Apr 14 15:36:16 2015] [debug] Your secret passphrase needs to be changed
+[Tue Apr 14 15:36:16 2015] [debug] GET "/app/"
+[Tue Apr 14 15:36:16 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:36:16 2015] [debug] Action not found in controller
+[Tue Apr 14 15:36:16 2015] [debug] Rendering template "home/index.html.ep"
+[Tue Apr 14 15:36:16 2015] [debug] Rendering template "layouts/default.html.ep"
+[Tue Apr 14 15:36:16 2015] [debug] 200 OK (0.061051s, 16.380/s)
+[Tue Apr 14 15:36:17 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:36:17 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:36:17 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:36:17 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:36:17 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:36:17 2015] [debug] 404 Not Found (0.069088s, 14.474/s)
+[Tue Apr 14 15:36:18 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:36:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:36:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:36:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:36:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:36:18 2015] [debug] 404 Not Found (0.019393s, 51.565/s)
+[Tue Apr 14 15:36:18 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:36:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:36:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:36:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:36:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:36:18 2015] [debug] 404 Not Found (0.019071s, 52.436/s)
+[Tue Apr 14 15:36:18 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:36:19 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:36:19 2015] [debug] 200 OK (0.347676s, 2.876/s)
+[Tue Apr 14 15:38:19 2015] [debug] GET "/app/"
+[Tue Apr 14 15:38:19 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:38:19 2015] [debug] Action not found in controller
+[Tue Apr 14 15:38:19 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:38:19 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:38:19 2015] [debug] 200 OK (0.005713s, 175.039/s)
+[Tue Apr 14 15:38:20 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:38:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:38:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:38:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:38:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:38:20 2015] [debug] 404 Not Found (0.020051s, 49.873/s)
+[Tue Apr 14 15:38:20 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:38:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:38:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:38:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:38:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:38:20 2015] [debug] 404 Not Found (0.019267s, 51.902/s)
+[Tue Apr 14 15:38:20 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:38:20 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:38:20 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:38:20 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:38:20 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:38:20 2015] [debug] 404 Not Found (0.019336s, 51.717/s)
+[Tue Apr 14 15:38:21 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:38:21 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:38:21 2015] [debug] 200 OK (0.055864s, 17.901/s)
+[Tue Apr 14 15:38:39 2015] [debug] GET "/app/"
+[Tue Apr 14 15:38:39 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:38:39 2015] [debug] Action not found in controller
+[Tue Apr 14 15:38:39 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:38:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:38:39 2015] [debug] 200 OK (0.004347s, 230.044/s)
+[Tue Apr 14 15:38:40 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:38:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:38:40 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:38:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:38:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:38:40 2015] [debug] 404 Not Found (0.012324s, 81.142/s)
+[Tue Apr 14 15:38:40 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:38:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:38:40 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:38:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:38:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:38:40 2015] [debug] 404 Not Found (0.019266s, 51.905/s)
+[Tue Apr 14 15:38:41 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:38:41 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:38:41 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:38:41 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:38:41 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:38:41 2015] [debug] 404 Not Found (0.019624s, 50.958/s)
+[Tue Apr 14 15:38:41 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:38:41 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:38:41 2015] [debug] 200 OK (0.061710s, 16.205/s)
+[Tue Apr 14 15:42:53 2015] [debug] GET "/app/"
+[Tue Apr 14 15:42:53 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:42:53 2015] [debug] Action not found in controller
+[Tue Apr 14 15:42:53 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:42:53 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:42:53 2015] [debug] 200 OK (0.008044s, 124.316/s)
+[Tue Apr 14 15:42:54 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:42:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:42:54 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:42:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:42:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:42:54 2015] [debug] 404 Not Found (0.020675s, 48.368/s)
+[Tue Apr 14 15:42:54 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:42:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:42:54 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:42:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:42:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:42:54 2015] [debug] 404 Not Found (0.019253s, 51.940/s)
+[Tue Apr 14 15:42:54 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:42:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:42:54 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:42:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:42:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:42:54 2015] [debug] 404 Not Found (0.019597s, 51.028/s)
+[Tue Apr 14 15:42:55 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:42:55 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:42:55 2015] [debug] 200 OK (0.095113s, 10.514/s)
+[Tue Apr 14 15:44:17 2015] [debug] GET "/app/"
+[Tue Apr 14 15:44:17 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:44:17 2015] [debug] Action not found in controller
+[Tue Apr 14 15:44:17 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:44:17 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:44:17 2015] [debug] 200 OK (0.005087s, 196.580/s)
+[Tue Apr 14 15:44:18 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:44:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:44:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:44:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:44:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:44:18 2015] [debug] 404 Not Found (0.012790s, 78.186/s)
+[Tue Apr 14 15:44:18 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:44:18 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:44:18 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:44:18 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:44:18 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:44:18 2015] [debug] 404 Not Found (0.019294s, 51.830/s)
+[Tue Apr 14 15:44:19 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:44:19 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:44:19 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:44:19 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:44:19 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:44:19 2015] [debug] 404 Not Found (0.019538s, 51.182/s)
+[Tue Apr 14 15:44:19 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:44:19 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:44:19 2015] [debug] 200 OK (0.073534s, 13.599/s)
+[Tue Apr 14 15:45:37 2015] [debug] GET "/app/"
+[Tue Apr 14 15:45:37 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Tue Apr 14 15:45:37 2015] [debug] Action not found in controller
+[Tue Apr 14 15:45:37 2015] [debug] Rendering cached template "home/index.html.ep"
+[Tue Apr 14 15:45:37 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Tue Apr 14 15:45:37 2015] [debug] 200 OK (0.005012s, 199.521/s)
+[Tue Apr 14 15:45:38 2015] [debug] GET "/js/lib/jquery/jquery.min.map"
+[Tue Apr 14 15:45:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:45:38 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:45:38 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:45:38 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:45:38 2015] [debug] 404 Not Found (0.017216s, 58.086/s)
+[Tue Apr 14 15:45:38 2015] [debug] GET "/js/lib/underscore/underscore-min.map"
+[Tue Apr 14 15:45:38 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:45:38 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:45:38 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:45:38 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:45:38 2015] [debug] 404 Not Found (0.016526s, 60.511/s)
+[Tue Apr 14 15:45:39 2015] [debug] GET "/js/lib/backbone/backbone-min.map"
+[Tue Apr 14 15:45:39 2015] [debug] Template "not_found.development.html.ep" not found
+[Tue Apr 14 15:45:39 2015] [debug] Template "not_found.html.ep" not found
+[Tue Apr 14 15:45:39 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Tue Apr 14 15:45:39 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Tue Apr 14 15:45:39 2015] [debug] 404 Not Found (0.014701s, 68.023/s)
+[Tue Apr 14 15:45:39 2015] [debug] GET "/api/idea"
+[Tue Apr 14 15:45:39 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "retrieve"
+[Tue Apr 14 15:45:39 2015] [debug] 200 OK (0.057661s, 17.343/s)

@@ -42,7 +42,7 @@
 
     {{#each models}}
         <div class="col-md-4">
-          <div class="note note-item" data-uri="test-of-love">
+          <div class="note note-item" data-uri="{{slug}}">
             <div class="note-body">
               {{title}} 
             </div>
@@ -58,20 +58,13 @@
         </div>
     {{/each}}
 
-
     </div>
       
       
       
     <div class="row">
       <div class="col-md-12 text-center">
-        <ul class="pagination pagination-lg">
-          <li class="disabled"><a href="#">«</a></li>
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">»</a></li>
-        </ul>        
+        <a class="btn btn-sm btn-primary" href="#" data-page="1">Load More</a>
       </div>
     </div>
       
