@@ -19,24 +19,7 @@
           </div>
       </form>
       
-      <div class="row">
-        <div class="col-md-12">
-          <div class="btn-group">
-            <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-              Sort By:  <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Date</a></li>
-              <li><a href="#">Popularity</a></li>
-              <li><a href="#">Comments</a></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-      
       <br>
-
       
       <div class="row note-row">
 
@@ -46,14 +29,10 @@
             <div class="note-body">
               {{title}} 
             </div>
-            <div class="note-controls invisible">
-                <a href="#"><i class="fa fa-comment"></i></a>&nbsp;<span class="bubble bubble-right">{{ comments }}</span>
-              &nbsp;&nbsp;
-                <a href="#"><i class="fa fa-heart"></i></a>&nbsp;<span class="bubble bubble-right" title="1000">{{ likes }}</span>
-            </div>
+            <div class="note-controls invisible"></div>
           </div>
           <small class="text-center">
-            Created by <a href="#/profile/{{ user.id }}">{{ user.name }}</a>
+            Created by <a href="#">{{ user.name }}</a>
           </small>
         </div>
     {{/each}}
