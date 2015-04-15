@@ -41,25 +41,10 @@ Eureca.View.Home = Backbone.View.extend({
     el     : '#app-container',
 
     events : { 
-        'mouseover .note-item': 'note_item_mouseover',
-        'mouseout .note-item':  'note_item_mouseout',
+        // no comment && likes for first release
+        //'mouseover .note-item': 'note_item_mouseover',
+        //'mouseout .note-item':  'note_item_mouseout',
         'click .note': 'note_click'
-    },
-
-    note_item_mouseover: function(e){
-        e.preventDefault();
-
-        var $c = $(e.currentTarget);
-        $c.find('.note-controls').removeClass('invisible');
-        return false;
-    },
-
-    note_item_mouseout: function(e){
-        e.preventDefault();
-
-        var $c = $(e.currentTarget);
-        $c.find('.note-controls').addClass('invisible');
-        return false;
     },
 
     note_click: function(e){
