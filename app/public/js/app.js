@@ -44,7 +44,20 @@ Eureca.View.Home = Backbone.View.extend({
         // no comment && likes for first release
         //'mouseover .note-item': 'note_item_mouseover',
         //'mouseout .note-item':  'note_item_mouseout',
+        'submit #form-search-idea': 'search_idea',
         'click .note': 'note_click'
+    },
+
+    search_idea: function(e) {
+        e.preventDefault();
+
+        var app = Eureca.app || new Eureca.Router();
+
+        var $c = $(e.currentTarget);
+        var test = $c.serialize();
+
+        alert('Open idea search page here ('+ test +')');
+        return false;
     },
 
     note_click: function(e){
@@ -180,6 +193,8 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
 Eureca.Router = Backbone.Router.extend({
     routes: {
       ""                : "home",
+      "search"          : "search_page",
+      "search/p:page"   : "search_page",
       "profile/ideas"   : "profile_ideas",
       "idea/create"     : "idea_create",
       "idea/item/:slug" : "idea_index"
@@ -188,6 +203,11 @@ Eureca.Router = Backbone.Router.extend({
     home : function() {
         var view = new Eureca.View.Home();
         view.render();
+        return false;
+    },
+
+    search_page : function (page) {
+        alert('Search Page: '+ page);
         return false;
     },
 
