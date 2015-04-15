@@ -29,7 +29,6 @@
                         Daniel Vinciguerra <span class="caret"></span>
                     </a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="/app/#/profile">Profile</a></li>
 						<li><a href="/app/#/profile/ideas">My Ideas</a></li>
 						<li class="divider"></li>
 						<li><a href="/account/signout">Logout</a></li>

@@ -180,8 +180,6 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
 Eureca.Router = Backbone.Router.extend({
     routes: {
       ""                : "home",
-      "profile"         : "profile",
-      "profile/:id"     : "profile_user",
       "profile/ideas"   : "profile_ideas",
       "idea/create"     : "idea_create",
       "idea/item/:slug" : "idea_index"
@@ -190,17 +188,6 @@ Eureca.Router = Backbone.Router.extend({
     home : function() {
         var view = new Eureca.View.Home();
         view.render();
-        return false;
-    },
-
-    profile : function () {
-        var view = new Eureca.View.Profile();
-        view.render();
-        return false;
-    },
-
-    profile_user : function () {
-        alert('Profile User');
         return false;
     },
 
