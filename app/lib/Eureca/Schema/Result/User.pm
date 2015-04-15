@@ -178,9 +178,24 @@ __PACKAGE__->has_many(
   { cascade_copy => 0, cascade_delete => 0 },
 );
 
+=head2 ideas_like
 
-# Created by DBIx::Class::Schema::Loader v0.07042 @ 2015-03-31 08:54:54
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:Q3ZqSCCMdnOVI1C8cGslkQ
+Type: has_many
+
+Related object: L<Eureca::Schema::Result::IdeaLike>
+
+=cut
+
+__PACKAGE__->has_many(
+  "ideas_like",
+  "Eureca::Schema::Result::IdeaLike",
+  { "foreign.user_id" => "self.id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
+
+
+# Created by DBIx::Class::Schema::Loader v0.07042 @ 2015-04-15 02:02:35
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:1bqBZbUHB+Tu+mG07imWDQ
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration

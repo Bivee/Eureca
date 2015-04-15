@@ -1,0 +1,13 @@
+requires 'Mojolicious', '6.0';
+requires 'DBIx::Class', '0.082810';
+ 
+recommends 'DBIx::Class::Schema::Loader';
+ 
+on 'develop' => sub {
+  recommends 'Devel::NYTProf';
+};
+ 
+feature 'mysql', 'MySQL support' => sub {
+  recommends 'DBD::mysql';
+};
+

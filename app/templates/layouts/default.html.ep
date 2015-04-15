@@ -6,7 +6,7 @@
 
   %= stylesheet '/css/bootstrap.css'
   %= stylesheet '/css/style.css'
-  %= stylesheet '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
+  %# stylesheet '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
 
 </head>
 <body id="app">

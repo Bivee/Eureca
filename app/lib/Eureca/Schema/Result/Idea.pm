@@ -214,6 +214,21 @@ __PACKAGE__->has_many(
   { cascade_copy => 0, cascade_delete => 0 },
 );
 
+=head2 ideas_like
+
+Type: has_many
+
+Related object: L<Eureca::Schema::Result::IdeaLike>
+
+=cut
+
+__PACKAGE__->has_many(
+  "ideas_like",
+  "Eureca::Schema::Result::IdeaLike",
+  { "foreign.idea_id" => "self.id" },
+  { cascade_copy => 0, cascade_delete => 0 },
+);
+
 =head2 user
 
 Type: belongs_to
@@ -230,8 +245,8 @@ __PACKAGE__->belongs_to(
 );
 
 
-# Created by DBIx::Class::Schema::Loader v0.07042 @ 2015-03-31 08:54:54
-# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:GUaTby1XM2pVV83tzG35gQ
+# Created by DBIx::Class::Schema::Loader v0.07042 @ 2015-04-15 02:02:35
+# DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:T231upFGUaliz3Lorci73g
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
