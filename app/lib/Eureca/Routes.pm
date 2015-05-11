@@ -20,20 +20,24 @@ sub register {
     $account->get('/forgot')->to('Account#forgot');
 
     # auth area
-    my $auth = $r;
-    #my $auth = $r->under(sub{
-    #    my $c = shift;
+    #my $auth = $r;
+    my $auth = $r->under(sub{
+        my $c = shift;
 
-    #    return 1 if $c->session('uid');
-    #    $c->flash(error => 'session-expired') 
-    #        && return $c->redirect_to('/account/signin');
-    #});
+        return 1 if $c->session('uid');
+        $c->flash(error => 'session-expired') 
+            && return $c->redirect_to('/account/signin');
+    });
 
     #$r->get('/' => sub{ shift->redirect_to('/app') });
 
-    # Home controller
+    # app controller
     my $home = $auth->any('/app');
     $home->get('/')->to('Home#index');
+    $home->get('/user/:id')->to('User#index', id => 0);
+    $home->any('/idea/create')->to('Idea#create', slug => '');
+    $home->get('/idea/:slug')->to('Idea#index', slug => '');
+    $home->get('/profile/:slug')->to('User#profile');
 
 
     # Api end-points

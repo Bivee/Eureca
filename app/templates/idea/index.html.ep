@@ -1,0 +1,51 @@
+% layout 'default';
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+
+      <h2>
+        Idea: <%= $idea->title %>
+      </h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="well well-sm">
+            %= $idea->description
+          </div>
+          <div class="form-group">
+            Created by <a href="<%= url_for "/app/user/" + $idea->user->id %>"><%= $idea->user->name %></a> at <%= $idea->created? $idea->created->ymd : '' %>
+          </div>
+          <div class="form-group">
+            % for my $t (split /\s*;\s*/, $idea->tags){
+              <span class="label label-danger"><%= $t %></span>
+            % }
+          </div>
+          <div class="form-group">
+            <a class="btn btn-default" href="/app">
+                <i class="fa fa-home"></i>
+                Back Home
+            </a>
+          </div>
+        </div>
+      </div>
+
+    <!-- Add Disqus Comments Here -->
+
+      
+    </div>
+    <div class="col-md-4">
+      
+
+      
+    </div>
+  </div>
+</div>    
+
+
+% content 'script' => begin
+    %= javascript begin
+        $(function(){ new Eureca.View.IdeaIndex() });
+    % end 
+% end 

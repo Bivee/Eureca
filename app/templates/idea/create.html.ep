@@ -1,5 +1,5 @@
-  
-<!-- Container -->    
+% layout 'default';
+
 <div class="container">
   <div class="row">
     <div class="col-md-8">
@@ -53,21 +53,13 @@
     </div>
     <div class="col-md-4">
       
-      <!-- div class="tag-panel">
-        <h4>
-          <i class="fa fa-tags text-muted"></i> 
-          Top Tags
-        </h4>
-        <div class="list-group">
-          <a href="#" class="list-group-item">Mobile Apps</a>
-          <a href="#" class="list-group-item">Social Business</a>
-          <a href="#" class="list-group-item">Online</a>
-          <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-          <a href="#" class="list-group-item">Vestibulum at eros</a>
-        </div>
-      </div -->
-
-      
     </div>
   </div>
 </div>    
+
+
+% content 'script' => begin
+    %= javascript begin
+        $(function(){ new Eureca.View.IdeaCreate() });
+    % end 
+% end 

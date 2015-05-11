@@ -16,20 +16,26 @@ var Collection  = Eureca.Collection = {};
 Eureca.Model.Idea = Backbone.Model.extend({
     url: '/api/idea',
 
-    defaults: {
-        user        : { name : '' },
-        title       : '',
-        slug        : '',
-        description : '',
-        comments    : '',
-        likes       : '',
-        created     : '',
-    }
+    defaults: {}
+    //defaults: {
+    //    user        : { name : '' },
+    //    title       : '',
+    //    slug        : '',
+    //    description : '',
+    //    comments    : '',
+    //    likes       : '',
+    //    created     : '',
+    //}
     
 });
 Eureca.Collection.Ideas = Backbone.Collection.extend({
     url: '/api/ideas',
-    model : Eureca.Model.Idea
+
+    model : Eureca.Model.Idea,
+
+    parse: function(response){
+        return response;
+    }
 });
 
 /*****************************************************
@@ -41,83 +47,19 @@ Eureca.View.Home = Backbone.View.extend({
     el     : '#app-container',
 
     events : { 
-        // no comment && likes for first release
-        //'mouseover .note-item': 'note_item_mouseover',
-        //'mouseout .note-item':  'note_item_mouseout',
-        'submit #form-search-idea': 'search_idea',
         'click .note': 'note_click'
-    },
-
-    search_idea: function(e) {
-        e.preventDefault();
-
-        var app = Eureca.app || new Eureca.Router();
-
-        var $c = $(e.currentTarget);
-        var test = $c.serialize();
-
-        alert('Open idea search page here ('+ test +')');
-        return false;
     },
 
     note_click: function(e){
         e.preventDefault();
-
-        var app = Eureca.app || new Eureca.Router();
-
-        var $c = $(e.currentTarget);
-        var slug = $c.attr('data-uri');
-        app.navigate("/idea/item/" + slug, {trigger: true});
+        document.location = '/app/idea/' + $(e.currentTarget).attr('data-uri');
         return false;
-    },
-
-    render : function(){
-        this.model.fetch({
-            success: function(data){
-                var model_list = data.toJSON() || [];
-
-                var template = new Template();
-                template.loadTemplate('/home/index', function(data){
-                    var template = Handlebars.compile(data);
-                    $('#app-container').html(template({ 'models': model_list }));
-                });
-            },
-            error: function(){
-                alert('Error fetching idea list');
-            }
-        });
     }
+
 });
 Eureca.View.IdeaIndex = Backbone.View.extend({
-    model  : new Eureca.Model.Idea(),
+    el : '#app-container'
 
-    el : '#app-container',
-
-    events : { },
-
-    initialize: function () { },
-
-    render : function(param){
-        this.model = new Eureca.Model.Idea({ 
-            slug: param.slug 
-        });
-
-        this.model.fetch({
-            data: { 'slug': param.slug },
-            success: function(data){
-                var model = data.toJSON() || [];
-
-                var template = new Template();
-                template.loadTemplate('/idea/index', function(data){
-                    var template = Handlebars.compile(data);
-                    $('#app-container').html(template( model ));
-                });
-            },
-            error: function(){
-                alert('Error retrieving idea data');
-            }
-        });
-    }
 });
 Eureca.View.IdeaCreate = Backbone.View.extend({
     el : '#app-container',
@@ -126,8 +68,6 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
         'click #btn-save-idea' : 'save_idea_click',
         'keyup #idea-title'    : 'slug_generation'
     },
-
-    initialize: function(){ },
 
     save_idea_click: function () {
         var data = this.form_to_json('#form-idea-create');
@@ -145,7 +85,7 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
     },
 
     slug_generation: function (e) {
-        var string = $('#idea-title').val();
+        var string = $(e.currentTarget).val();
 
         var a_chars = new Array(
             new Array("a",/[áàâãªÁÀÂÃ]/g),
@@ -167,7 +107,7 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
             .replace(/\-{2,}/g,'-')         // remove duplicated dashes
             .replace(/(^\s*)|(\s*$)/g, '');  // trim right and left       
 
-        $(e.currentTarget).val(string);
+        $('#idea-slug').val(string);
         return false;
     },
 
@@ -179,13 +119,6 @@ Eureca.View.IdeaCreate = Backbone.View.extend({
             description: $form.find('#idea-description').val(),
             tags       : $form.find('#idea-tags').val(),
         }
-    },
-
-    render : function(){
-        var template = new Template();
-        template.loadTemplate('/idea/create', function(data){
-            $('#app-container').html(data);
-        });
     }
 });
 
@@ -230,7 +163,7 @@ Eureca.Router = Backbone.Router.extend({
     }
 });
 
-$(function(){
-    Eureca.app = new Eureca.Router();
-    Backbone.history.start();
-});
+//$(function(){
+//    Eureca.app = new Eureca.Router();
+//    Backbone.history.start();
+//});
