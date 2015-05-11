@@ -8604,3 +8604,17 @@ Global symbol "$idea" requires explicit package name at template idea/index.html
 [Mon May 11 00:24:31 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
 [Mon May 11 00:24:31 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
 [Mon May 11 00:24:31 2015] [debug] 404 Not Found (0.047546s, 21.032/s)
+[Mon May 11 00:52:57 2015] [debug] Your secret passphrase needs to be changed
+[Mon May 11 00:52:57 2015] [debug] GET "/app"
+[Mon May 11 00:52:57 2015] [debug] Routing to a callback
+[Mon May 11 00:52:57 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Mon May 11 00:52:57 2015] [debug] Action not found in controller
+[Mon May 11 00:52:57 2015] [debug] Rendering template "home/index.html.ep"
+[Mon May 11 00:52:57 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon May 11 00:52:57 2015] [debug] 200 OK (0.185406s, 5.394/s)
+[Mon May 11 00:53:00 2015] [debug] GET "/app/idea/foo-bar-of-love"
+[Mon May 11 00:53:00 2015] [debug] Routing to a callback
+[Mon May 11 00:53:00 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "index"
+[Mon May 11 00:53:00 2015] [debug] Rendering template "idea/index.html.ep"
+[Mon May 11 00:53:00 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon May 11 00:53:00 2015] [debug] 200 OK (0.170846s, 5.853/s)
