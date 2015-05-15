@@ -8,10 +8,11 @@
         <small>Yet another business colaborative portal</small>
       </h2>
       
-      <form id="form-search-idea" action="#search" class="well well-sm">
+      <form id="form-search-idea" method="GET" class="well well-sm">
         <div id="custom-search-input">
             <div class="input-group col-md-12">
-                <input type="text" name="term" id="txt-term" class="search-query form-control" placeholder="Search" />
+                %= text_field 'term', class => 'search-query form-control', placeholder => "Search"
+                <!-- input type="text" name="term" id="txt-term" class="search-query form-control" placeholder="Search" / -->
                 <span class="input-group-btn">
                     <button class="btn btn-danger" type="submit">
                         <span class=" glyphicon glyphicon-search"></span>
@@ -22,9 +23,12 @@
       </form>
       
       <br>
+      <div class="well well-sm">
+         <strong><%= schema('Idea')->count({ title => { like => "%".param('term')."%" },  active => 1 }) %></strong> resultados encontrados na busca.
+      </div>
       
       <div class="row note-row">
-        % for my $r (schema('Idea')->search({ active => 1 }, { order_by => {-desc => 'id'}, row => 12})){
+        % for my $r (schema('Idea')->search({ title => { like => "%".param('term')."%" },  active => 1 }, { order_by => {-desc => 'id'}})){
             <div class="col-md-4">
               <div class="note note-item" data-uri="<%= $r->slug %>">
                 <div class="note-body">
@@ -39,12 +43,6 @@
         % }
       </div>
       
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <a class="btn btn-sm btn-primary" href="#" data-page="1">Load More</a>
-          <a class="btn btn-sm btn-primary" href="#" data-page="1">Load More</a>
-        </div>
-      </div>
       
     </div>
     <div class="col-md-4">

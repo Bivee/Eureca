@@ -4,14 +4,6 @@ use Mojo::Base -strict;
 sub register {
     my ($self, $r) = @_;
 
-    # Home 
-    $r->get('/' => sub { 
-        return shift->render( inline => qq{
-            <h1>Home Page</h1>
-            <a href="/app">Load App</a>
-        }); 
-    });
-
     # Account controller
     my $account = $r->any('/account');
     $account->any('/signin')->to('Account#signin');
@@ -21,32 +13,35 @@ sub register {
 
     # auth area
     #my $auth = $r;
-    my $auth = $r->under(sub{
-        my $c = shift;
+    my $auth = $r->under(
+        sub {
+            my $c = shift;
+            return 1 if $c->session('uid');
+            $c->flash(error => 'session-expired')
+                && return $c->redirect_to('/account/signin');
+        }
+    );
 
-        return 1 if $c->session('uid');
-        $c->flash(error => 'session-expired') 
-            && return $c->redirect_to('/account/signin');
-    });
-
-    #$r->get('/' => sub{ shift->redirect_to('/app') });
+    # redirect direct to app
+    $r->get('/' => sub { shift->redirect_to('/app') });
 
     # app controller
-    my $home = $auth->any('/app');
-    $home->get('/')->to('Home#index');
-    $home->get('/user/:id')->to('User#index', id => 0);
-    $home->any('/idea/create')->to('Idea#create', slug => '');
-    $home->get('/idea/:slug')->to('Idea#index', slug => '');
-    $home->get('/profile/:slug')->to('User#profile');
+    my $app = $auth->any('/app');
+    $app->get('/')->to('Home#index');
+    $app->get('/search')->to('Search#index');
+    $app->get('/user/:id')->to('User#index', id => 0);
+    $app->any('/idea/create')->to('Idea#create', slug => '');
+    $app->get('/idea/:slug')->to('Idea#index', slug => '');
+    $app->get('/profile/:slug')->to('User#profile');
 
 
     # Api end-points
     my $api = $r->any('/api');
-    $api->get('/ideas')->to(controller => 'API::Idea', action => 'list');
+    $api->get('/ideas')->to('API::Idea#list');
 
-    $api->get('/idea')->to(controller => 'API::Idea', action => 'retrieve');
-    $api->put('/idea')->to(controller => 'API::Idea', action => 'update');
-    $api->post('/idea')->to(controller => 'API::Idea', action => 'create');
+    $api->get('/idea')->to('API::Idea#retrieve');
+    $api->put('/idea')->to('API::Idea#update');
+    $api->post('/idea')->to('API::Idea#create');
 }
 
 1;
