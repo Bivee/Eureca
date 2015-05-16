@@ -9095,3 +9095,768 @@ template search/index.html.ep has too many errors.
 [Thu May 14 23:22:35 2015] [debug] Rendering cached template "idea/index.html.ep"
 [Thu May 14 23:22:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
 [Thu May 14 23:22:35 2015] [debug] 200 OK (0.028682s, 34.865/s)
+[Fri May 15 07:54:37 2015] [debug] GET "/app"
+[Fri May 15 07:54:37 2015] [debug] Routing to a callback
+[Fri May 15 07:54:37 2015] [debug] 302 Found (0.001011s, 989.120/s)
+[Fri May 15 07:54:37 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 07:54:37 2015] [debug] Action not found in controller
+[Fri May 15 07:54:37 2015] [debug] GET "/account/signin"
+[Fri May 15 07:54:37 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri May 15 07:54:37 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri May 15 07:54:37 2015] [debug] 200 OK (0.084073s, 11.894/s)
+[Fri May 15 07:54:48 2015] [debug] POST "/account/signin"
+[Fri May 15 07:54:48 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri May 15 07:54:48 2015] [debug] 302 Found (0.238744s, 4.189/s)
+[Fri May 15 07:54:48 2015] [debug] GET "/app"
+[Fri May 15 07:54:48 2015] [debug] Routing to a callback
+[Fri May 15 07:54:48 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 07:54:48 2015] [debug] Action not found in controller
+[Fri May 15 07:54:48 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 07:54:48 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 07:54:48 2015] [debug] 200 OK (0.052340s, 19.106/s)
+[Fri May 15 07:55:01 2015] [debug] GET "/app/idea/create"
+[Fri May 15 07:55:01 2015] [debug] Routing to a callback
+[Fri May 15 07:55:01 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "create"
+[Fri May 15 07:55:01 2015] [debug] Action not found in controller
+[Fri May 15 07:55:01 2015] [debug] Rendering cached template "idea/create.html.ep"
+[Fri May 15 07:55:01 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 07:55:01 2015] [debug] 200 OK (0.010562s, 94.679/s)
+[Fri May 15 07:55:20 2015] [debug] GET "/app"
+[Fri May 15 07:55:20 2015] [debug] Routing to a callback
+[Fri May 15 07:55:20 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 07:55:20 2015] [debug] Action not found in controller
+[Fri May 15 07:55:20 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 07:55:20 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 07:55:20 2015] [debug] 200 OK (0.078856s, 12.681/s)
+[Fri May 15 07:55:54 2015] [debug] GET "/app"
+[Fri May 15 07:55:54 2015] [debug] Routing to a callback
+[Fri May 15 07:55:54 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 07:55:54 2015] [debug] Action not found in controller
+[Fri May 15 07:55:54 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 07:55:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 07:55:54 2015] [debug] 200 OK (0.042044s, 23.785/s)
+[Fri May 15 07:56:02 2015] [debug] GET "/app"
+[Fri May 15 07:56:02 2015] [debug] Routing to a callback
+[Fri May 15 07:56:02 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 07:56:02 2015] [debug] Action not found in controller
+[Fri May 15 07:56:02 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 07:56:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 07:56:02 2015] [debug] 200 OK (0.088998s, 11.236/s)
+[Fri May 15 21:14:16 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 21:14:16 2015] [debug] GET "/"
+[Fri May 15 21:14:16 2015] [debug] Routing to a callback
+[Fri May 15 21:14:16 2015] [debug] 302 Found (0.001955s, 511.509/s)
+[Fri May 15 21:14:16 2015] [debug] GET "/app"
+[Fri May 15 21:14:16 2015] [debug] Routing to a callback
+[Fri May 15 21:14:16 2015] [debug] 302 Found (0.001521s, 657.462/s)
+[Fri May 15 21:14:16 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:14:16 2015] [debug] Action not found in controller
+[Fri May 15 21:14:16 2015] [debug] GET "/account/signin"
+[Fri May 15 21:14:16 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri May 15 21:14:16 2015] [debug] Rendering template "account/signin.html.ep"
+[Fri May 15 21:14:16 2015] [debug] 200 OK (0.054192s, 18.453/s)
+[Fri May 15 21:14:21 2015] [debug] POST "/account/signin"
+[Fri May 15 21:14:21 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Fri May 15 21:14:22 2015] [debug] 302 Found (1.004893s, 0.995/s)
+[Fri May 15 21:14:22 2015] [debug] GET "/app"
+[Fri May 15 21:14:22 2015] [debug] Routing to a callback
+[Fri May 15 21:14:22 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:14:22 2015] [debug] Action not found in controller
+[Fri May 15 21:14:22 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 21:14:22 2015] [error] syntax error at template home/index.html.ep line 43, near "ceil schema"
+Global symbol "$product" requires explicit package name at template home/index.html.ep line 43.
+Global symbol "$pages" requires explicit package name at template home/index.html.ep line 48.
+Global symbol "$pages" requires explicit package name at template home/index.html.ep line 53.
+Global symbol "$pages" requires explicit package name at template home/index.html.ep line 53.
+syntax error at template home/index.html.ep line 78, near "} $_O "
+Global symbol "$_O" requires explicit package name at template home/index.html.ep line 78.
+38:             </div>
+39:         % }
+40:       </div>
+41: 
+42:       <!-- Pagination -->
+43:       % my $pages = ceil schema('AccessUserRole')->count({role_id => $product->role_id}) / 15;
+44:       <nav>
+45:         <ul class="pagination">
+46:           <li> <a href="/dashboard/product/<%= param('id')%>?page=<%= (param('page') - 3) > 1? param('page') - 3 : 1 %>" aria-label="Anterior"> <span aria-hidden="true">&laquo;</span> </a> </li>
+47:           % for my $p (param('page')-2 .. param('page') + 2){
+48:               % next if $p < 1 || $p > $pages;
+
+[Fri May 15 21:14:22 2015] [debug] Template "exception.development.html.ep" not found
+[Fri May 15 21:14:22 2015] [debug] Template "exception.html.ep" not found
+[Fri May 15 21:14:22 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 15 21:14:22 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 15 21:14:23 2015] [debug] 500 Internal Server Error (0.102970s, 9.712/s)
+[Fri May 15 21:15:26 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 21:15:26 2015] [debug] GET "/app"
+[Fri May 15 21:15:26 2015] [debug] Routing to a callback
+[Fri May 15 21:15:26 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:15:26 2015] [debug] Action not found in controller
+[Fri May 15 21:15:26 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 21:15:27 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 21:15:27 2015] [debug] 200 OK (0.610332s, 1.638/s)
+[Fri May 15 21:15:48 2015] [debug] GET "/dashboard/product/"
+[Fri May 15 21:15:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Fri May 15 21:15:48 2015] [debug] Template "not_found.html.ep" not found
+[Fri May 15 21:15:48 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Fri May 15 21:15:48 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Fri May 15 21:15:48 2015] [debug] 404 Not Found (0.066970s, 14.932/s)
+[Fri May 15 21:17:39 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 21:17:39 2015] [debug] GET "/app"
+[Fri May 15 21:17:39 2015] [debug] Routing to a callback
+[Fri May 15 21:17:39 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:17:39 2015] [debug] Action not found in controller
+[Fri May 15 21:17:39 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 21:17:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 21:17:39 2015] [debug] 200 OK (0.278542s, 3.590/s)
+[Fri May 15 21:18:25 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 21:18:25 2015] [debug] GET "/app"
+[Fri May 15 21:18:25 2015] [debug] Routing to a callback
+[Fri May 15 21:18:25 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:18:25 2015] [debug] Action not found in controller
+[Fri May 15 21:18:25 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 21:18:25 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 21:18:25 2015] [debug] 200 OK (0.263715s, 3.792/s)
+[Fri May 15 21:18:28 2015] [debug] GET "/app"
+[Fri May 15 21:18:28 2015] [debug] Routing to a callback
+[Fri May 15 21:18:28 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:18:28 2015] [debug] Action not found in controller
+[Fri May 15 21:18:28 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:18:28 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:18:28 2015] [debug] 200 OK (0.103657s, 9.647/s)
+[Fri May 15 21:19:20 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 21:19:20 2015] [debug] GET "/app"
+[Fri May 15 21:19:20 2015] [debug] Routing to a callback
+[Fri May 15 21:19:20 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:19:20 2015] [debug] Action not found in controller
+[Fri May 15 21:19:20 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 21:19:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 21:19:20 2015] [debug] 200 OK (0.288252s, 3.469/s)
+[Fri May 15 21:28:25 2015] [debug] GET "/app/idea/create"
+[Fri May 15 21:28:25 2015] [debug] Routing to a callback
+[Fri May 15 21:28:25 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "create"
+[Fri May 15 21:28:25 2015] [debug] Action not found in controller
+[Fri May 15 21:28:25 2015] [debug] Rendering template "idea/create.html.ep"
+[Fri May 15 21:28:25 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 21:28:25 2015] [debug] 200 OK (0.058187s, 17.186/s)
+[Fri May 15 21:28:37 2015] [debug] POST "/api/idea"
+[Fri May 15 21:28:38 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Fri May 15 21:28:38 2015] [debug] 200 OK (1.107772s, 0.903/s)
+[Fri May 15 21:28:42 2015] [debug] GET "/app"
+[Fri May 15 21:28:42 2015] [debug] Routing to a callback
+[Fri May 15 21:28:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:28:42 2015] [debug] Action not found in controller
+[Fri May 15 21:28:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:28:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:28:42 2015] [debug] 200 OK (0.123380s, 8.105/s)
+[Fri May 15 21:28:46 2015] [debug] GET "/app/idea/create"
+[Fri May 15 21:28:46 2015] [debug] Routing to a callback
+[Fri May 15 21:28:46 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "create"
+[Fri May 15 21:28:46 2015] [debug] Action not found in controller
+[Fri May 15 21:28:46 2015] [debug] Rendering cached template "idea/create.html.ep"
+[Fri May 15 21:28:46 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:28:46 2015] [debug] 200 OK (0.007815s, 127.959/s)
+[Fri May 15 21:28:55 2015] [debug] POST "/api/idea"
+[Fri May 15 21:28:55 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Fri May 15 21:28:55 2015] [debug] 200 OK (0.179100s, 5.583/s)
+[Fri May 15 21:28:59 2015] [debug] GET "/app"
+[Fri May 15 21:28:59 2015] [debug] Routing to a callback
+[Fri May 15 21:28:59 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:28:59 2015] [debug] Action not found in controller
+[Fri May 15 21:28:59 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:28:59 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:28:59 2015] [debug] 200 OK (0.092575s, 10.802/s)
+[Fri May 15 21:29:09 2015] [debug] GET "/app/idea/create"
+[Fri May 15 21:29:09 2015] [debug] Routing to a callback
+[Fri May 15 21:29:09 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "create"
+[Fri May 15 21:29:09 2015] [debug] Action not found in controller
+[Fri May 15 21:29:09 2015] [debug] Rendering cached template "idea/create.html.ep"
+[Fri May 15 21:29:09 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:29:09 2015] [debug] 200 OK (0.008599s, 116.293/s)
+[Fri May 15 21:29:19 2015] [debug] POST "/api/idea"
+[Fri May 15 21:29:19 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Fri May 15 21:29:19 2015] [debug] 200 OK (0.098131s, 10.190/s)
+[Fri May 15 21:29:23 2015] [debug] GET "/app"
+[Fri May 15 21:29:23 2015] [debug] Routing to a callback
+[Fri May 15 21:29:23 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:29:23 2015] [debug] Action not found in controller
+[Fri May 15 21:29:23 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:29:23 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:29:23 2015] [debug] 200 OK (0.075779s, 13.196/s)
+[Fri May 15 21:29:26 2015] [debug] GET "/app/idea/create"
+[Fri May 15 21:29:26 2015] [debug] Routing to a callback
+[Fri May 15 21:29:26 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "create"
+[Fri May 15 21:29:26 2015] [debug] Action not found in controller
+[Fri May 15 21:29:26 2015] [debug] Rendering cached template "idea/create.html.ep"
+[Fri May 15 21:29:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:29:26 2015] [debug] 200 OK (0.008953s, 111.694/s)
+[Fri May 15 21:29:38 2015] [debug] POST "/api/idea"
+[Fri May 15 21:29:38 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Fri May 15 21:29:38 2015] [debug] 200 OK (0.110781s, 9.027/s)
+[Fri May 15 21:29:42 2015] [debug] GET "/app"
+[Fri May 15 21:29:42 2015] [debug] Routing to a callback
+[Fri May 15 21:29:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:29:42 2015] [debug] Action not found in controller
+[Fri May 15 21:29:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:29:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:29:42 2015] [debug] 200 OK (0.087719s, 11.400/s)
+[Fri May 15 21:29:51 2015] [debug] GET "/app/idea/create"
+[Fri May 15 21:29:51 2015] [debug] Routing to a callback
+[Fri May 15 21:29:51 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "create"
+[Fri May 15 21:29:51 2015] [debug] Action not found in controller
+[Fri May 15 21:29:51 2015] [debug] Rendering cached template "idea/create.html.ep"
+[Fri May 15 21:29:51 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:29:51 2015] [debug] 200 OK (0.008783s, 113.856/s)
+[Fri May 15 21:30:00 2015] [debug] POST "/api/idea"
+[Fri May 15 21:30:00 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Fri May 15 21:30:00 2015] [debug] 200 OK (0.143786s, 6.955/s)
+[Fri May 15 21:30:05 2015] [debug] GET "/app"
+[Fri May 15 21:30:05 2015] [debug] Routing to a callback
+[Fri May 15 21:30:05 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:30:05 2015] [debug] Action not found in controller
+[Fri May 15 21:30:05 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:30:05 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:30:05 2015] [debug] 200 OK (0.094982s, 10.528/s)
+[Fri May 15 21:30:15 2015] [debug] GET "/app/idea/create"
+[Fri May 15 21:30:15 2015] [debug] Routing to a callback
+[Fri May 15 21:30:15 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "create"
+[Fri May 15 21:30:15 2015] [debug] Action not found in controller
+[Fri May 15 21:30:15 2015] [debug] Rendering cached template "idea/create.html.ep"
+[Fri May 15 21:30:15 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:30:15 2015] [debug] 200 OK (0.008585s, 116.482/s)
+[Fri May 15 21:30:23 2015] [debug] POST "/api/idea"
+[Fri May 15 21:30:23 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Fri May 15 21:30:23 2015] [debug] 200 OK (0.131293s, 7.617/s)
+[Fri May 15 21:30:28 2015] [debug] GET "/app"
+[Fri May 15 21:30:28 2015] [debug] Routing to a callback
+[Fri May 15 21:30:28 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:30:28 2015] [debug] Action not found in controller
+[Fri May 15 21:30:28 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:30:28 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:30:28 2015] [debug] 200 OK (0.159298s, 6.278/s)
+[Fri May 15 21:30:38 2015] [debug] GET "/app"
+[Fri May 15 21:30:38 2015] [debug] Routing to a callback
+[Fri May 15 21:30:38 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:30:38 2015] [debug] Action not found in controller
+[Fri May 15 21:30:38 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:30:38 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:30:38 2015] [debug] 200 OK (0.103469s, 9.665/s)
+[Fri May 15 21:30:42 2015] [debug] GET "/app"
+[Fri May 15 21:30:42 2015] [debug] Routing to a callback
+[Fri May 15 21:30:42 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:30:42 2015] [debug] Action not found in controller
+[Fri May 15 21:30:42 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:30:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:30:42 2015] [debug] 200 OK (0.108477s, 9.219/s)
+[Fri May 15 21:30:52 2015] [debug] GET "/app/idea/create"
+[Fri May 15 21:30:52 2015] [debug] Routing to a callback
+[Fri May 15 21:30:52 2015] [debug] Routing to controller "Eureca::Controller::Idea" and action "create"
+[Fri May 15 21:30:52 2015] [debug] Action not found in controller
+[Fri May 15 21:30:52 2015] [debug] Rendering cached template "idea/create.html.ep"
+[Fri May 15 21:30:52 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:30:52 2015] [debug] 200 OK (0.008776s, 113.947/s)
+[Fri May 15 21:31:02 2015] [debug] POST "/api/idea"
+[Fri May 15 21:31:02 2015] [debug] Routing to controller "Eureca::Controller::API::Idea" and action "create"
+[Fri May 15 21:31:02 2015] [debug] 200 OK (0.126451s, 7.908/s)
+[Fri May 15 21:31:06 2015] [debug] GET "/app"
+[Fri May 15 21:31:06 2015] [debug] Routing to a callback
+[Fri May 15 21:31:06 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:31:06 2015] [debug] Action not found in controller
+[Fri May 15 21:31:06 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:31:06 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:31:06 2015] [debug] 200 OK (0.124134s, 8.056/s)
+[Fri May 15 21:31:14 2015] [debug] GET "/app"
+[Fri May 15 21:31:14 2015] [debug] Routing to a callback
+[Fri May 15 21:31:14 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:31:14 2015] [debug] Action not found in controller
+[Fri May 15 21:31:14 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:31:14 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:31:14 2015] [debug] 200 OK (0.093138s, 10.737/s)
+[Fri May 15 21:31:18 2015] [debug] GET "/app"
+[Fri May 15 21:31:18 2015] [debug] Routing to a callback
+[Fri May 15 21:31:18 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:31:18 2015] [debug] Action not found in controller
+[Fri May 15 21:31:18 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:31:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:31:18 2015] [debug] 200 OK (0.100799s, 9.921/s)
+[Fri May 15 21:31:48 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 21:31:48 2015] [debug] GET "/app"
+[Fri May 15 21:31:48 2015] [debug] Routing to a callback
+[Fri May 15 21:31:48 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:31:48 2015] [debug] Action not found in controller
+[Fri May 15 21:31:48 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 21:31:48 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 21:31:48 2015] [debug] 200 OK (0.289005s, 3.460/s)
+[Fri May 15 21:31:53 2015] [debug] GET "/app"
+[Fri May 15 21:31:53 2015] [debug] Routing to a callback
+[Fri May 15 21:31:53 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:31:53 2015] [debug] Action not found in controller
+[Fri May 15 21:31:53 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:31:53 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:31:53 2015] [debug] 200 OK (0.055907s, 17.887/s)
+[Fri May 15 21:31:56 2015] [debug] GET "/app"
+[Fri May 15 21:31:56 2015] [debug] Routing to a callback
+[Fri May 15 21:31:56 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:31:56 2015] [debug] Action not found in controller
+[Fri May 15 21:31:56 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:31:56 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:31:57 2015] [debug] 200 OK (0.084655s, 11.813/s)
+[Fri May 15 21:32:01 2015] [debug] GET "/app"
+[Fri May 15 21:32:01 2015] [debug] Routing to a callback
+[Fri May 15 21:32:01 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:32:01 2015] [debug] Action not found in controller
+[Fri May 15 21:32:01 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:32:01 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:32:01 2015] [debug] 200 OK (0.045666s, 21.898/s)
+[Fri May 15 21:32:51 2015] [debug] GET "/app"
+[Fri May 15 21:32:51 2015] [debug] Routing to a callback
+[Fri May 15 21:32:51 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:32:51 2015] [debug] Action not found in controller
+[Fri May 15 21:32:51 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:32:51 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:32:51 2015] [debug] 200 OK (0.083661s, 11.953/s)
+[Fri May 15 21:32:59 2015] [debug] GET "/app"
+[Fri May 15 21:32:59 2015] [debug] Routing to a callback
+[Fri May 15 21:32:59 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:32:59 2015] [debug] Action not found in controller
+[Fri May 15 21:32:59 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:32:59 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:32:59 2015] [debug] 200 OK (0.077551s, 12.895/s)
+[Fri May 15 21:33:02 2015] [debug] GET "/app"
+[Fri May 15 21:33:02 2015] [debug] Routing to a callback
+[Fri May 15 21:33:02 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:33:02 2015] [debug] Action not found in controller
+[Fri May 15 21:33:02 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:33:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:33:02 2015] [debug] 200 OK (0.100204s, 9.980/s)
+[Fri May 15 21:33:16 2015] [debug] GET "/app"
+[Fri May 15 21:33:16 2015] [debug] Routing to a callback
+[Fri May 15 21:33:16 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 21:33:16 2015] [debug] Action not found in controller
+[Fri May 15 21:33:16 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 21:33:16 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:33:16 2015] [debug] 200 OK (0.061262s, 16.323/s)
+[Fri May 15 21:33:40 2015] [debug] GET "/app/search"
+[Fri May 15 21:33:40 2015] [debug] Routing to a callback
+[Fri May 15 21:33:40 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 21:33:40 2015] [debug] Rendering template "search/index.html.ep"
+[Fri May 15 21:33:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:33:40 2015] [debug] 200 OK (0.282717s, 3.537/s)
+[Fri May 15 21:33:45 2015] [debug] GET "/app/search"
+[Fri May 15 21:33:45 2015] [debug] Routing to a callback
+[Fri May 15 21:33:45 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 21:33:45 2015] [debug] Rendering cached template "search/index.html.ep"
+[Fri May 15 21:33:45 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:33:45 2015] [debug] 200 OK (0.081317s, 12.298/s)
+[Fri May 15 21:33:50 2015] [debug] GET "/app/search"
+[Fri May 15 21:33:50 2015] [debug] Routing to a callback
+[Fri May 15 21:33:50 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 21:33:50 2015] [debug] Rendering cached template "search/index.html.ep"
+[Fri May 15 21:33:50 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 21:33:50 2015] [debug] 200 OK (0.077850s, 12.845/s)
+[Fri May 15 22:32:51 2015] [debug] GET "/app/search"
+[Fri May 15 22:32:51 2015] [debug] Routing to a callback
+[Fri May 15 22:32:51 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 22:32:51 2015] [debug] Rendering cached template "search/index.html.ep"
+[Fri May 15 22:32:51 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 22:32:51 2015] [debug] 200 OK (0.087032s, 11.490/s)
+[Fri May 15 22:55:28 2015] [debug] GET "/app"
+[Fri May 15 22:55:28 2015] [debug] Routing to a callback
+[Fri May 15 22:55:28 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 22:55:28 2015] [debug] Action not found in controller
+[Fri May 15 22:55:28 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 22:55:28 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 22:55:28 2015] [debug] 200 OK (0.118752s, 8.421/s)
+[Fri May 15 23:11:30 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 23:11:30 2015] [debug] GET "/app/search"
+[Fri May 15 23:11:30 2015] [debug] Routing to a callback
+[Fri May 15 23:11:30 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 23:11:30 2015] [debug] Rendering template "search/index.html.ep"
+[Fri May 15 23:11:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 23:11:31 2015] [debug] 200 OK (0.314166s, 3.183/s)
+[Fri May 15 23:11:35 2015] [debug] GET "/app"
+[Fri May 15 23:11:35 2015] [debug] Routing to a callback
+[Fri May 15 23:11:35 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:11:35 2015] [debug] Action not found in controller
+[Fri May 15 23:11:35 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 23:11:36 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:11:36 2015] [debug] 200 OK (0.087447s, 11.435/s)
+[Fri May 15 23:13:17 2015] [debug] GET "/app"
+[Fri May 15 23:13:17 2015] [debug] Routing to a callback
+[Fri May 15 23:13:17 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:13:17 2015] [debug] Action not found in controller
+[Fri May 15 23:13:17 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:13:17 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:13:17 2015] [debug] 200 OK (0.116065s, 8.616/s)
+[Fri May 15 23:44:22 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 23:44:22 2015] [debug] GET "/app"
+[Fri May 15 23:44:22 2015] [debug] Routing to a callback
+[Fri May 15 23:44:22 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:22 2015] [debug] Action not found in controller
+[Fri May 15 23:44:22 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 23:44:23 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 23:44:23 2015] [debug] 200 OK (0.241214s, 4.146/s)
+[Fri May 15 23:44:24 2015] [debug] GET "/app"
+[Fri May 15 23:44:24 2015] [debug] Routing to a callback
+[Fri May 15 23:44:24 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:24 2015] [debug] Action not found in controller
+[Fri May 15 23:44:24 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:24 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:24 2015] [debug] 200 OK (0.092027s, 10.866/s)
+[Fri May 15 23:44:25 2015] [debug] GET "/app"
+[Fri May 15 23:44:25 2015] [debug] Routing to a callback
+[Fri May 15 23:44:25 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:25 2015] [debug] Action not found in controller
+[Fri May 15 23:44:25 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:25 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:25 2015] [debug] 200 OK (0.062708s, 15.947/s)
+[Fri May 15 23:44:26 2015] [debug] GET "/app"
+[Fri May 15 23:44:26 2015] [debug] Routing to a callback
+[Fri May 15 23:44:26 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:26 2015] [debug] Action not found in controller
+[Fri May 15 23:44:26 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:26 2015] [debug] 200 OK (0.061377s, 16.293/s)
+[Fri May 15 23:44:31 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 23:44:31 2015] [debug] GET "/app"
+[Fri May 15 23:44:31 2015] [debug] Routing to a callback
+[Fri May 15 23:44:31 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:31 2015] [debug] Action not found in controller
+[Fri May 15 23:44:31 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 23:44:31 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 23:44:31 2015] [debug] 200 OK (0.241008s, 4.149/s)
+[Fri May 15 23:44:33 2015] [debug] GET "/app"
+[Fri May 15 23:44:33 2015] [debug] Routing to a callback
+[Fri May 15 23:44:33 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:33 2015] [debug] Action not found in controller
+[Fri May 15 23:44:33 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:33 2015] [debug] 200 OK (0.056879s, 17.581/s)
+[Fri May 15 23:44:34 2015] [debug] GET "/app"
+[Fri May 15 23:44:34 2015] [debug] Routing to a callback
+[Fri May 15 23:44:34 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:34 2015] [debug] Action not found in controller
+[Fri May 15 23:44:34 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:34 2015] [debug] 200 OK (0.059056s, 16.933/s)
+[Fri May 15 23:44:34 2015] [debug] GET "/app"
+[Fri May 15 23:44:34 2015] [debug] Routing to a callback
+[Fri May 15 23:44:34 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:34 2015] [debug] Action not found in controller
+[Fri May 15 23:44:34 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:34 2015] [debug] 200 OK (0.054406s, 18.380/s)
+[Fri May 15 23:44:34 2015] [debug] GET "/app"
+[Fri May 15 23:44:34 2015] [debug] Routing to a callback
+[Fri May 15 23:44:34 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:34 2015] [debug] Action not found in controller
+[Fri May 15 23:44:34 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:34 2015] [debug] 200 OK (0.068704s, 14.555/s)
+[Fri May 15 23:44:34 2015] [debug] GET "/app"
+[Fri May 15 23:44:34 2015] [debug] Routing to a callback
+[Fri May 15 23:44:34 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:34 2015] [debug] Action not found in controller
+[Fri May 15 23:44:34 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:34 2015] [debug] 200 OK (0.057074s, 17.521/s)
+[Fri May 15 23:44:35 2015] [debug] GET "/app"
+[Fri May 15 23:44:35 2015] [debug] Routing to a callback
+[Fri May 15 23:44:35 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:35 2015] [debug] Action not found in controller
+[Fri May 15 23:44:35 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:35 2015] [debug] 200 OK (0.068508s, 14.597/s)
+[Fri May 15 23:44:38 2015] [debug] GET "/app"
+[Fri May 15 23:44:38 2015] [debug] Routing to a callback
+[Fri May 15 23:44:38 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:44:38 2015] [debug] Action not found in controller
+[Fri May 15 23:44:38 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:44:38 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:38 2015] [debug] 200 OK (0.075363s, 13.269/s)
+[Fri May 15 23:44:44 2015] [debug] GET "/app/search"
+[Fri May 15 23:44:44 2015] [debug] Routing to a callback
+[Fri May 15 23:44:44 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 23:44:44 2015] [debug] Rendering template "search/index.html.ep"
+[Fri May 15 23:44:44 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:44:44 2015] [debug] 200 OK (0.130493s, 7.663/s)
+[Fri May 15 23:47:33 2015] [debug] Your secret passphrase needs to be changed
+[Fri May 15 23:47:33 2015] [debug] GET "/app/search"
+[Fri May 15 23:47:33 2015] [debug] Routing to a callback
+[Fri May 15 23:47:33 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 23:47:33 2015] [debug] Rendering template "search/index.html.ep"
+[Fri May 15 23:47:33 2015] [debug] Rendering template "layouts/default.html.ep"
+[Fri May 15 23:47:33 2015] [debug] 200 OK (0.268571s, 3.723/s)
+[Fri May 15 23:47:35 2015] [debug] GET "/app/search"
+[Fri May 15 23:47:35 2015] [debug] Routing to a callback
+[Fri May 15 23:47:35 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 23:47:35 2015] [debug] Rendering cached template "search/index.html.ep"
+[Fri May 15 23:47:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:47:35 2015] [debug] 200 OK (0.115513s, 8.657/s)
+[Fri May 15 23:47:36 2015] [debug] GET "/app/search"
+[Fri May 15 23:47:36 2015] [debug] Routing to a callback
+[Fri May 15 23:47:36 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 23:47:36 2015] [debug] Rendering cached template "search/index.html.ep"
+[Fri May 15 23:47:36 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:47:36 2015] [debug] 200 OK (0.082285s, 12.153/s)
+[Fri May 15 23:47:47 2015] [debug] GET "/app/search"
+[Fri May 15 23:47:47 2015] [debug] Routing to a callback
+[Fri May 15 23:47:47 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 23:47:47 2015] [debug] Rendering cached template "search/index.html.ep"
+[Fri May 15 23:47:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:47:47 2015] [debug] 200 OK (0.088252s, 11.331/s)
+[Fri May 15 23:47:48 2015] [debug] GET "/app/search"
+[Fri May 15 23:47:48 2015] [debug] Routing to a callback
+[Fri May 15 23:47:48 2015] [debug] Controller "Eureca::Search" does not exist
+[Fri May 15 23:47:48 2015] [debug] Rendering cached template "search/index.html.ep"
+[Fri May 15 23:47:48 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:47:48 2015] [debug] 200 OK (0.090632s, 11.034/s)
+[Fri May 15 23:47:52 2015] [debug] GET "/app"
+[Fri May 15 23:47:52 2015] [debug] Routing to a callback
+[Fri May 15 23:47:52 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:47:52 2015] [debug] Action not found in controller
+[Fri May 15 23:47:52 2015] [debug] Rendering template "home/index.html.ep"
+[Fri May 15 23:47:52 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:47:52 2015] [debug] 200 OK (0.078260s, 12.778/s)
+[Fri May 15 23:48:09 2015] [debug] GET "/app"
+[Fri May 15 23:48:09 2015] [debug] Routing to a callback
+[Fri May 15 23:48:09 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Fri May 15 23:48:09 2015] [debug] Action not found in controller
+[Fri May 15 23:48:09 2015] [debug] Rendering cached template "home/index.html.ep"
+[Fri May 15 23:48:10 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Fri May 15 23:48:10 2015] [debug] 200 OK (0.081984s, 12.198/s)
+[Sat May 16 00:06:05 2015] [debug] GET "/app"
+[Sat May 16 00:06:05 2015] [debug] Routing to a callback
+[Sat May 16 00:06:05 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 00:06:05 2015] [debug] Action not found in controller
+[Sat May 16 00:06:05 2015] [debug] Rendering cached template "home/index.html.ep"
+[Sat May 16 00:06:05 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:06:05 2015] [debug] 200 OK (0.097722s, 10.233/s)
+[Sat May 16 00:06:06 2015] [debug] GET "/app"
+[Sat May 16 00:06:06 2015] [debug] Routing to a callback
+[Sat May 16 00:06:06 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 00:06:06 2015] [debug] Action not found in controller
+[Sat May 16 00:06:06 2015] [debug] Rendering cached template "home/index.html.ep"
+[Sat May 16 00:06:07 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:06:07 2015] [debug] 200 OK (0.110277s, 9.068/s)
+[Sat May 16 00:06:08 2015] [debug] GET "/app"
+[Sat May 16 00:06:08 2015] [debug] Routing to a callback
+[Sat May 16 00:06:08 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 00:06:08 2015] [debug] Action not found in controller
+[Sat May 16 00:06:08 2015] [debug] Rendering cached template "home/index.html.ep"
+[Sat May 16 00:06:08 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:06:08 2015] [debug] 200 OK (0.094008s, 10.637/s)
+[Sat May 16 00:06:12 2015] [debug] GET "/app/search"
+[Sat May 16 00:06:12 2015] [debug] Routing to a callback
+[Sat May 16 00:06:12 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:06:12 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:06:12 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:06:12 2015] [debug] 200 OK (0.119583s, 8.362/s)
+[Sat May 16 00:06:26 2015] [debug] GET "/app/search"
+[Sat May 16 00:06:26 2015] [debug] Routing to a callback
+[Sat May 16 00:06:26 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:06:26 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:06:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:06:26 2015] [debug] 200 OK (0.104570s, 9.563/s)
+[Sat May 16 00:06:27 2015] [debug] GET "/app/search"
+[Sat May 16 00:06:27 2015] [debug] Routing to a callback
+[Sat May 16 00:06:27 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:06:27 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:06:28 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:06:28 2015] [debug] 200 OK (0.089728s, 11.145/s)
+[Sat May 16 00:36:38 2015] [debug] GET "/app/search"
+[Sat May 16 00:36:38 2015] [debug] Routing to a callback
+[Sat May 16 00:36:38 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:36:38 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:36:38 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:36:38 2015] [debug] 200 OK (0.144786s, 6.907/s)
+[Sat May 16 00:36:39 2015] [debug] GET "/app/search"
+[Sat May 16 00:36:39 2015] [debug] Routing to a callback
+[Sat May 16 00:36:39 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:36:39 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:36:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:36:40 2015] [debug] 200 OK (0.088548s, 11.293/s)
+[Sat May 16 00:36:41 2015] [debug] GET "/app/search"
+[Sat May 16 00:36:41 2015] [debug] Routing to a callback
+[Sat May 16 00:36:41 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:36:41 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:36:41 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:36:41 2015] [debug] 200 OK (0.110155s, 9.078/s)
+[Sat May 16 00:36:41 2015] [debug] GET "/app/search"
+[Sat May 16 00:36:41 2015] [debug] Routing to a callback
+[Sat May 16 00:36:41 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:36:41 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:36:41 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:36:41 2015] [debug] 200 OK (0.119039s, 8.401/s)
+[Sat May 16 00:36:41 2015] [debug] GET "/app/search"
+[Sat May 16 00:36:41 2015] [debug] Routing to a callback
+[Sat May 16 00:36:41 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:36:41 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:36:41 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:36:41 2015] [debug] 200 OK (0.104295s, 9.588/s)
+[Sat May 16 00:36:41 2015] [debug] GET "/app/search"
+[Sat May 16 00:36:41 2015] [debug] Routing to a callback
+[Sat May 16 00:36:41 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:36:41 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:36:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:36:42 2015] [debug] 200 OK (0.132888s, 7.525/s)
+[Sat May 16 00:37:28 2015] [debug] GET "/app/search"
+[Sat May 16 00:37:28 2015] [debug] Routing to a callback
+[Sat May 16 00:37:28 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:37:28 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:37:28 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:37:28 2015] [debug] 200 OK (0.148692s, 6.725/s)
+[Sat May 16 00:37:29 2015] [debug] GET "/app/search"
+[Sat May 16 00:37:29 2015] [debug] Routing to a callback
+[Sat May 16 00:37:29 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:37:29 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:37:29 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:37:29 2015] [debug] 200 OK (0.107772s, 9.279/s)
+[Sat May 16 00:37:30 2015] [debug] GET "/app/search"
+[Sat May 16 00:37:30 2015] [debug] Routing to a callback
+[Sat May 16 00:37:30 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:37:30 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:37:30 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:37:30 2015] [debug] 200 OK (0.123388s, 8.105/s)
+[Sat May 16 00:37:31 2015] [debug] GET "/app/search"
+[Sat May 16 00:37:31 2015] [debug] Routing to a callback
+[Sat May 16 00:37:31 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:37:31 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:37:31 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:37:31 2015] [debug] 200 OK (0.090762s, 11.018/s)
+[Sat May 16 00:37:33 2015] [debug] GET "/app/search"
+[Sat May 16 00:37:33 2015] [debug] Routing to a callback
+[Sat May 16 00:37:33 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:37:33 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:37:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:37:33 2015] [debug] 200 OK (0.156105s, 6.406/s)
+[Sat May 16 00:37:34 2015] [debug] GET "/app/search"
+[Sat May 16 00:37:34 2015] [debug] Routing to a callback
+[Sat May 16 00:37:34 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:37:34 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:37:34 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:37:34 2015] [debug] 200 OK (0.116435s, 8.588/s)
+[Sat May 16 00:37:58 2015] [debug] GET "/app/search"
+[Sat May 16 00:37:58 2015] [debug] Routing to a callback
+[Sat May 16 00:37:58 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:37:58 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:37:58 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:37:58 2015] [debug] 200 OK (0.146223s, 6.839/s)
+[Sat May 16 00:38:00 2015] [debug] GET "/app/search"
+[Sat May 16 00:38:00 2015] [debug] Routing to a callback
+[Sat May 16 00:38:00 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:38:00 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:38:00 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:38:00 2015] [debug] 200 OK (0.158458s, 6.311/s)
+[Sat May 16 00:38:02 2015] [debug] GET "/app/search"
+[Sat May 16 00:38:02 2015] [debug] Routing to a callback
+[Sat May 16 00:38:02 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:38:02 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:38:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:38:02 2015] [debug] 200 OK (0.100843s, 9.916/s)
+[Sat May 16 00:38:03 2015] [debug] GET "/app/search"
+[Sat May 16 00:38:03 2015] [debug] Routing to a callback
+[Sat May 16 00:38:03 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:38:03 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:38:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:38:03 2015] [debug] 200 OK (0.090507s, 11.049/s)
+[Sat May 16 00:38:41 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 00:38:41 2015] [debug] GET "/app/search"
+[Sat May 16 00:38:41 2015] [debug] Routing to a callback
+[Sat May 16 00:38:41 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:38:41 2015] [debug] Rendering template "search/index.html.ep"
+[Sat May 16 00:38:41 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 00:38:41 2015] [debug] 200 OK (0.341466s, 2.929/s)
+[Sat May 16 00:38:42 2015] [debug] GET "/app/search"
+[Sat May 16 00:38:42 2015] [debug] Routing to a callback
+[Sat May 16 00:38:42 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:38:42 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:38:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:38:42 2015] [debug] 200 OK (0.121357s, 8.240/s)
+[Sat May 16 00:38:44 2015] [debug] GET "/app/search"
+[Sat May 16 00:38:44 2015] [debug] Routing to a callback
+[Sat May 16 00:38:44 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:38:44 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:38:44 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:38:44 2015] [debug] 200 OK (0.118668s, 8.427/s)
+[Sat May 16 00:38:45 2015] [debug] GET "/app/search"
+[Sat May 16 00:38:45 2015] [debug] Routing to a callback
+[Sat May 16 00:38:45 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:38:45 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:38:45 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:38:45 2015] [debug] 200 OK (0.096951s, 10.314/s)
+[Sat May 16 00:38:46 2015] [debug] GET "/app/search"
+[Sat May 16 00:38:46 2015] [debug] Routing to a callback
+[Sat May 16 00:38:46 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:38:46 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:38:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:38:47 2015] [debug] 200 OK (0.094625s, 10.568/s)
+[Sat May 16 00:39:19 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 00:39:19 2015] [debug] GET "/app/search"
+[Sat May 16 00:39:19 2015] [debug] Routing to a callback
+[Sat May 16 00:39:19 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:39:19 2015] [debug] Rendering template "search/index.html.ep"
+[Sat May 16 00:39:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 00:39:20 2015] [debug] 200 OK (0.317373s, 3.151/s)
+[Sat May 16 00:39:21 2015] [debug] GET "/app/search"
+[Sat May 16 00:39:21 2015] [debug] Routing to a callback
+[Sat May 16 00:39:21 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:39:21 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:39:21 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:39:21 2015] [debug] 200 OK (0.114888s, 8.704/s)
+[Sat May 16 00:40:03 2015] [debug] GET "/app/search"
+[Sat May 16 00:40:03 2015] [debug] Routing to a callback
+[Sat May 16 00:40:03 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:40:03 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:40:03 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:40:03 2015] [debug] 200 OK (0.094245s, 10.611/s)
+[Sat May 16 00:40:04 2015] [debug] GET "/app/search"
+[Sat May 16 00:40:04 2015] [debug] Routing to a callback
+[Sat May 16 00:40:04 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:40:04 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:40:04 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:40:04 2015] [debug] 200 OK (0.108359s, 9.229/s)
+[Sat May 16 00:40:05 2015] [debug] GET "/app/search"
+[Sat May 16 00:40:05 2015] [debug] Routing to a callback
+[Sat May 16 00:40:05 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:40:05 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:40:05 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:40:05 2015] [debug] 200 OK (0.101213s, 9.880/s)
+[Sat May 16 00:40:08 2015] [debug] GET "/app/search"
+[Sat May 16 00:40:08 2015] [debug] Routing to a callback
+[Sat May 16 00:40:08 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:40:08 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:40:08 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:40:08 2015] [debug] 200 OK (0.100558s, 9.945/s)
+[Sat May 16 00:40:31 2015] [debug] GET "/app/search"
+[Sat May 16 00:40:31 2015] [debug] Routing to a callback
+[Sat May 16 00:40:31 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:40:31 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:40:31 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:40:31 2015] [debug] 200 OK (0.134278s, 7.447/s)
+[Sat May 16 00:40:32 2015] [debug] GET "/app/search"
+[Sat May 16 00:40:32 2015] [debug] Routing to a callback
+[Sat May 16 00:40:32 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:40:32 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:40:33 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:40:33 2015] [debug] 200 OK (0.130119s, 7.685/s)
+[Sat May 16 00:40:42 2015] [debug] GET "/app/search"
+[Sat May 16 00:40:42 2015] [debug] Routing to a callback
+[Sat May 16 00:40:42 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:40:42 2015] [debug] Rendering cached template "search/index.html.ep"
+[Sat May 16 00:40:42 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:40:42 2015] [debug] 200 OK (0.133992s, 7.463/s)
+[Sat May 16 00:43:56 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 00:43:56 2015] [debug] GET "/app/search"
+[Sat May 16 00:43:56 2015] [debug] Routing to a callback
+[Sat May 16 00:43:56 2015] [debug] Controller "Eureca::Search" does not exist
+[Sat May 16 00:43:56 2015] [debug] Rendering template "search/index.html.ep"
+[Sat May 16 00:43:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 00:43:56 2015] [debug] 200 OK (0.303298s, 3.297/s)
+[Sat May 16 00:44:10 2015] [debug] GET "/app"
+[Sat May 16 00:44:10 2015] [debug] Routing to a callback
+[Sat May 16 00:44:10 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 00:44:10 2015] [debug] Action not found in controller
+[Sat May 16 00:44:10 2015] [debug] Rendering template "home/index.html.ep"
+[Sat May 16 00:44:11 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 00:44:11 2015] [debug] 200 OK (0.166578s, 6.003/s)

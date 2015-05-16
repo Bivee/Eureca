@@ -16,7 +16,7 @@ body {
 
 /* note item widgets */
 .note-row {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -40,6 +40,8 @@ body {
 .note-controls {
   text-align: center;
   padding-bottom:5px;
+}
+.note-createdby {
 }
 
 /* bubble */
