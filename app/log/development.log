@@ -9860,3 +9860,633 @@ Global symbol "$_O" requires explicit package name at template home/index.html.e
 [Sat May 16 00:44:10 2015] [debug] Rendering template "home/index.html.ep"
 [Sat May 16 00:44:11 2015] [debug] Rendering cached template "layouts/default.html.ep"
 [Sat May 16 00:44:11 2015] [debug] 200 OK (0.166578s, 6.003/s)
+[Sat May 16 11:16:56 2015] [debug] GET "/app"
+[Sat May 16 11:16:56 2015] [debug] Routing to a callback
+[Sat May 16 11:16:56 2015] [debug] 302 Found (0.001003s, 997.009/s)
+[Sat May 16 11:16:56 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 11:16:56 2015] [debug] Action not found in controller
+[Sat May 16 11:16:56 2015] [debug] GET "/account/signin"
+[Sat May 16 11:16:57 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:16:57 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:16:57 2015] [debug] 200 OK (0.250005s, 4.000/s)
+[Sat May 16 11:32:52 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:32:52 2015] [debug] GET "/"
+[Sat May 16 11:32:52 2015] [debug] Routing to a callback
+[Sat May 16 11:32:52 2015] [debug] 302 Found (0.002530s, 395.257/s)
+[Sat May 16 11:32:52 2015] [debug] GET "/app"
+[Sat May 16 11:32:52 2015] [debug] Routing to a callback
+[Sat May 16 11:32:52 2015] [debug] 302 Found (0.001524s, 656.168/s)
+[Sat May 16 11:32:52 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 11:32:52 2015] [debug] Action not found in controller
+[Sat May 16 11:32:52 2015] [debug] GET "/account/signin"
+[Sat May 16 11:32:52 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:32:52 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:32:52 2015] [debug] 200 OK (0.018228s, 54.861/s)
+[Sat May 16 11:35:20 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:35:20 2015] [debug] GET "/account/signin"
+[Sat May 16 11:35:20 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:35:20 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:35:20 2015] [error] Global symbol "$message" requires explicit package name at template account/signin.html.ep line 27, <DATA> line 2231.
+Global symbol "$message" requires explicit package name at template account/signin.html.ep line 28, <DATA> line 2231.
+Global symbol "$message" requires explicit package name at template account/signin.html.ep line 29, <DATA> line 2231.
+22:                     %= t 'button', class => 'btn btn-danger' => begin 
+23:                         Login
+24:                     % end
+25:                     <a href="/account/register">Sign Uo Now!</a>
+26:                 </div>
+27:                 % if ($message){
+28:                     <div id="message" class="alert alert-<%= $message->{type} %>">
+29:                         %= $message->{text}
+30:                     </div>
+31:                 % }
+32:             % end
+
+[Sat May 16 11:35:20 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 11:35:20 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 11:35:20 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 11:35:20 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 11:35:20 2015] [debug] 500 Internal Server Error (0.072384s, 13.815/s)
+[Sat May 16 11:35:21 2015] [debug] GET "/account/signin"
+[Sat May 16 11:35:21 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:35:21 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:35:21 2015] [error] Global symbol "$message" requires explicit package name at template account/signin.html.ep line 27, <DATA> line 2231.
+Global symbol "$message" requires explicit package name at template account/signin.html.ep line 28, <DATA> line 2231.
+Global symbol "$message" requires explicit package name at template account/signin.html.ep line 29, <DATA> line 2231.
+22:                     %= t 'button', class => 'btn btn-danger' => begin 
+23:                         Login
+24:                     % end
+25:                     <a href="/account/register">Sign Uo Now!</a>
+26:                 </div>
+27:                 % if ($message){
+28:                     <div id="message" class="alert alert-<%= $message->{type} %>">
+29:                         %= $message->{text}
+30:                     </div>
+31:                 % }
+32:             % end
+
+[Sat May 16 11:35:21 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 11:35:21 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 11:35:21 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 11:35:21 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 11:35:21 2015] [debug] 500 Internal Server Error (0.026523s, 37.703/s)
+[Sat May 16 11:36:34 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:36:34 2015] [debug] GET "/account/signin"
+[Sat May 16 11:36:34 2015] [error] Global symbol "$self" requires explicit package name at lib/Eureca/Controller/Account.pm line 26, <DATA> line 2231.
+Compilation failed in require at (eval 205) line 1, <DATA> line 2231.
+
+[Sat May 16 11:36:35 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 11:36:35 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 11:36:35 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 11:36:35 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 11:36:35 2015] [debug] 500 Internal Server Error (0.052785s, 18.945/s)
+[Sat May 16 11:36:36 2015] [debug] GET "/account/signin"
+[Sat May 16 11:36:36 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:36:36 2015] [debug] Action not found in controller
+[Sat May 16 11:36:36 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:36:36 2015] [error] Global symbol "$message" requires explicit package name at template account/signin.html.ep line 27.
+Global symbol "$message" requires explicit package name at template account/signin.html.ep line 28.
+Global symbol "$message" requires explicit package name at template account/signin.html.ep line 29.
+22:                     %= t 'button', class => 'btn btn-danger' => begin 
+23:                         Login
+24:                     % end
+25:                     <a href="/account/register">Sign Uo Now!</a>
+26:                 </div>
+27:                 % if ($message){
+28:                     <div id="message" class="alert alert-<%= $message->{type} %>">
+29:                         %= $message->{text}
+30:                     </div>
+31:                 % }
+32:             % end
+
+[Sat May 16 11:36:36 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 11:36:36 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 11:36:36 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 11:36:36 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 11:36:36 2015] [debug] 500 Internal Server Error (0.026355s, 37.943/s)
+[Sat May 16 11:36:39 2015] [debug] GET "/account/signin"
+[Sat May 16 11:36:39 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:36:39 2015] [debug] Action not found in controller
+[Sat May 16 11:36:39 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:36:39 2015] [error] Global symbol "$message" requires explicit package name at template account/signin.html.ep line 27.
+Global symbol "$message" requires explicit package name at template account/signin.html.ep line 28.
+Global symbol "$message" requires explicit package name at template account/signin.html.ep line 29.
+22:                     %= t 'button', class => 'btn btn-danger' => begin 
+23:                         Login
+24:                     % end
+25:                     <a href="/account/register">Sign Uo Now!</a>
+26:                 </div>
+27:                 % if ($message){
+28:                     <div id="message" class="alert alert-<%= $message->{type} %>">
+29:                         %= $message->{text}
+30:                     </div>
+31:                 % }
+32:             % end
+
+[Sat May 16 11:36:39 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 11:36:39 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 11:36:39 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 11:36:39 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 11:36:39 2015] [debug] 500 Internal Server Error (0.034031s, 29.385/s)
+[Sat May 16 11:37:06 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:37:06 2015] [debug] GET "/account/signin"
+[Sat May 16 11:37:06 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:37:06 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:37:06 2015] [debug] 200 OK (0.013236s, 75.552/s)
+[Sat May 16 11:37:36 2015] [debug] GET "/account/signin"
+[Sat May 16 11:37:36 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:37:36 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 11:37:36 2015] [debug] 200 OK (0.004702s, 212.675/s)
+[Sat May 16 11:37:37 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:37:37 2015] [debug] GET "/account/signin"
+[Sat May 16 11:37:37 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:37:37 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:37:37 2015] [debug] 200 OK (0.018838s, 53.084/s)
+[Sat May 16 11:38:37 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:38:37 2015] [debug] GET "/account/signin"
+[Sat May 16 11:38:37 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:38:37 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:38:37 2015] [debug] 200 OK (0.013879s, 72.051/s)
+[Sat May 16 11:38:38 2015] [debug] GET "/account/signin"
+[Sat May 16 11:38:38 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:38:38 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 11:38:38 2015] [debug] 200 OK (0.004846s, 206.356/s)
+[Sat May 16 11:38:38 2015] [debug] GET "/account/signin"
+[Sat May 16 11:38:38 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:38:38 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 11:38:38 2015] [debug] 200 OK (0.007822s, 127.845/s)
+[Sat May 16 11:38:39 2015] [debug] GET "/account/signin"
+[Sat May 16 11:38:39 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:38:39 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 11:38:39 2015] [debug] 200 OK (0.006782s, 147.449/s)
+[Sat May 16 11:38:55 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:38:55 2015] [debug] GET "/account/signin"
+[Sat May 16 11:38:55 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:38:55 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:38:55 2015] [debug] 200 OK (0.014589s, 68.545/s)
+[Sat May 16 11:38:57 2015] [debug] GET "/account/signin"
+[Sat May 16 11:38:57 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:38:57 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 11:38:57 2015] [debug] 200 OK (0.006615s, 151.172/s)
+[Sat May 16 11:39:40 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:39:40 2015] [debug] GET "/account/signin"
+[Sat May 16 11:39:40 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:39:40 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:39:40 2015] [debug] 200 OK (0.021460s, 46.598/s)
+[Sat May 16 11:40:05 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 11:40:05 2015] [debug] GET "/account/signin"
+[Sat May 16 11:40:05 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 11:40:05 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 11:40:05 2015] [debug] 200 OK (0.015477s, 64.612/s)
+[Sat May 16 14:18:24 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:18:24 2015] [debug] GET "/account/signin"
+[Sat May 16 14:18:25 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:18:25 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:18:25 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:18:25 2015] [debug] 200 OK (0.081927s, 12.206/s)
+[Sat May 16 14:19:42 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:19:42 2015] [debug] GET "/account/signin"
+[Sat May 16 14:19:42 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:19:42 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:19:42 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:19:42 2015] [debug] 200 OK (0.031133s, 32.120/s)
+[Sat May 16 14:19:56 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:19:56 2015] [debug] GET "/account/signin"
+[Sat May 16 14:19:56 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:19:56 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:19:56 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:19:56 2015] [debug] 200 OK (0.031928s, 31.320/s)
+[Sat May 16 14:20:51 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:20:51 2015] [debug] GET "/account/signin"
+[Sat May 16 14:20:51 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:20:51 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:20:51 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:20:51 2015] [debug] 200 OK (0.025542s, 39.151/s)
+[Sat May 16 14:21:17 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:21:17 2015] [debug] GET "/account/signin"
+[Sat May 16 14:21:17 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:21:17 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:21:17 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:21:17 2015] [debug] 200 OK (0.025857s, 38.674/s)
+[Sat May 16 14:21:40 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:21:40 2015] [debug] GET "/account/signin"
+[Sat May 16 14:21:40 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:21:40 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:21:40 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:21:40 2015] [debug] 200 OK (0.026472s, 37.776/s)
+[Sat May 16 14:22:13 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:22:13 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:13 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:13 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:22:13 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:22:13 2015] [debug] 200 OK (0.030873s, 32.391/s)
+[Sat May 16 14:22:21 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:22:21 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:21 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:21 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:22:21 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:22:21 2015] [debug] 200 OK (0.027796s, 35.976/s)
+[Sat May 16 14:22:28 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:22:28 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:28 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:28 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:22:28 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:22:28 2015] [debug] 200 OK (0.032570s, 30.703/s)
+[Sat May 16 14:22:37 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:37 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:37 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:22:37 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:22:37 2015] [debug] 200 OK (0.006946s, 143.968/s)
+[Sat May 16 14:22:38 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:22:38 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:38 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:38 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:22:38 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:22:38 2015] [debug] 200 OK (0.017105s, 58.462/s)
+[Sat May 16 14:22:39 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:39 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:40 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:22:40 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:22:40 2015] [debug] 200 OK (0.010937s, 91.433/s)
+[Sat May 16 14:22:51 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:22:51 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:51 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:51 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:22:51 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:22:51 2015] [debug] 200 OK (0.024977s, 40.037/s)
+[Sat May 16 14:22:53 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:22:53 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:53 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:53 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:22:53 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:22:53 2015] [debug] 200 OK (0.032666s, 30.613/s)
+[Sat May 16 14:22:54 2015] [debug] GET "/account/signin"
+[Sat May 16 14:22:54 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:22:54 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:22:54 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:22:54 2015] [debug] 200 OK (0.011741s, 85.172/s)
+[Sat May 16 14:23:02 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:23:02 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:02 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:02 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:23:02 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:23:02 2015] [debug] 200 OK (0.022637s, 44.175/s)
+[Sat May 16 14:23:17 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:23:17 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:17 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:17 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:23:17 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:23:17 2015] [debug] 200 OK (0.027162s, 36.816/s)
+[Sat May 16 14:23:32 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:23:32 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:32 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:32 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:23:32 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:23:32 2015] [debug] 200 OK (0.036061s, 27.731/s)
+[Sat May 16 14:23:32 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:32 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:32 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:23:32 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:23:32 2015] [debug] 200 OK (0.010696s, 93.493/s)
+[Sat May 16 14:23:32 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:32 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:32 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:23:32 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:23:32 2015] [debug] 200 OK (0.008093s, 123.564/s)
+[Sat May 16 14:23:41 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:23:41 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:41 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:41 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:23:41 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:23:41 2015] [debug] 200 OK (0.025466s, 39.268/s)
+[Sat May 16 14:23:42 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:42 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:42 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:23:42 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:23:42 2015] [debug] 200 OK (0.013218s, 75.654/s)
+[Sat May 16 14:23:53 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:23:53 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:53 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:53 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:23:53 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:23:53 2015] [debug] 200 OK (0.021818s, 45.834/s)
+[Sat May 16 14:23:58 2015] [debug] GET "/account/signin"
+[Sat May 16 14:23:58 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:23:58 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:23:58 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:23:58 2015] [debug] 200 OK (0.010041s, 99.592/s)
+[Sat May 16 14:23:59 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:24:01 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:01 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:01 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:24:01 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:24:01 2015] [debug] 200 OK (0.028495s, 35.094/s)
+[Sat May 16 14:24:12 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:24:12 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:12 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:12 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:24:12 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:24:12 2015] [debug] 200 OK (0.027020s, 37.010/s)
+[Sat May 16 14:24:15 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:15 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:15 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:24:15 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:24:15 2015] [debug] 200 OK (0.009609s, 104.069/s)
+[Sat May 16 14:24:22 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:24:22 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:22 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:22 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:24:22 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:24:22 2015] [debug] 200 OK (0.020974s, 47.678/s)
+[Sat May 16 14:24:29 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:24:29 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:29 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:29 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:24:29 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:24:29 2015] [debug] 200 OK (0.020657s, 48.410/s)
+[Sat May 16 14:24:38 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:24:38 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:38 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:38 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:24:38 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:24:38 2015] [debug] 200 OK (0.031618s, 31.628/s)
+[Sat May 16 14:24:48 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:48 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:48 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:24:48 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:24:48 2015] [debug] 200 OK (0.014206s, 70.393/s)
+[Sat May 16 14:24:48 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:24:48 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:48 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:48 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:24:48 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:24:48 2015] [debug] 200 OK (0.028139s, 35.538/s)
+[Sat May 16 14:24:55 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:24:55 2015] [debug] GET "/account/signin"
+[Sat May 16 14:24:55 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:24:55 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:24:55 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:24:56 2015] [debug] 200 OK (0.024717s, 40.458/s)
+[Sat May 16 14:25:07 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:25:07 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:07 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:07 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:25:07 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:25:07 2015] [debug] 200 OK (0.031053s, 32.203/s)
+[Sat May 16 14:25:15 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:25:15 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:15 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:15 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:25:15 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:25:15 2015] [debug] 200 OK (0.032582s, 30.692/s)
+[Sat May 16 14:25:26 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:26 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:26 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:25:26 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:25:26 2015] [debug] 200 OK (0.015335s, 65.210/s)
+[Sat May 16 14:25:27 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:25:29 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:29 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:29 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:25:29 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:25:29 2015] [debug] 200 OK (0.035460s, 28.201/s)
+[Sat May 16 14:25:37 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:37 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:37 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:25:37 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:25:37 2015] [debug] 200 OK (0.011405s, 87.681/s)
+[Sat May 16 14:25:38 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:25:39 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:39 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:39 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:25:39 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:25:39 2015] [debug] 200 OK (0.037089s, 26.962/s)
+[Sat May 16 14:25:48 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:48 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:48 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:25:48 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:25:48 2015] [debug] 200 OK (0.009364s, 106.792/s)
+[Sat May 16 14:25:49 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:25:50 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:50 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:50 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:25:50 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:25:50 2015] [debug] 200 OK (0.032267s, 30.991/s)
+[Sat May 16 14:25:51 2015] [debug] GET "/account/signin"
+[Sat May 16 14:25:51 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:25:51 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:25:51 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:25:51 2015] [debug] 200 OK (0.011450s, 87.336/s)
+[Sat May 16 14:26:00 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:26:00 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:00 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:00 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:26:00 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:26:00 2015] [debug] 200 OK (0.025366s, 39.423/s)
+[Sat May 16 14:26:11 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:11 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:11 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:26:11 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:26:11 2015] [debug] 200 OK (0.009517s, 105.075/s)
+[Sat May 16 14:26:11 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:26:11 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:11 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:11 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:26:11 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:26:11 2015] [debug] 200 OK (0.031129s, 32.124/s)
+[Sat May 16 14:26:22 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:26:22 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:22 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:22 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:26:22 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:26:22 2015] [debug] 200 OK (0.036662s, 27.276/s)
+[Sat May 16 14:26:31 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:31 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:31 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:26:31 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:26:31 2015] [debug] 200 OK (0.010222s, 97.828/s)
+[Sat May 16 14:26:32 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:26:33 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:33 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:33 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:26:33 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:26:33 2015] [debug] 200 OK (0.044209s, 22.620/s)
+[Sat May 16 14:26:40 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:40 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:40 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:26:40 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:26:40 2015] [debug] 200 OK (0.006908s, 144.760/s)
+[Sat May 16 14:26:41 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:26:41 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:41 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:41 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:26:41 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:26:41 2015] [debug] 200 OK (0.024686s, 40.509/s)
+[Sat May 16 14:26:42 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:42 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:42 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:26:42 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:26:42 2015] [debug] 200 OK (0.010792s, 92.661/s)
+[Sat May 16 14:26:48 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:48 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:48 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:26:48 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:26:48 2015] [debug] 200 OK (0.010377s, 96.367/s)
+[Sat May 16 14:26:49 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:26:50 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:50 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:50 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:26:50 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:26:50 2015] [debug] 200 OK (0.027962s, 35.763/s)
+[Sat May 16 14:26:53 2015] [debug] GET "/account/signin"
+[Sat May 16 14:26:53 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:26:53 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:26:53 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:26:53 2015] [debug] 200 OK (0.010606s, 94.286/s)
+[Sat May 16 14:27:03 2015] [debug] GET "/account/signin"
+[Sat May 16 14:27:03 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:27:03 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:27:03 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:27:03 2015] [debug] 200 OK (0.009920s, 100.806/s)
+[Sat May 16 14:27:03 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:27:05 2015] [debug] GET "/account/signin"
+[Sat May 16 14:27:05 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:27:05 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:27:05 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:27:05 2015] [debug] 200 OK (0.025170s, 39.730/s)
+[Sat May 16 14:27:13 2015] [debug] GET "/account/signin"
+[Sat May 16 14:27:13 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:27:13 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:27:13 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:27:13 2015] [debug] 200 OK (0.012492s, 80.051/s)
+[Sat May 16 14:27:14 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:27:15 2015] [debug] GET "/account/signin"
+[Sat May 16 14:27:15 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:27:15 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:27:15 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:27:15 2015] [debug] 200 OK (0.029828s, 33.526/s)
+[Sat May 16 14:27:33 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:27:33 2015] [debug] GET "/account/signin"
+[Sat May 16 14:27:33 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:27:33 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:27:33 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:27:33 2015] [debug] 200 OK (0.032173s, 31.082/s)
+[Sat May 16 14:27:34 2015] [debug] GET "/account/signin"
+[Sat May 16 14:27:34 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:27:34 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:27:34 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:27:34 2015] [debug] 200 OK (0.010000s, 100.000/s)
+[Sat May 16 14:52:40 2015] [debug] GET "/account/register"
+[Sat May 16 14:52:40 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 14:52:40 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 14:52:40 2015] [error] Global symbol "$msg" requires explicit package name at template account/register.html.ep line 3, <DATA> line 2231.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <%= link_to 'click here' => url_for %> to reload the page or
+7: <%= link_to 'here' => '/index.html' %> to move forward to a static page.
+
+[Sat May 16 14:52:40 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 14:52:40 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 14:52:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 14:52:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 14:52:40 2015] [debug] 500 Internal Server Error (0.094608s, 10.570/s)
+[Sat May 16 14:53:52 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:53:52 2015] [debug] GET "/account/register"
+[Sat May 16 14:53:52 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 14:53:52 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 14:53:52 2015] [error] Global symbol "$message" requires explicit package name at template account/register.html.ep line 33, <DATA> line 2231.
+Global symbol "$message" requires explicit package name at template account/register.html.ep line 34, <DATA> line 2231.
+Global symbol "$message" requires explicit package name at template account/register.html.ep line 35, <DATA> line 2231.
+28:                         % end
+29:                         <p class="pull-right">
+30:                             <a href="/account/register" class="btn btn-link">Sign Uo Now!</a>
+31:                         </p>
+32:                     </div>
+33:                     % if ($message){
+34:                         <div id="message" class="alert alert-<%= $message->{type} %>">
+35:                             %= $message->{text}
+36:                         </div>
+37:                     % }
+38:                 % end
+
+[Sat May 16 14:53:52 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 14:53:52 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 14:53:52 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 14:53:52 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 14:53:52 2015] [debug] 500 Internal Server Error (0.084004s, 11.904/s)
+[Sat May 16 14:53:54 2015] [debug] GET "/account/register"
+[Sat May 16 14:53:54 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 14:53:54 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 14:53:54 2015] [error] Global symbol "$message" requires explicit package name at template account/register.html.ep line 33, <DATA> line 2231.
+Global symbol "$message" requires explicit package name at template account/register.html.ep line 34, <DATA> line 2231.
+Global symbol "$message" requires explicit package name at template account/register.html.ep line 35, <DATA> line 2231.
+28:                         % end
+29:                         <p class="pull-right">
+30:                             <a href="/account/register" class="btn btn-link">Sign Uo Now!</a>
+31:                         </p>
+32:                     </div>
+33:                     % if ($message){
+34:                         <div id="message" class="alert alert-<%= $message->{type} %>">
+35:                             %= $message->{text}
+36:                         </div>
+37:                     % }
+38:                 % end
+
+[Sat May 16 14:53:54 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 14:53:54 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 14:53:54 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 14:53:54 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 14:53:54 2015] [debug] 500 Internal Server Error (0.033748s, 29.631/s)
+[Sat May 16 14:54:07 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:54:07 2015] [debug] GET "/account/register"
+[Sat May 16 14:54:07 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 14:54:07 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 14:54:07 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:54:07 2015] [debug] 200 OK (0.030148s, 33.170/s)
+[Sat May 16 14:55:15 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:55:15 2015] [debug] GET "/account/register"
+[Sat May 16 14:55:15 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 14:55:15 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 14:55:15 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:55:15 2015] [debug] 200 OK (0.033198s, 30.122/s)
+[Sat May 16 14:55:18 2015] [debug] GET "/account/signin"
+[Sat May 16 14:55:18 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:55:18 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:55:18 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:55:18 2015] [debug] 200 OK (0.024924s, 40.122/s)
+[Sat May 16 14:55:31 2015] [debug] GET "/account/signin"
+[Sat May 16 14:55:31 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:55:31 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 14:55:31 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 14:55:31 2015] [debug] 200 OK (0.014251s, 70.171/s)
+[Sat May 16 14:55:31 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:55:31 2015] [debug] GET "/account/signin"
+[Sat May 16 14:55:31 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:55:31 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:55:31 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:55:31 2015] [debug] 200 OK (0.029908s, 33.436/s)
+[Sat May 16 14:56:02 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:56:02 2015] [debug] GET "/account/signin"
+[Sat May 16 14:56:02 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 14:56:02 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 14:56:02 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:56:02 2015] [debug] 200 OK (0.022685s, 44.082/s)
+[Sat May 16 14:56:10 2015] [debug] GET "/account/register"
+[Sat May 16 14:56:10 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 14:56:10 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 14:56:10 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:56:10 2015] [debug] 200 OK (0.022352s, 44.739/s)
+[Sat May 16 14:57:30 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:57:30 2015] [debug] GET "/account/register"
+[Sat May 16 14:57:30 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 14:57:30 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 14:57:30 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:57:30 2015] [debug] 200 OK (0.020028s, 49.930/s)
+[Sat May 16 14:58:24 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 14:58:24 2015] [debug] GET "/account/register"
+[Sat May 16 14:58:24 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 14:58:24 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 14:58:24 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 14:58:24 2015] [debug] 200 OK (0.028025s, 35.682/s)

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bivee Eureca - Colaborative Idea Database</title>  
+
+  %= stylesheet '/css/bootstrap.css'
+  %= stylesheet '/css/style.css'
+  %# stylesheet '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'
+
+</head>
+<body id="app">
+    
+    <nav class="navbar navbar-findcond navbar-fixed-top">
+    <div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/app">Bivee Eureca</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/account/signin">Sign in</a>
+                </li>
+                <li>
+                    <a href="/account/register">Register</a>
+                </li>
+			</ul>
+		</div>
+	</div>
+</nav>
+  
+<!-- Container -->    
+<div id="app-container" class="container">
+    %= content
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <small>
+                <p><strong class="text-muted">Bivee Eureca Colaborative Idea Database</strong></p>
+                <p>2015 &copy; Bivee.</p>
+            </small>
+        </div>
+    </div>
+</div>    
+    
+
+    %= javascript '/js/lib/jquery/jquery.min.js'
+    %= javascript '/js/lib/underscore/underscore.min.js'
+    %= javascript '/js/lib/backbone/backbone.min.js'
+    %= javascript '/js/lib/handlebars/handlebars.js'
+    %= javascript '/js/lib/bootstrap/bootstrap.min.js'
+    %= javascript '/js/app.js'
+
+    %= content_for 'script'
+
+</body>
+</html>

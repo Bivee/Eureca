@@ -4,19 +4,26 @@ use Mojo::Base 'Eureca::Controller::Base';
 use Mojo::JSON;
 
 sub signin {
-    my $c = shift;
+    my $self = shift;
 
-    my $user = $c->param('email');
-    my $pass = $c->param('password');
+    my $user = $self->param('email');
+    my $pass = $self->param('password');
 
-    if($c->is_post){
-        if($c->authenticate($user, $pass)){
-            return $c->redirect_to('/app');
+    if($self->is_post){
+        if($self->authenticate($user, $pass)){
+            return $self->redirect_to('/app');
         }
         else {
-            return $c->render( message => {text => 'Email or password wrong'} );
+            return $self->render( 
+                message => {
+                    type => 'danger',
+                    text => 'Email or password wrong'
+                } 
+            );
         }
     }
+
+    return $self->render( message => {} );
 }
 
 sub register {

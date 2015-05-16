@@ -1,35 +1,45 @@
-
-%#  <script src="http://code.jquery.com/jquery.min.js"></script>
-%#<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-%#<link href="http://bootswatch.com/united/bootstrap.css" rel="stylesheet" type="text/css" />
-%= stylesheet '/css/bootstrap.css'
-%= stylesheet '/css/style.css'
-
-%= javascript '/js/lib/jquery/jquery.min.js'  
-%= javascript '/js/lib/bootstrap/bootstrap.min.js'  
+% layout 'public';
     
+%= stylesheet begin
+    .login-panel {
+        border:solid 1px #eaeaea;
+        padding: 10px 20px;
+        box-shadow: 0px 2px 10px #ccc;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+% end
 
 <div class="container">
     <div class="row">
         <div class="col-md-offset-4 col-md-4">
-            <h1>Login Form</h1>
-
-            %= form_for '', method => 'POST' => begin
-                <div class="form-group">
-                    %= text_field 'email', placeholder => 'Email', class => 'form-control'
-                </div>
-                <div class="form-group">
-                    %= password_field 'password', placeholder => 'Password', class => 'form-control'
-                </div>
-                <div class="form-group">
-                    %= t 'button', class => 'btn btn-danger' => begin 
-                        Login
-                    % end
-                </div>
-                <div id="message" class="alert alert-danger">
-                    <strong>Error:</strong> Email or password wrong!
-                </div>
-            % end
+            <div class="login-panel">
+                <h2>Login to Bivee Eureca</h2>
+                <hr>
+                %= form_for '', method => 'POST' => begin
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        %= text_field 'email', placeholder => 'Email', class => 'form-control'
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        %= password_field 'password', placeholder => 'Password', class => 'form-control'
+                    </div>
+                    <div class="form-group">
+                        %= t 'button', class => 'btn btn-danger' => begin 
+                            Login
+                        % end
+                        <p class="pull-right">
+                            <a href="/account/register" class="btn btn-link">Sign Up Now!</a>
+                        </p>
+                    </div>
+                    % if ($message){
+                        <div id="message" class="alert alert-<%= $message->{type} %>">
+                            %= $message->{text}
+                        </div>
+                    % }
+                % end
+            </div>
             
         </div>
     </div>

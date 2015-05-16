@@ -1,7 +1,45 @@
-% layout 'default';
-% title 'Welcome';
-<h2><%= $msg %></h2>
-This page was generated from the template "templates/example/welcome.html.ep"
-and the layout "templates/layouts/default.html.ep",
-<%= link_to 'click here' => url_for %> to reload the page or
-<%= link_to 'here' => '/index.html' %> to move forward to a static page.
+% layout 'public';
+    
+%= stylesheet begin
+    .login-panel {
+        border:solid 1px #eaeaea;
+        padding: 10px 20px;
+        box-shadow: 0px 2px 10px #ccc;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+% end
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+            <div class="login-panel">
+                <h2>Signup to Bivee Eureca</h2>
+                <hr>
+                %= form_for '', method => 'POST' => begin
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        %= text_field 'name', placeholder => 'Name', class => 'form-control'
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        %= text_field 'email', placeholder => 'Email', class => 'form-control'
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                         %= password_field 'password', placeholder => 'Password', class => 'form-control'
+                    </div>
+                    <div class="form-group">
+                        %= t 'button', class => 'btn btn-danger' => begin 
+                            Login
+                        % end
+                        <p class="pull-right">
+                            <a href="/account/register" class="btn btn-link">Sign Uo Now!</a>
+                        </p>
+                    </div>
+                % end
+            </div>
+            
+        </div>
+    </div>
+</div>
