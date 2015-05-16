@@ -5,9 +5,10 @@
 Eureca is an open source and free colaborative business idea portal that provide
 user friendly way to share ideas.
 
+=for html <img src="https://raw.githubusercontent.com/Bivee/eureca/master/Bivee%20Eureca.png" style="width:200px">
+
 =head3 Authors
 
 Daniel Vinciguerra <daniel.vinciguerra@bivee.com.br>
 
-2015 (c) Bivee. 
-
+2015 E<copy> Bivee. 
