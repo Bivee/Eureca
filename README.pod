@@ -1,0 +1,13 @@
+=encoding utf8
+
+=head2 Bivee Eureca
+
+Eureca is an open source and free colaborative business idea portal that provide
+user friendly way to share ideas.
+
+=head3 Authors
+
+Daniel Vinciguerra <daniel.vinciguerra@bivee.com.br>
+
+2015 (c) Bivee. 
+
