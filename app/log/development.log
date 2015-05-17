@@ -10490,3 +10490,88 @@ Global symbol "$message" requires explicit package name at template account/regi
 [Sat May 16 14:58:24 2015] [debug] Rendering template "account/register.html.ep"
 [Sat May 16 14:58:24 2015] [debug] Rendering template "layouts/public.html.ep"
 [Sat May 16 14:58:24 2015] [debug] 200 OK (0.028025s, 35.682/s)
+[Sat May 16 21:08:46 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:08:46 2015] [debug] GET "/"
+[Sat May 16 21:08:46 2015] [debug] Routing to a callback
+[Sat May 16 21:08:46 2015] [debug] 302 Found (0.001631s, 613.121/s)
+[Sat May 16 21:08:46 2015] [debug] GET "/app"
+[Sat May 16 21:08:46 2015] [debug] Routing to a callback
+[Sat May 16 21:08:46 2015] [debug] 302 Found (0.002439s, 410.004/s)
+[Sat May 16 21:08:47 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 21:08:47 2015] [debug] Action not found in controller
+[Sat May 16 21:08:47 2015] [debug] GET "/account/signin"
+[Sat May 16 21:08:47 2015] [error] syntax error at lib/Eureca/Controller/Account.pm line 43, near "}"
+Global symbol "$self" requires explicit package name at lib/Eureca/Controller/Account.pm line 62, <DATA> line 2231.
+syntax error at lib/Eureca/Controller/Account.pm line 63, near "}"
+syntax error at lib/Eureca/Controller/Account.pm line 76, near "}"
+Compilation failed in require at (eval 206) line 1, <DATA> line 2231.
+
+[Sat May 16 21:08:47 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:08:47 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:08:47 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:08:47 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:08:47 2015] [debug] 500 Internal Server Error (0.077057s, 12.977/s)
+[Sat May 16 21:11:14 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:11:14 2015] [debug] GET "/account/signin"
+[Sat May 16 21:11:14 2015] [error] Global symbol "$email" requires explicit package name at lib/Eureca/Controller/Account.pm line 42, <DATA> line 2231.
+Compilation failed in require at (eval 205) line 1, <DATA> line 2231.
+
+[Sat May 16 21:11:14 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:11:14 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:11:14 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:11:14 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:11:14 2015] [debug] 500 Internal Server Error (0.051786s, 19.310/s)
+[Sat May 16 21:11:15 2015] [debug] GET "/account/signin"
+[Sat May 16 21:11:15 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 21:11:15 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 21:11:15 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 21:11:15 2015] [debug] 200 OK (0.017913s, 55.825/s)
+[Sat May 16 21:11:20 2015] [debug] GET "/account/register"
+[Sat May 16 21:11:20 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 21:11:20 2015] [debug] Action not found in controller
+[Sat May 16 21:11:20 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 21:11:20 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 21:11:20 2015] [debug] 200 OK (0.020213s, 49.473/s)
+[Sat May 16 21:15:15 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:15:15 2015] [debug] POST "/account/register"
+[Sat May 16 21:15:15 2015] [error] Global symbol "$email" requires explicit package name at lib/Eureca/Controller/Account.pm line 42, <DATA> line 2231.
+Compilation failed in require at (eval 205) line 1, <DATA> line 2231.
+
+[Sat May 16 21:15:15 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:15:15 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:15:15 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:15:15 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:15:15 2015] [debug] 500 Internal Server Error (0.059312s, 16.860/s)
+[Sat May 16 21:16:39 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:16:39 2015] [debug] POST "/account/register"
+[Sat May 16 21:16:39 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "register"
+[Sat May 16 21:16:40 2015] [debug] Rendering template "account/register.html.ep"
+[Sat May 16 21:16:40 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 21:16:40 2015] [debug] 200 OK (1.150703s, 0.869/s)
+[Sat May 16 21:19:19 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:19:19 2015] [debug] GET "/app"
+[Sat May 16 21:19:19 2015] [debug] Routing to a callback
+[Sat May 16 21:19:19 2015] [debug] 302 Found (0.002600s, 384.615/s)
+[Sat May 16 21:19:19 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 21:19:19 2015] [debug] Action not found in controller
+[Sat May 16 21:19:19 2015] [debug] GET "/account/signin"
+[Sat May 16 21:19:19 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 21:19:19 2015] [debug] Rendering template "account/signin.html.ep"
+[Sat May 16 21:19:19 2015] [debug] Rendering template "layouts/public.html.ep"
+[Sat May 16 21:19:19 2015] [debug] 200 OK (0.024583s, 40.679/s)
+[Sat May 16 21:19:26 2015] [debug] POST "/account/signin"
+[Sat May 16 21:19:26 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 21:19:26 2015] [debug] Rendering cached template "account/signin.html.ep"
+[Sat May 16 21:19:26 2015] [debug] Rendering cached template "layouts/public.html.ep"
+[Sat May 16 21:19:26 2015] [debug] 200 OK (0.147856s, 6.763/s)
+[Sat May 16 21:20:40 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:20:40 2015] [debug] POST "/account/signin"
+[Sat May 16 21:20:40 2015] [debug] Routing to controller "Eureca::Controller::Account" and action "signin"
+[Sat May 16 21:20:40 2015] [debug] 302 Found (0.058574s, 17.072/s)
+[Sat May 16 21:20:40 2015] [debug] GET "/app"
+[Sat May 16 21:20:40 2015] [debug] Routing to a callback
+[Sat May 16 21:20:40 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 21:20:40 2015] [debug] Action not found in controller
+[Sat May 16 21:20:40 2015] [debug] Rendering template "home/index.html.ep"
+[Sat May 16 21:20:40 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 21:20:40 2015] [debug] 200 OK (0.422740s, 2.366/s)

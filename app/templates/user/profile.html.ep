@@ -1,4 +1,6 @@
 % layout 'default';
+% use POSIX;
+% param( page => 1 ) unless param('page');
 
 
   <div class="row">
@@ -8,23 +10,15 @@
         <small>Yet another business colaborative portal</small>
       </h2>
       
-      <form id="form-search-idea" action="#search" class="well well-sm">
-        <div id="custom-search-input">
-            <div class="input-group col-md-12">
-                <input type="text" name="term" id="txt-term" class="search-query form-control" placeholder="Search" />
-                <span class="input-group-btn">
-                    <button class="btn btn-danger" type="submit">
-                        <span class=" glyphicon glyphicon-search"></span>
-                    </button>
-                </span>
-            </div>
-          </div>
-      </form>
-      
-      <br>
+      <div class="well well-sm">
+         <h3>
+            %= $user->name
+         </h3>
+         <strong><%= schema('Idea')->count({ title => { like => "%".param('term')."%" },  active => 1 }) %></strong> resultados encontrados na busca.
+      </div>
       
       <div class="row note-row">
-        % for my $r (schema('Idea')->search({ active => 1 }, { order_by => {-desc => 'id'}, row => 12})){
+        % for my $r (schema('Idea')->search({ title => { like => "%".param('term')."%" },  active => 1 }, { order_by => {-desc => 'id'}, rows => 12, page => param('page') || 1})){
             <div class="col-md-4">
               <div class="note note-item" data-uri="<%= $r->slug %>">
                 <div class="note-body">
@@ -32,19 +26,29 @@
                 </div>
                 <div class="note-controls invisible"></div>
               </div>
-              <small class="text-center">
-                Created by <a href="/app/user/<%= $r->user->id %>"><%= $r->user->name %></a>
+              <small class="note-createdby" class="text-center cleanfix">
+                <p>Created by <a href="/app/user/<%= $r->user->id %>"><%= $r->user->name %></a></p>
+                <br>
               </small>
             </div>
         % }
       </div>
       
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <a class="btn btn-sm btn-primary" href="#" data-page="1">Load More</a>
-          <a class="btn btn-sm btn-primary" href="#" data-page="1">Load More</a>
-        </div>
-      </div>
+      <!-- Pagination -->
+      % my $pages = ceil schema('Idea')->count({ active => 1 }) / 12;
+      <nav>
+        <ul class="pagination">
+          <li> <a href="/app?page=<%= (param('page') - 3) > 1? param('page') - 3 : 1 %>" aria-label="Anterior"> <span aria-hidden="true">&laquo;</span> </a> </li>
+          % for my $p (param('page')-2 .. param('page') + 2){
+              % next if $p < 1 || $p > $pages;
+              <li>
+                  <a href="/app?page=<%= $p %>"> <%= $p %> </a>
+              </li>
+          % } 
+          <li> <a href="/app?page=<%= (param('page') + 3) < $pages? param('page') + 3 : $pages %>" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a> </li>
+        </ul>
+      </nav>
+
       
     </div>
     <div class="col-md-4">
