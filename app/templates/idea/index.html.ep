@@ -6,7 +6,7 @@
     <div class="col-md-8">
 
       <h2>
-        Idea: <%= $idea->title %>
+        <%= l 'lbl_idea' %>: <%= $idea->title %>
       </h2>
       <hr>
       <div class="row">
@@ -15,7 +15,7 @@
             %= $idea->description
           </div>
           <div class="form-group">
-            Created by <a href="<%= url_for "/app/user/" + $idea->user->id %>"><%= $idea->user->name %></a> at <%= $idea->created? $idea->created->ymd : '' %>
+            <%= l 'lbl_createdby' %> <a href="<%= url_for "/app/user/" + $idea->user->id %>"><%= $idea->user->name %></a> <%= l 'lbl_at' %> <%= $idea->created? $idea->created->ymd : '' %>
           </div>
           <div class="form-group">
             % for my $t (split /\s*;\s*/, $idea->tags){

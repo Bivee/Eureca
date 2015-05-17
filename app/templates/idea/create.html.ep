@@ -3,9 +3,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <h2>
-        Post an idea
-      </h2>
+      <h2> <%= l 'lbl_postidea'  %></h2>
            
       <hr>
       
@@ -14,25 +12,25 @@
           
           <form id="form-idea-create" method="POST">
             <div class="form-group">
-              <label>Idea Title</label>
+              <label><%= l 'lbl_ideatitle' %></label>
               <input type="text" id="idea-title" name="title" class="form-control" placeholder="Idea Title">
             </div>
             <div class="form-group">
-              <label>Idea Slug</label>
+              <label><%= l 'lbl_ideaslug' %></label>
               <input type="text" id="idea-slug" name="slug" class="form-control" placeholder="Idea Slug" disabled>
               <small class="help-block">
                 This is the <code>URL</code> address to access your idea.
               </small>
             </div>
             <div class="form-group">
-              <label>Idea Description</label>
+              <label><%= l 'lbl_ideadescription' %></label>
               <textarea id="idea-description" "ame="description" class="form-control" placeholder="Idea Description"></textarea>
               <small class="help-block">
                 Describe your idea
               </small>
             </div>
             <div class="form-group">
-              <label>Idea Tags</label>
+              <label><%= l 'lbl_ideatags' %></label>
               <input type="text" id="idea-tags" name="tags" class="form-control" placeholder="Idea Tags">
               <small class="help-block">
                 Write tags splitting by semicolon
@@ -40,7 +38,7 @@
             </div>
             <div class="form-group text-right">
               <!-- button id="btn-save-draft" class="btn btn-default">Save as Daft</button -->
-              <button id="btn-save-idea" type="button" class="btn btn-danger">Post Idea</button>
+              <button id="btn-save-idea" type="button" class="btn btn-danger"><%= l 'btn_postidea' %></button>
             </div>
           </form>
 

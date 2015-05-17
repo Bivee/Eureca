@@ -1,18 +1,19 @@
 % layout 'default';
 % use POSIX;
 % param( page => 1 ) unless param('page');
+% session lang => 'pt';
 
   <div class="row">
     <div class="col-md-8">
       <h2>
-        Colaborative Idea Database 
-        <small>Yet another business colaborative portal</small>
+        <%= l 'website_title' %>
+        <small><%= l 'website_subtitle' %></small>
       </h2>
       
       <form id="form-search-idea" action="/app/search" method="GET" class="well well-sm">
         <div id="custom-search-input">
             <div class="input-group col-md-12">
-                <input type="text" name="term" id="txt-term" class="search-query form-control" placeholder="Search" />
+                <input type="text" name="term" id="txt-term" class="search-query form-control" placeholder="<%= l 'lbl_search'  %>" />
                 <span class="input-group-btn">
                     <button class="btn btn-danger" type="submit">
                         <span class=" glyphicon glyphicon-search"></span>
@@ -34,7 +35,7 @@
                 <div class="note-controls invisible"></div>
               </div>
               <small class="note-createdby" class="text-center">
-                <p>Created by <a href="/app/user/<%= $r->user->id %>"><%= $r->user->name %></a></p>
+                <p><%= l 'lbl_createdby' %> <a href="/app/user/<%= $r->user->id %>"><%= $r->user->name %></a></p>
                 <br>
               </small>
             </div>
@@ -60,11 +61,11 @@
     </div>
     <div class="col-md-4">
       <div class="post-panel well well-sm">
-        <h4><i class="fa fa-lightbulb-o text-muted fa-2x"></i> Do you want colaborate?</h4>
+        <h4><i class="fa fa-lightbulb-o text-muted fa-2x"></i> <%= l 'lbl_wannacolaborate' %></h4>
         <small class="help-block">
-          Click here and post an idea, colaborate with the community!
+          <%= l 'lbl_wannacolaborate_descr' %>
         </small>
-        <a href="/app/idea/create" class="btn btn-danger btn-block">Post An Idea</a>
+        <a href="/app/idea/create" class="btn btn-danger btn-block"><%= l 'btn_wannacolaborate' %></a>
       </div>
       
       <br>

@@ -2,7 +2,6 @@
 % use POSIX;
 % param( page => 1 ) unless param('page');
 
-
   <div class="row">
     <div class="col-md-8">
       <h2>
