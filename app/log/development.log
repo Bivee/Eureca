@@ -10749,3 +10749,18 @@ Compilation failed in require at (eval 205) line 1, <DATA> line 2231.
 [Sat May 16 21:29:54 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
 [Sat May 16 21:29:54 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
 [Sat May 16 21:29:54 2015] [debug] 404 Not Found (0.065429s, 15.284/s)
+[Sat May 16 21:31:35 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:31:35 2015] [debug] GET "/app"
+[Sat May 16 21:31:35 2015] [debug] Routing to a callback
+[Sat May 16 21:31:35 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 21:31:35 2015] [debug] Action not found in controller
+[Sat May 16 21:31:35 2015] [debug] Rendering template "home/index.html.ep"
+[Sat May 16 21:31:35 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 21:31:36 2015] [debug] 200 OK (0.246172s, 4.062/s)
+[Sat May 16 21:31:40 2015] [debug] GET "/app"
+[Sat May 16 21:31:40 2015] [debug] Routing to a callback
+[Sat May 16 21:31:40 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 21:31:40 2015] [debug] Action not found in controller
+[Sat May 16 21:31:40 2015] [debug] Rendering cached template "home/index.html.ep"
+[Sat May 16 21:31:41 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 21:31:41 2015] [debug] 200 OK (0.045198s, 22.125/s)
