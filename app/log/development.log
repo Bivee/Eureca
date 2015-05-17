@@ -10575,3 +10575,177 @@ Compilation failed in require at (eval 205) line 1, <DATA> line 2231.
 [Sat May 16 21:20:40 2015] [debug] Rendering template "home/index.html.ep"
 [Sat May 16 21:20:40 2015] [debug] Rendering template "layouts/default.html.ep"
 [Sat May 16 21:20:40 2015] [debug] 200 OK (0.422740s, 2.366/s)
+[Sat May 16 21:22:22 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:22:22 2015] [debug] GET "/app"
+[Sat May 16 21:22:22 2015] [debug] Routing to a callback
+[Sat May 16 21:22:22 2015] [debug] Routing to controller "Eureca::Controller::Home" and action "index"
+[Sat May 16 21:22:22 2015] [debug] Action not found in controller
+[Sat May 16 21:22:22 2015] [debug] Rendering template "home/index.html.ep"
+[Sat May 16 21:22:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 21:22:22 2015] [debug] 200 OK (0.255304s, 3.917/s)
+[Sat May 16 21:22:35 2015] [debug] GET "/app/profile"
+[Sat May 16 21:22:35 2015] [debug] Template "not_found.development.html.ep" not found
+[Sat May 16 21:22:35 2015] [debug] Template "not_found.html.ep" not found
+[Sat May 16 21:22:35 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:22:35 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:22:35 2015] [debug] 404 Not Found (0.049301s, 20.284/s)
+[Sat May 16 21:26:09 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:26:09 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:09 2015] [debug] Routing to a callback
+[Sat May 16 21:26:09 2015] [error] syntax error at lib/Eureca/Controller/User.pm line 12, near ")
+    return"
+Global symbol "$user" requires explicit package name at lib/Eureca/Controller/User.pm line 12, <DATA> line 2231.
+Global symbol "$c" requires explicit package name at lib/Eureca/Controller/User.pm line 15, <DATA> line 2231.
+Global symbol "$user" requires explicit package name at lib/Eureca/Controller/User.pm line 15, <DATA> line 2231.
+Compilation failed in require at (eval 205) line 1, <DATA> line 2231.
+
+[Sat May 16 21:26:09 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:26:09 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:26:09 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:26:09 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:26:09 2015] [debug] 500 Internal Server Error (0.048166s, 20.762/s)
+[Sat May 16 21:26:11 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:11 2015] [debug] Routing to a callback
+[Sat May 16 21:26:11 2015] [error] Attempt to reload Eureca/Controller/User.pm aborted.
+Compilation failed in require at (eval 208) line 1.
+
+[Sat May 16 21:26:11 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:26:11 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:26:11 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:26:11 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:26:11 2015] [debug] 500 Internal Server Error (0.019138s, 52.252/s)
+[Sat May 16 21:26:13 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:13 2015] [debug] Routing to a callback
+[Sat May 16 21:26:13 2015] [error] Attempt to reload Eureca/Controller/User.pm aborted.
+Compilation failed in require at (eval 209) line 1.
+
+[Sat May 16 21:26:13 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:26:13 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:26:13 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:26:13 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:26:13 2015] [debug] 500 Internal Server Error (0.017317s, 57.747/s)
+[Sat May 16 21:26:16 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:16 2015] [debug] Routing to a callback
+[Sat May 16 21:26:16 2015] [error] Attempt to reload Eureca/Controller/User.pm aborted.
+Compilation failed in require at (eval 210) line 1.
+
+[Sat May 16 21:26:16 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:26:16 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:26:16 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:26:16 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:26:16 2015] [debug] 500 Internal Server Error (0.015937s, 62.747/s)
+[Sat May 16 21:26:25 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:26:25 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:25 2015] [debug] Routing to a callback
+[Sat May 16 21:26:25 2015] [error] syntax error at lib/Eureca/Controller/User.pm line 12, near ")
+    return"
+Global symbol "$user" requires explicit package name at lib/Eureca/Controller/User.pm line 12, <DATA> line 2231.
+Global symbol "$c" requires explicit package name at lib/Eureca/Controller/User.pm line 15, <DATA> line 2231.
+Global symbol "$user" requires explicit package name at lib/Eureca/Controller/User.pm line 15, <DATA> line 2231.
+Compilation failed in require at (eval 205) line 1, <DATA> line 2231.
+
+[Sat May 16 21:26:25 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:26:25 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:26:25 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:26:25 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:26:25 2015] [debug] 500 Internal Server Error (0.050657s, 19.741/s)
+[Sat May 16 21:26:26 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:26 2015] [debug] Routing to a callback
+[Sat May 16 21:26:26 2015] [debug] Routing to controller "Eureca::Controller::User" and action "profile"
+[Sat May 16 21:26:26 2015] [debug] Action not found in controller
+[Sat May 16 21:26:26 2015] [debug] Rendering template "user/profile.html.ep"
+[Sat May 16 21:26:26 2015] [error] Global symbol "$user" requires explicit package name at template user/profile.html.ep line 15.
+10:         <small>Yet another business colaborative portal</small>
+11:       </h2>
+12:       
+13:       <div class="well well-sm">
+14:          <h3>
+15:             %= $user->name
+16:          </h3>
+17:          <strong><%= schema('Idea')->count({ title => { like => "%".param('term')."%" },  active => 1 }) %></strong> resultados encontrados na busca.
+18:       </div>
+19:       
+20:       <div class="row note-row">
+
+[Sat May 16 21:26:26 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:26:26 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:26:26 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:26:26 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:26:26 2015] [debug] 500 Internal Server Error (0.034769s, 28.761/s)
+[Sat May 16 21:26:46 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:46 2015] [debug] Routing to a callback
+[Sat May 16 21:26:46 2015] [debug] Routing to controller "Eureca::Controller::User" and action "profile"
+[Sat May 16 21:26:46 2015] [debug] Action not found in controller
+[Sat May 16 21:26:46 2015] [debug] Rendering template "user/profile.html.ep"
+[Sat May 16 21:26:46 2015] [error] Global symbol "$user" requires explicit package name at template user/profile.html.ep line 15.
+10:         <small>Yet another business colaborative portal</small>
+11:       </h2>
+12:       
+13:       <div class="well well-sm">
+14:          <h3>
+15:             %= $user->name
+16:          </h3>
+17:          <strong><%= schema('Idea')->count({ title => { like => "%".param('term')."%" },  active => 1 }) %></strong> resultados encontrados na busca.
+18:       </div>
+19:       
+20:       <div class="row note-row">
+
+[Sat May 16 21:26:46 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:26:46 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:26:46 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:26:46 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:26:46 2015] [debug] 500 Internal Server Error (0.036761s, 27.203/s)
+[Sat May 16 21:26:47 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:26:48 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:48 2015] [debug] Routing to a callback
+[Sat May 16 21:26:48 2015] [error] Global symbol "$c" requires explicit package name at lib/Eureca/Controller/User.pm line 15, <DATA> line 2231.
+Compilation failed in require at (eval 205) line 1, <DATA> line 2231.
+
+[Sat May 16 21:26:48 2015] [debug] Template "exception.development.html.ep" not found
+[Sat May 16 21:26:48 2015] [debug] Template "exception.html.ep" not found
+[Sat May 16 21:26:48 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:26:48 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:26:48 2015] [debug] 500 Internal Server Error (0.063420s, 15.768/s)
+[Sat May 16 21:26:58 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:26:58 2015] [debug] GET "/app/profile"
+[Sat May 16 21:26:58 2015] [debug] Routing to a callback
+[Sat May 16 21:26:58 2015] [debug] Routing to controller "Eureca::Controller::User" and action "profile"
+[Sat May 16 21:26:58 2015] [debug] Rendering template "user/profile.html.ep"
+[Sat May 16 21:26:58 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 21:26:58 2015] [debug] 200 OK (0.344427s, 2.903/s)
+[Sat May 16 21:28:13 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:28:13 2015] [debug] GET "/app/profile"
+[Sat May 16 21:28:13 2015] [debug] Routing to a callback
+[Sat May 16 21:28:13 2015] [debug] Routing to controller "Eureca::Controller::User" and action "profile"
+[Sat May 16 21:28:13 2015] [debug] Rendering template "user/profile.html.ep"
+[Sat May 16 21:28:13 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 21:28:13 2015] [debug] 200 OK (0.289729s, 3.452/s)
+[Sat May 16 21:28:14 2015] [debug] GET "/app/profile"
+[Sat May 16 21:28:14 2015] [debug] Routing to a callback
+[Sat May 16 21:28:14 2015] [debug] Routing to controller "Eureca::Controller::User" and action "profile"
+[Sat May 16 21:28:14 2015] [debug] Rendering cached template "user/profile.html.ep"
+[Sat May 16 21:28:15 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 21:28:15 2015] [debug] 200 OK (0.131280s, 7.617/s)
+[Sat May 16 21:29:35 2015] [debug] Your secret passphrase needs to be changed
+[Sat May 16 21:29:35 2015] [debug] GET "/app/profile"
+[Sat May 16 21:29:35 2015] [debug] Routing to a callback
+[Sat May 16 21:29:35 2015] [debug] Routing to controller "Eureca::Controller::User" and action "profile"
+[Sat May 16 21:29:35 2015] [debug] Rendering template "user/profile.html.ep"
+[Sat May 16 21:29:36 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sat May 16 21:29:36 2015] [debug] 200 OK (0.297383s, 3.363/s)
+[Sat May 16 21:29:48 2015] [debug] GET "/app/profile"
+[Sat May 16 21:29:48 2015] [debug] Routing to a callback
+[Sat May 16 21:29:48 2015] [debug] Routing to controller "Eureca::Controller::User" and action "profile"
+[Sat May 16 21:29:48 2015] [debug] Rendering cached template "user/profile.html.ep"
+[Sat May 16 21:29:48 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sat May 16 21:29:48 2015] [debug] 200 OK (0.096293s, 10.385/s)
+[Sat May 16 21:29:54 2015] [debug] GET "/app/user/1"
+[Sat May 16 21:29:54 2015] [debug] Routing to a callback
+[Sat May 16 21:29:54 2015] [debug] Routing to controller "Eureca::Controller::User" and action "index"
+[Sat May 16 21:29:54 2015] [debug] Action not found in controller
+[Sat May 16 21:29:54 2015] [debug] Template "user/index.html.ep" not found
+[Sat May 16 21:29:54 2015] [debug] Template "not_found.development.html.ep" not found
+[Sat May 16 21:29:54 2015] [debug] Template "not_found.html.ep" not found
+[Sat May 16 21:29:54 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sat May 16 21:29:54 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sat May 16 21:29:54 2015] [debug] 404 Not Found (0.065429s, 15.284/s)

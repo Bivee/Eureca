@@ -28,6 +28,7 @@ sub register {
     # app controller
     my $app = $auth->any('/app');
     $app->get('/')->to('Home#index');
+    $app->get('/profile')->to('User#profile');
     $app->get('/search')->to('Search#index');
     $app->get('/user/:id')->to('User#index', id => 0);
     $app->any('/idea/create')->to('Idea#create', slug => '');

@@ -14,7 +14,13 @@
          <h3>
             %= $user->name
          </h3>
-         <strong><%= schema('Idea')->count({ title => { like => "%".param('term')."%" },  active => 1 }) %></strong> resultados encontrados na busca.
+         % if($user->about){
+             <p class="text-muted">
+                <strong>Description:</strong><br>
+                %= $user->about
+             </p>
+         % }
+         <strong><%= schema('Idea')->count({ user_id => $user->id,  active => 1 }) %></strong> resultados encontrados na busca.
       </div>
       
       <div class="row note-row">

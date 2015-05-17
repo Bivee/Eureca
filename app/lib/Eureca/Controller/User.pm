@@ -1,17 +1,18 @@
-package Eureca::Controller::Idea;
+package Eureca::Controller::User;
 use Mojo::Base 'Eureca::Controller::Base';
 
-sub index {
-    my $c = shift;
+sub profile {
+    my $self = shift;
 
-    my $model = $c->schema('Idea')
-        ->find({active => 1, slug => $c->param('slug') });
+    my $id = $self->session('uid') || undef;
+    return $self->reply->not_found unless $id;
 
-    # error: not found
-    return $c->reply->not_found unless $model;
+    # getting user
+    my $user = $self->schema('User')->find($id);
+    return $self->reply->not_found unless $user;
 
     # success
-    return $c->render( idea => $model )
+    return $self->render( user => $user );
 }
 
 
